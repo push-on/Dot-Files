@@ -1,0 +1,87 @@
+{
+	"final_space": true,
+	"blocks": [
+		{
+			"type": "prompt",
+			"alignment": "left",
+			"segments": [
+				{
+					"type": "session",
+					"style": "diamond",
+					"foreground": "#0f1225",
+					"background": "#a793f0",
+					"powerline_symbol": "\uE0B0",
+					"leading_diamond": "\uE0B6",
+					"trailing_diamond": "",
+					"properties": {
+						"prefix": " \uf871 ",
+						"template": "{{ .UserName }}@{{ .HostName }}"
+					}
+				},
+
+				{
+					"type": "shell",
+					"style": "powerline",
+					"powerline_symbol": "\uE0B0",
+					"foreground": "#ececec",
+					"background": "#282d5e",
+					"properties": {
+						"prefix": " \uf489 ",
+						"style": "folder"
+					}
+				},
+				{
+					"type": "path",
+					"style": "powerline",
+					"powerline_symbol": "\uE0B0",
+					"foreground": "#0f1225",
+					"background": "#c2c2e6",
+
+					"properties": {
+						"prefix": " \uf07b ",
+						"style": "folder"
+					}
+				},
+
+				{
+					"type": "git",
+					"style": "powerline",
+					"powerline_symbol": "\uE0B0",
+					"foreground": "#0f1225",
+					"background": "#83c4ab",
+					"background_templates": [
+						"{{ if or (.Working.Changed) (.Staging.Changed) }}#FFCC80{{ end }}",
+						"{{ if and (gt .Ahead 0) (gt .Behind 0) }}#ffb284{{ end }}",
+						"{{ if gt .Ahead 0 }}#b29aff{{ end }}",
+						"{{ if gt .Behind 0 }}#b29aff{{ end }}"
+					],
+					"properties": {
+						"fetch_status": true,
+						"fetch_stash_count": true,
+						"fetch_upstream_icon": true,
+						"branch_icon": " <#0f1225><b> </b></>",
+						"template": "{{ .UpstreamIcon }}{{ .HEAD }}{{ .BranchStatus }}{{ if .Working.Changed }}<#0f1225> \uF044 {{ .Working.String }}</>{{ end }}{{ if and (.Working.Changed) (.Staging.Changed) }} |{{ end }}{{ if .Staging.Changed }}<#0f1225> \uF046 {{ .Staging.String }}</>{{ end }}{{ if gt .StashCount 0 }} \uF692 {{ .StashCount }}{{ end }}",
+						"prefix": " \u279C (",
+						"postfix": ") "
+					}
+				},
+				{
+					"type": "node",
+					"style": "powerline",
+					"powerline_symbol": "\uE0B0",
+					"foreground": "#ffffff",
+					"background": "#86BBD8",
+					"properties": {
+						"prefix": " \uE718 "
+					}
+				}
+			]
+		}
+	],
+	"console_title_template": "{{ .Shell }} in {{ .Folder }}",
+	"transient_prompt": {
+		"background": "transparent",
+		"foreground": "#ffffff",
+		"template": "<#1f4b8e,transparent></><#ffffff,#1f4b8e>\uf2dc</><#1f4b8e,transparent>\uE0B4</> {{ .Command }}"
+	}
+}
