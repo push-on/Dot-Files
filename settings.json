@@ -5,7 +5,7 @@
     [
         {
             "command": "find",
-            "keys": "ctrl+shift+f"
+            "keys": "ctrl+f"
         },
         {
             "command": "paste",
@@ -26,7 +26,160 @@
                 "split": "auto",
                 "splitMode": "duplicate"
             },
+            "keys": "ctrl+d"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+shift+w"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+shift+c"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+insert"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+numpad_minus"
+        },
+        {
+            "command": "unbound",
             "keys": "alt+shift+d"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+shift+f"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+numpad_plus"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+shift+t"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+shift+1"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+shift+2"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+shift+3"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+shift+4"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+shift+5"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+shift+n"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+alt+comma"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+shift+comma"
+        },
+        {
+            "command": "unbound",
+            "keys": "alt+space"
+        },
+        {
+            "command": "unbound",
+            "keys": "shift+insert"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+shift+v"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+numpad0"
+        },
+        {
+            "command": "closePane",
+            "keys": "ctrl+w"
+        },
+        {
+            "command": 
+            {
+                "action": "newTab"
+            },
+            "keys": "ctrl+t"
+        },
+        {
+            "command": 
+            {
+                "action": "newTab",
+                "index": 0
+            },
+            "keys": "alt+1"
+        },
+        {
+            "command": 
+            {
+                "action": "newTab",
+                "index": 1
+            },
+            "keys": "alt+2"
+        },
+        {
+            "command": 
+            {
+                "action": "newTab",
+                "index": 2
+            },
+            "keys": "alt+3"
+        },
+        {
+            "command": 
+            {
+                "action": "newTab",
+                "index": 3
+            },
+            "keys": "alt+4"
+        },
+        {
+            "command": 
+            {
+                "action": "newTab",
+                "index": 4
+            },
+            "keys": "alt+5"
+        },
+        {
+            "command": 
+            {
+                "action": "newWindow"
+            },
+            "keys": "ctrl+n"
+        },
+        {
+            "command": 
+            {
+                "action": "openSettings",
+                "target": "defaultsFile"
+            }
+        },
+        {
+            "command": 
+            {
+                "action": "openSettings",
+                "target": "settingsFile"
+            },
+            "keys": "ctrl+comma"
         }
     ],
     "copyFormatting": "none",
@@ -48,7 +201,7 @@
             },
             "opacity": 70,
             "startingDirectory": "C:\\Users\\main\\Desktop",
-            "tabColor": "#171A35",
+            "tabColor": "#000000",
             "useAcrylic": true
         },
         "list": 
