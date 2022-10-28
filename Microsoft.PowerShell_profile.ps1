@@ -20,4 +20,9 @@ Import-Module -Name Terminal-Icons
 function showList {
   Get-ChildItem | Format-Wide
 }
+function pnpmrun {
+  pnpm run dev
+}
 Set-Alias la showList
+Set-Alias srd pnpmrun
+set-alias -name pn -value pnpm
