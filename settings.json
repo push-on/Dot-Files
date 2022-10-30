@@ -1,192 +1,13 @@
 {
     "$help": "https://aka.ms/terminal-documentation",
     "$schema": "https://aka.ms/terminal-profiles-schema",
-    "actions": 
-    [
-        {
-            "command": "find",
-            "keys": "ctrl+f"
-        },
-        {
-            "command": "paste",
-            "keys": "ctrl+v"
-        },
-        {
-            "command": 
-            {
-                "action": "copy",
-                "singleLine": false
-            },
-            "keys": "ctrl+c"
-        },
-        {
-            "command": 
-            {
-                "action": "splitPane",
-                "split": "auto",
-                "splitMode": "duplicate"
-            },
-            "keys": "ctrl+d"
-        },
-        {
-            "command": "unbound",
-            "keys": "ctrl+shift+w"
-        },
-        {
-            "command": "unbound",
-            "keys": "ctrl+shift+c"
-        },
-        {
-            "command": "unbound",
-            "keys": "ctrl+insert"
-        },
-        {
-            "command": "unbound",
-            "keys": "ctrl+numpad_minus"
-        },
-        {
-            "command": "unbound",
-            "keys": "alt+shift+d"
-        },
-        {
-            "command": "unbound",
-            "keys": "ctrl+shift+f"
-        },
-        {
-            "command": "unbound",
-            "keys": "ctrl+numpad_plus"
-        },
-        {
-            "command": "unbound",
-            "keys": "ctrl+shift+t"
-        },
-        {
-            "command": "unbound",
-            "keys": "ctrl+shift+1"
-        },
-        {
-            "command": "unbound",
-            "keys": "ctrl+shift+2"
-        },
-        {
-            "command": "unbound",
-            "keys": "ctrl+shift+3"
-        },
-        {
-            "command": "unbound",
-            "keys": "ctrl+shift+4"
-        },
-        {
-            "command": "unbound",
-            "keys": "ctrl+shift+5"
-        },
-        {
-            "command": "unbound",
-            "keys": "ctrl+shift+n"
-        },
-        {
-            "command": "unbound",
-            "keys": "ctrl+alt+comma"
-        },
-        {
-            "command": "unbound",
-            "keys": "ctrl+shift+comma"
-        },
-        {
-            "command": "unbound",
-            "keys": "alt+space"
-        },
-        {
-            "command": "unbound",
-            "keys": "shift+insert"
-        },
-        {
-            "command": "unbound",
-            "keys": "ctrl+shift+v"
-        },
-        {
-            "command": "unbound",
-            "keys": "ctrl+numpad0"
-        },
-        {
-            "command": "closePane",
-            "keys": "ctrl+w"
-        },
-        {
-            "command": 
-            {
-                "action": "newTab"
-            },
-            "keys": "ctrl+t"
-        },
-        {
-            "command": 
-            {
-                "action": "newTab",
-                "index": 0
-            },
-            "keys": "alt+1"
-        },
-        {
-            "command": 
-            {
-                "action": "newTab",
-                "index": 1
-            },
-            "keys": "alt+2"
-        },
-        {
-            "command": 
-            {
-                "action": "newTab",
-                "index": 2
-            },
-            "keys": "alt+3"
-        },
-        {
-            "command": 
-            {
-                "action": "newTab",
-                "index": 3
-            },
-            "keys": "alt+4"
-        },
-        {
-            "command": 
-            {
-                "action": "newTab",
-                "index": 4
-            },
-            "keys": "alt+5"
-        },
-        {
-            "command": 
-            {
-                "action": "newWindow"
-            },
-            "keys": "ctrl+n"
-        },
-        {
-            "command": 
-            {
-                "action": "openSettings",
-                "target": "defaultsFile"
-            }
-        },
-        {
-            "command": 
-            {
-                "action": "openSettings",
-                "target": "settingsFile"
-            },
-            "keys": "ctrl+comma"
-        }
-    ],
+   
     "copyFormatting": "none",
     "copyOnSelect": false,
     "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
-    "initialCols": 80,
-    "initialRows": 30,
+    "initialCols": 100,
+    "initialRows": 20,
+    "initialPosition": "750,350",
     "profiles": 
     {
         "defaults": 
@@ -194,15 +15,13 @@
             "colorScheme": "One Half Dark",
             "cursorHeight": 20,
             "cursorShape": "vintage",
+            "startingDirectory": "C:\\Users\\main\\Desktop",
+            "tabColor": "#2F2F2F",
             "font": 
             {
-                "face": "MesloLGS NF",
+                "face": "CaskaydiaCove NF",
                 "size": 14
-            },
-            "opacity": 70,
-            "startingDirectory": "C:\\Users\\main\\Desktop",
-            "tabColor": "#000000",
-            "useAcrylic": true
+            }
         },
         "list": 
         [
@@ -231,19 +50,13 @@
                 "hidden": false,
                 "name": "Debian",
                 "source": "Windows.Terminal.Wsl"
-            },
-            {
-                "guid": "{46ca431a-3a87-5fb3-83cd-11ececc031d2}",
-                "hidden": false,
-                "name": "kali-linux",
-                "source": "Windows.Terminal.Wsl"
             }
         ]
     },
     "schemes": 
     [
         {
-            "background": "#0C0C0C",
+            "background": "#000000",
             "black": "#0C0C0C",
             "blue": "#0037DA",
             "brightBlack": "#767676",
@@ -289,7 +102,7 @@
             "yellow": "#C19C00"
         },
         {
-            "background": "#161833",
+            "background": "#0E121A",
             "black": "#282C34",
             "blue": "#61AFEF",
             "brightBlack": "#5A6374",
@@ -450,6 +263,175 @@
             "yellow": "#808000"
         }
     ],
-    "useAcrylicInTabRow": true,
-    "windowingBehavior": "useAnyExisting"
+    "useAcrylicInTabRow": false,
+    "windowingBehavior": "useAnyExisting",
+    "actions": [
+      {
+        "command": {
+          "action": "newWindow"
+        },
+        "keys": "ctrl+n"
+      },
+      {
+        "command": "find",
+        "keys": "ctrl+f"
+      },
+      {
+        "command": {
+          "action": "openSettings",
+          "target": "settingsFile"
+        },
+        "keys": "ctrl+comma"
+      },
+      {
+        "command": "paste",
+        "keys": "ctrl+v"
+      },
+      {
+        "command": {
+          "action": "copy",
+          "singleLine": false
+        },
+        "keys": "ctrl+c"
+      },
+      {
+        "command": {
+          "action": "splitPane",
+          "split": "auto",
+          "splitMode": "duplicate"
+        },
+        "keys": "ctrl+d"
+      },
+      {
+        "command": "unbound",
+        "keys": "ctrl+shift+w"
+      },
+      {
+        "command": "unbound",
+        "keys": "ctrl+shift+c"
+      },
+      {
+        "command": "unbound",
+        "keys": "ctrl+insert"
+      },
+      {
+        "command": "unbound",
+        "keys": "ctrl+numpad_minus"
+      },
+      {
+        "command": "unbound",
+        "keys": "alt+shift+d"
+      },
+      {
+        "command": "unbound",
+        "keys": "ctrl+shift+f"
+      },
+      {
+        "command": "unbound",
+        "keys": "ctrl+numpad_plus"
+      },
+      {
+        "command": "unbound",
+        "keys": "ctrl+shift+t"
+      },
+      {
+        "command": "unbound",
+        "keys": "ctrl+shift+1"
+      },
+      {
+        "command": "unbound",
+        "keys": "ctrl+shift+2"
+      },
+      {
+        "command": "unbound",
+        "keys": "ctrl+shift+3"
+      },
+      {
+        "command": "unbound",
+        "keys": "ctrl+shift+4"
+      },
+      {
+        "command": "unbound",
+        "keys": "ctrl+shift+5"
+      },
+      {
+        "command": "unbound",
+        "keys": "ctrl+shift+n"
+      },
+      {
+        "command": "unbound",
+        "keys": "ctrl+alt+comma"
+      },
+      {
+        "command": "unbound",
+        "keys": "ctrl+shift+comma"
+      },
+      {
+        "command": "unbound",
+        "keys": "alt+space"
+      },
+      {
+        "command": "unbound",
+        "keys": "shift+insert"
+      },
+      {
+        "command": "unbound",
+        "keys": "ctrl+shift+v"
+      },
+      {
+        "command": "unbound",
+        "keys": "ctrl+numpad0"
+      },
+      {
+        "command": "closePane",
+        "keys": "ctrl+w"
+      },
+      {
+        "command": {
+          "action": "newTab"
+        },
+        "keys": "ctrl+t"
+      },
+      {
+        "command": {
+          "action": "newTab",
+          "index": 4
+        },
+        "keys": "alt+5"
+      },
+      {
+        "command": {
+          "action": "newTab",
+          "index": 0
+        },
+        "keys": "alt+1"
+      },
+      {
+        "command": {
+          "action": "newTab",
+          "index": 1
+        },
+        "keys": "alt+2"
+      },
+      {
+        "command": {
+          "action": "newTab",
+          "index": 2
+        },
+        "keys": "alt+3"
+      },
+      {
+        "command": {
+          "action": "newTab",
+          "index": 3
+        },
+        "keys": "alt+4"
+      },
+      {
+        "command": {
+          "action": "openSettings",
+          "target": "defaultsFile"
+        }
+      }
+    ]
 }
