@@ -23,13 +23,18 @@ function showList {
 function pnpmrun {
   pnpm run dev
 }
-function lazygit {
+function acp {
   git add .
   git commit -m "commit"
   git push
 }
+function lazygit {
+  git add .
+  git commit -m "commit"
+}
 Set-Alias la showList
 Set-Alias srd pnpmrun
-Set-Alias acp lazygit
+Set-Alias add_commit_push acp
+Set-Alias add_commit lazygit
 set-alias -name pn -value pnpm
 
