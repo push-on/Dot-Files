@@ -20,9 +20,6 @@ Import-Module -Name Terminal-Icons
 function showList {
   Get-ChildItem | Format-Wide
 }
-function pnpmrun {
-  pnpm run dev
-}
 function acp {
   git add .
   git commit -m "commit"
@@ -33,8 +30,6 @@ function lazygit {
   git commit -m "commit"
 }
 Set-Alias la showList
-Set-Alias srd pnpmrun
 Set-Alias add_commit_push acp
 Set-Alias add_commit lazygit
 set-alias -name pn -value pnpm
-
