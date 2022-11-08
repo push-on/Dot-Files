@@ -1,13 +1,195 @@
 {
     "$help": "https://aka.ms/terminal-documentation",
     "$schema": "https://aka.ms/terminal-profiles-schema",
-   
+    "actions": 
+    [
+        {
+            "command": 
+            {
+                "action": "newWindow"
+            },
+            "keys": "ctrl+n"
+        },
+        {
+            "command": "find",
+            "keys": "ctrl+f"
+        },
+        {
+            "command": 
+            {
+                "action": "openSettings",
+                "target": "settingsFile"
+            },
+            "keys": "ctrl+comma"
+        },
+        {
+            "command": "paste",
+            "keys": "ctrl+v"
+        },
+        {
+            "command": 
+            {
+                "action": "copy",
+                "singleLine": false
+            },
+            "keys": "ctrl+c"
+        },
+        {
+            "command": 
+            {
+                "action": "splitPane",
+                "split": "auto",
+                "splitMode": "duplicate"
+            },
+            "keys": "ctrl+d"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+shift+w"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+shift+c"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+insert"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+numpad_minus"
+        },
+        {
+            "command": "unbound",
+            "keys": "alt+shift+d"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+shift+f"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+numpad_plus"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+shift+t"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+shift+1"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+shift+2"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+shift+3"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+shift+4"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+shift+5"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+shift+n"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+alt+comma"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+shift+comma"
+        },
+        {
+            "command": "unbound",
+            "keys": "alt+space"
+        },
+        {
+            "command": "unbound",
+            "keys": "shift+insert"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+shift+v"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+numpad0"
+        },
+        {
+            "command": "closePane",
+            "keys": "ctrl+w"
+        },
+        {
+            "command": 
+            {
+                "action": "newTab"
+            },
+            "keys": "ctrl+t"
+        },
+        {
+            "command": 
+            {
+                "action": "newTab",
+                "index": 4
+            },
+            "keys": "alt+5"
+        },
+        {
+            "command": 
+            {
+                "action": "newTab",
+                "index": 0
+            },
+            "keys": "alt+1"
+        },
+        {
+            "command": 
+            {
+                "action": "newTab",
+                "index": 1
+            },
+            "keys": "alt+2"
+        },
+        {
+            "command": 
+            {
+                "action": "newTab",
+                "index": 2
+            },
+            "keys": "alt+3"
+        },
+        {
+            "command": 
+            {
+                "action": "newTab",
+                "index": 3
+            },
+            "keys": "alt+4"
+        },
+        {
+            "command": 
+            {
+                "action": "openSettings",
+                "target": "defaultsFile"
+            }
+        }
+    ],
+    "alwaysShowNotificationIcon": true,
     "copyFormatting": "none",
     "copyOnSelect": false,
-    "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+    "defaultProfile": "{bdbd8345-1f2c-45ff-a07a-07b40e35cda2}",
     "initialCols": 100,
-    "initialRows": 20,
     "initialPosition": "750,350",
+    "initialRows": 20,
+    "minimizeToNotificationArea": true,
     "profiles": 
     {
         "defaults": 
@@ -15,22 +197,19 @@
             "colorScheme": "One Half Dark",
             "cursorHeight": 20,
             "cursorShape": "vintage",
-            "startingDirectory": "C:\\Users\\zero\\Desktop",
-            "tabColor": "#2F2F2F",
+            "elevate": false,
             "font": 
             {
                 "face": "CaskaydiaCove NF",
                 "size": 14
-            }
+            },
+            "opacity": 80,
+            "startingDirectory": "C:\\Users\\zero\\Desktop",
+            "tabColor": "#282d5e",
+            "useAcrylic": true
         },
         "list": 
         [
-            {
-                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -nologo",
-                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
-                "hidden": false,
-                "name": "Windows PowerShell"
-            },
             {
                 "commandline": "%SystemRoot%\\System32\\cmd.exe -nologo",
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
@@ -38,18 +217,22 @@
                 "name": "Command Prompt"
             },
             {
-                "commandline": "\"C:\\Program Files\\PowerShell\\7\\pwsh.exe\" --nologo",
-                "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+                "guid": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
                 "hidden": false,
-                "name": "PowerShell",
-                "source": "Windows.Terminal.PowershellCore"
+                "name": "Git Bash",
+                "source": "Git"
             },
             {
-                "colorScheme": "One Half Dark",
-                "guid": "{58ad8b0c-3ef8-5f4d-bc6f-13e4c00f2530}",
+                "commandline": "\"C:\\Program Files\\PowerShell\\7\\pwsh.exe\" -nologo",
+                "guid": "{bdbd8345-1f2c-45ff-a07a-07b40e35cda2}",
                 "hidden": false,
-                "name": "Debian",
-                "source": "Windows.Terminal.Wsl"
+                "icon": "ms-appx:///ProfileIcons/pwsh.png",
+                "name": "PowerShell"
+            },
+            {
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "hidden": false,
+                "name": "Windows PowerShell"
             }
         ]
     },
@@ -263,175 +446,6 @@
             "yellow": "#808000"
         }
     ],
-    "useAcrylicInTabRow": false,
-    "windowingBehavior": "useAnyExisting",
-    "actions": [
-      {
-        "command": {
-          "action": "newWindow"
-        },
-        "keys": "ctrl+n"
-      },
-      {
-        "command": "find",
-        "keys": "ctrl+f"
-      },
-      {
-        "command": {
-          "action": "openSettings",
-          "target": "settingsFile"
-        },
-        "keys": "ctrl+comma"
-      },
-      {
-        "command": "paste",
-        "keys": "ctrl+v"
-      },
-      {
-        "command": {
-          "action": "copy",
-          "singleLine": false
-        },
-        "keys": "ctrl+c"
-      },
-      {
-        "command": {
-          "action": "splitPane",
-          "split": "auto",
-          "splitMode": "duplicate"
-        },
-        "keys": "ctrl+d"
-      },
-      {
-        "command": "unbound",
-        "keys": "ctrl+shift+w"
-      },
-      {
-        "command": "unbound",
-        "keys": "ctrl+shift+c"
-      },
-      {
-        "command": "unbound",
-        "keys": "ctrl+insert"
-      },
-      {
-        "command": "unbound",
-        "keys": "ctrl+numpad_minus"
-      },
-      {
-        "command": "unbound",
-        "keys": "alt+shift+d"
-      },
-      {
-        "command": "unbound",
-        "keys": "ctrl+shift+f"
-      },
-      {
-        "command": "unbound",
-        "keys": "ctrl+numpad_plus"
-      },
-      {
-        "command": "unbound",
-        "keys": "ctrl+shift+t"
-      },
-      {
-        "command": "unbound",
-        "keys": "ctrl+shift+1"
-      },
-      {
-        "command": "unbound",
-        "keys": "ctrl+shift+2"
-      },
-      {
-        "command": "unbound",
-        "keys": "ctrl+shift+3"
-      },
-      {
-        "command": "unbound",
-        "keys": "ctrl+shift+4"
-      },
-      {
-        "command": "unbound",
-        "keys": "ctrl+shift+5"
-      },
-      {
-        "command": "unbound",
-        "keys": "ctrl+shift+n"
-      },
-      {
-        "command": "unbound",
-        "keys": "ctrl+alt+comma"
-      },
-      {
-        "command": "unbound",
-        "keys": "ctrl+shift+comma"
-      },
-      {
-        "command": "unbound",
-        "keys": "alt+space"
-      },
-      {
-        "command": "unbound",
-        "keys": "shift+insert"
-      },
-      {
-        "command": "unbound",
-        "keys": "ctrl+shift+v"
-      },
-      {
-        "command": "unbound",
-        "keys": "ctrl+numpad0"
-      },
-      {
-        "command": "closePane",
-        "keys": "ctrl+w"
-      },
-      {
-        "command": {
-          "action": "newTab"
-        },
-        "keys": "ctrl+t"
-      },
-      {
-        "command": {
-          "action": "newTab",
-          "index": 4
-        },
-        "keys": "alt+5"
-      },
-      {
-        "command": {
-          "action": "newTab",
-          "index": 0
-        },
-        "keys": "alt+1"
-      },
-      {
-        "command": {
-          "action": "newTab",
-          "index": 1
-        },
-        "keys": "alt+2"
-      },
-      {
-        "command": {
-          "action": "newTab",
-          "index": 2
-        },
-        "keys": "alt+3"
-      },
-      {
-        "command": {
-          "action": "newTab",
-          "index": 3
-        },
-        "keys": "alt+4"
-      },
-      {
-        "command": {
-          "action": "openSettings",
-          "target": "defaultsFile"
-        }
-      }
-    ]
+    "useAcrylicInTabRow": true,
+    "windowingBehavior": "useExisting"
 }
