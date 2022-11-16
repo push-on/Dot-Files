@@ -1,4 +1,4 @@
-## install [powershell](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.3#msi) Modules
+## [Pwsh](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.3#msi) Modules
 ```ps1
 Install-Module -Name Terminal-Icons -Repository PSGallery
 Install-Module PSReadLine -AllowPrerelease -Force
