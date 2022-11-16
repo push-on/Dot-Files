@@ -20,7 +20,7 @@
           "foreground": "magenta",
           "properties": {
             "folder_separator_icon": "/",
-            "style": "full"
+            "style": "folder"
           },
           "style": "powerline",
           "template": "<{{ if .Root }}lightBlue{{ else }}green{{ end }}>-[</>{{ .Path }}<{{ if .Root }}lightBlue{{ else }}green{{ end }}>]</>",
