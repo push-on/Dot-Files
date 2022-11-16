@@ -4,8 +4,7 @@ Install-Module -Name Terminal-Icons -Repository PSGallery
 Install-Module PSReadLine -AllowPrerelease -Force
 ```
 ## [Nilesoft.Shell](https://github.com/moudey/Shell) 
-<p style="color:red;">custom context menu for win 11</p>
-
+**`custom context menu for win 11`**
 ```bash
 winget install Nilesoft.Shell
 ```
