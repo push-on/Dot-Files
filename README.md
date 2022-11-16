@@ -9,7 +9,7 @@ custom context menu for win 11
 winget install Nilesoft.Shell
 ```
 
-## Alacritty 
+## [Alacritty](https://alacritty.org/) 
 ```bash
 C:\Users\zero\AppData\Roaming\alacritty\alacritty.yml
 ```
