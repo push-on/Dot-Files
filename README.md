@@ -9,7 +9,7 @@ Install-Module PSReadLine -AllowPrerelease -Force
 winget install Nilesoft.Shell
 ```
 
-## [Alacritty](https://alacritty.org/) 
+## [Alacritty](https://alacritty.org/) win config location
 ```bash
 C:\Users\zero\AppData\Roaming\alacritty\alacritty.yml
 ```
