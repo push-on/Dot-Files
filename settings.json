@@ -6,13 +6,14 @@
         {
             "command": 
             {
-                "action": "newWindow"
+                "action": "copy",
+                "singleLine": false
             },
-            "keys": "ctrl+n"
+            "keys": "ctrl+c"
         },
         {
-            "command": "find",
-            "keys": "ctrl+f"
+            "command": "paste",
+            "keys": "ctrl+v"
         },
         {
             "command": 
@@ -23,16 +24,15 @@
             "keys": "ctrl+comma"
         },
         {
-            "command": "paste",
-            "keys": "ctrl+v"
+            "command": "find",
+            "keys": "ctrl+f"
         },
         {
             "command": 
             {
-                "action": "copy",
-                "singleLine": false
+                "action": "newWindow"
             },
-            "keys": "ctrl+c"
+            "keys": "ctrl+n"
         },
         {
             "command": 
@@ -42,6 +42,10 @@
                 "splitMode": "duplicate"
             },
             "keys": "ctrl+d"
+        },
+        {
+            "command": "closePane",
+            "keys": "ctrl+w"
         },
         {
             "command": "unbound",
@@ -124,10 +128,6 @@
             "keys": "ctrl+numpad0"
         },
         {
-            "command": "closePane",
-            "keys": "ctrl+w"
-        },
-        {
             "command": 
             {
                 "action": "newTab"
@@ -189,23 +189,24 @@
     "initialCols": 100,
     "initialPosition": "750,350",
     "initialRows": 20,
-    "minimizeToNotificationArea": true,
+    "minimizeToNotificationArea": false,
     "profiles": 
     {
         "defaults": 
         {
-            "colorScheme": "One Half Dark",
+            "colorScheme": "Monokai Pro",
             "cursorHeight": 20,
             "cursorShape": "vintage",
             "elevate": false,
             "font": 
             {
-                "face": "CaskaydiaCove NF",
+                "face": "CaskaydiaCove NF Mono",
                 "size": 14
             },
             "opacity": 80,
+            "padding": "8",
             "startingDirectory": "C:\\Users\\zero\\Desktop",
-            "tabColor": "#282d5e",
+            "tabColor": "#282D5E",
             "useAcrylic": true
         },
         "list": 
@@ -224,6 +225,10 @@
             },
             {
                 "commandline": "\"C:\\Program Files\\PowerShell\\7\\pwsh.exe\" -nologo",
+                "font": 
+                {
+                    "face": "CaskaydiaCove NF Mono"
+                },
                 "guid": "{bdbd8345-1f2c-45ff-a07a-07b40e35cda2}",
                 "hidden": false,
                 "icon": "ms-appx:///ProfileIcons/pwsh.png",
@@ -232,14 +237,20 @@
             {
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "hidden": false,
-                "name": "Windows PowerShell"
+                "name": "PowerShell"
+            },
+            {
+                "guid": "{58ad8b0c-3ef8-5f4d-bc6f-13e4c00f2530}",
+                "hidden": false,
+                "name": "Debian",
+                "source": "Windows.Terminal.Wsl"
             }
         ]
     },
     "schemes": 
     [
         {
-            "background": "#000000",
+            "background": "#0C0C0C",
             "black": "#0C0C0C",
             "blue": "#0037DA",
             "brightBlack": "#767676",
@@ -286,6 +297,29 @@
         },
         {
             "background": "#0E121A",
+            "black": "#282C34",
+            "blue": "#FC9867",
+            "brightBlack": "#727072",
+            "brightBlue": "#FC9867",
+            "brightCyan": "#78DCE8",
+            "brightGreen": "#A9DC76",
+            "brightPurple": "#AB9DF2",
+            "brightRed": "#FF6188",
+            "brightWhite": "#FCFCFA",
+            "brightYellow": "#FFD866",
+            "cursorColor": "#FCFCFA",
+            "cyan": "#78DCE8",
+            "foreground": "#FCFCFA",
+            "green": "#A9DC76",
+            "name": "Monokai Pro",
+            "purple": "#AB9DF2",
+            "red": "#FF6188",
+            "selectionBackground": "#FCFCFA",
+            "white": "#FCFCFA",
+            "yellow": "#FFD866"
+        },
+        {
+            "background": "#282C34",
             "black": "#282C34",
             "blue": "#61AFEF",
             "brightBlack": "#5A6374",
