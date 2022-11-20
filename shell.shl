@@ -22,6 +22,10 @@ shell
 		}
 		showdelay=0
 		rtl=auto
+    tip
+    {
+    enabled = true
+    }
 	}
 	static
 	{
