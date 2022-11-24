@@ -18,8 +18,8 @@ scoop install googlechrome git python nodejs-lts oraclejdk-lts deno llvm clangd 
 # Scoop Commands
 scoop list
 scoop status
-scoop update # update bucktes
-scoop update * # update all apps
+scoop update 
+scoop update *
 ```
 
 
