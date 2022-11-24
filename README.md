@@ -3,7 +3,7 @@
 Install-Module -Name Terminal-Icons -Repository PSGallery
 Install-Module PSReadLine -Force
 ```
-## [Nilesoft.Shell](https://github.com/moudey/Shell) 
+## [Nilesoft.Shell](https://github.com/moudey/Shell) Context menu
 **`custom context menu for win 11`**
 ```bash
 winget install Nilesoft.Shell
@@ -13,7 +13,7 @@ winget install Nilesoft.Shell
 ```bash
 C:\Users\zero\AppData\Roaming\alacritty\alacritty.yml
 ```
-## [Scoop](https://scoop.sh/#/)
+## [Scoop](https://scoop.sh/#/) CLI Package Manager
 ```bash
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 irm get.scoop.sh | iex
