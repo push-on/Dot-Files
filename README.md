@@ -13,3 +13,11 @@ winget install Nilesoft.Shell
 ```bash
 C:\Users\zero\AppData\Roaming\alacritty\alacritty.yml
 ```
+## [Scoop]
+```bash
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+irm get.scoop.sh | iex
+scoop bucket add main
+scoop bucket add versions
+scoop install googlechrome git python nodejs-lts oraclejdk-lts deno llvm clangd make stylua windows-terminal vscode neovim winfetch qbittorrent blender nilesoft-shell godot sumatrapdf
+```
