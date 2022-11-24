@@ -13,7 +13,7 @@ winget install Nilesoft.Shell
 ```bash
 C:\Users\zero\AppData\Roaming\alacritty\alacritty.yml
 ```
-## [Scoop]
+## [Scoop](https://scoop.sh/#/)
 ```bash
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 irm get.scoop.sh | iex
