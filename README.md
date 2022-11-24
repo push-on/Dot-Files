@@ -6,24 +6,24 @@ Install-Module PSReadLine -Force
 
 ## [Scoop](https://scoop.sh/#/) CLI Package Manager
 ```ps1
-// install Scoop
+# install Scoop
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 irm get.scoop.sh | iex
-// add repos
+# add repos
 scoop bucket add main
 scoop bucket add versions
 scoop bucket add nerd-fonts
-// all apps
+# all apps
 scoop install googlechrome git python nodejs-lts oraclejdk-lts deno llvm clangd make stylua windows-terminal vscode neovim winfetch qbittorrent blender nilesoft-shell godot sumatrapdf Cascadia-Code
 ```
 
 ## [Nilesoft.Shell](https://github.com/moudey/Shell) Context menu
 **`custom context menu for win 11`**
-```bash
+```ps1
 winget install Nilesoft.Shell
 ```
 
 ## [Alacritty](https://alacritty.org/) win config location
-```bash
+```ps1
 C:\Users\zero\AppData\Roaming\alacritty\alacritty.yml
 ```
