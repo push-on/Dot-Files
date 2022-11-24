@@ -5,7 +5,7 @@ Install-Module PSReadLine -Force
 ```
 
 ## [Scoop](https://scoop.sh/#/) CLI Package Manager
-```bash
+```ps1
 // install Scoop
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 irm get.scoop.sh | iex
