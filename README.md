@@ -14,8 +14,35 @@ scoop bucket add main
 scoop bucket add versions
 scoop bucket add nerd-fonts
 # all apps
-scoop install googlechrome git python nodejs-lts oraclejdk-lts deno llvm clangd make stylua windows-terminal vscode neovim winfetch qbittorrent blender nilesoft-shell godot sumatrapdf Cascadia-Code
+scoop install googlechrome git python nodejs-lts oraclejdk-lts deno llvm clangd make stylua windows-terminal vscode neovim winfetch qbittorrent blender nilesoft-shell godot sumatrapdf Cascadia-Code naps2 xnconvert everything
+# Scoop Commands
+scoop list
+scoop status
+scoop update # update bucktes
+scoop update * # update all apps
 ```
+
+
+
+|  | Shortcuts |  |
+| --- | --- | --- |
+| Chrome | ctrl + L | focus Address bar |
+
+| App name | Sites |
+| --- | --- |
+| All in one brightness control | winget install twinkletray |
+| Context Menu  | winget install Nilesoft.Shell |
+| HFS http file transfer | https://www.rejetto.com/hfs/ |
+| PDF Scanner | https://www.naps2.com/ |
+| raw drive viewer | https://www.osforensics.com/raw-disk-viewer.html |
+| Zoom it | https://learn.microsoft.com/en-us/sysinternals/downloads/zoomit |
+| Xn Convert | https://www.xnview.com/en/xnconvert/ |
+|  |  |
+| Github Apps |  |
+| REmap keys to Registry | ‣ |
+| Spot X | ‣ |
+| Folder Icons | ‣ |
+|  |  |
 
 ## [Nilesoft.Shell](https://github.com/moudey/Shell) Context menu
 **`custom context menu for win 11`**
