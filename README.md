@@ -20,9 +20,10 @@ scoop list
 scoop status
 scoop update 
 scoop update *
+# Other Scoop Apps
+scoop install rainmeter
+scoop install thunderbird
 ```
-
-
 
 |  | Shortcuts |  |
 | --- | --- | --- |
