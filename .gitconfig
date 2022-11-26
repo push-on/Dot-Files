@@ -1,0 +1,22 @@
+# .gitconfig
+[user]
+	name = 
+	email = 
+[code]
+	editor = code --wait
+	autocrlf = true
+[diff]
+  tool = vscode
+[difftool "vscode"]
+  cmd = code --wait --diff $LOCAL $REMOTE
+[merge]
+  tool = vscode
+[mergetool "vscode"]
+  cmd = code --wait $MERGED
+[safe]
+    directory = *
+[core]
+	autocrlf = true
+	safecrlf = false
+[push]
+	autoSetupRemote = true
