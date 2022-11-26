@@ -22,7 +22,7 @@ winget install Kitware.CMake
 winget install github.cli
 
 ```
-```
+```ps1
 # list installed Packages
 npm list -g --depth=0
 
