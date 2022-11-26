@@ -5,7 +5,7 @@ Install-Module -Name Terminal-Icons -Repository PSGallery
 Install-Module PSReadLine -Force
 ```
 
-## [Winget Apps]
+## [Winget](https://winget.run/) Apps
 ```ps1
 # needs admin mode
 Install-Script winfetch
@@ -22,7 +22,8 @@ winget install Kitware.CMake
 winget install github.cli
 
 ```
-```ps1
+
+```bash
 # list installed Packages
 npm list -g --depth=0
 
