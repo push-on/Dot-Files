@@ -1,4 +1,4 @@
-oh-my-posh init pwsh --config "C:\Users\main\AppData\Local\Programs\oh-my-posh\themes\win.omp.json" | Invoke-Expression
+oh-my-posh init pwsh --config "C:\Users\zero\AppData\Local\Programs\oh-my-posh\themes\win.omp.json" | Invoke-Expression
 Set-PSReadLineOption -PredictionSource History
 Set-PSReadLineOption -PredictionViewStyle ListView
 Set-PSReadLineOption -Colors @{
