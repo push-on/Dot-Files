@@ -7,10 +7,10 @@ Install-Module PSReadLine -Force
 
 ## [Winget](https://winget.run/) Apps
 ```ps1
-# needs admin mode
+# Admin Rights required
 Install-Script winfetch
 
-# winget apps (normal mode)
+# winget apps
 winget install twinkletray
 winget install Nilesoft.Shell
 winget install Microsoft.PowerShell
@@ -22,6 +22,9 @@ winget install Kitware.CMake
 winget install github.cli
 winget install 7zip.7zip
 winget install DuongDieuPhap.ImageGlass
+winget install Facebook.Messenger
+winget install Discord.Discord
+
 ```
 ## [npm](https://www.npmjs.com/) [pnpm](https://pnpm.io/) packages
 ```bash
@@ -39,6 +42,9 @@ npm i -g ts-node
 npm i -g nodemon
 ```
 
-
+```ps1
+# Admin Rights required
+powercfg.exe /hibernate off
+```
 
 
