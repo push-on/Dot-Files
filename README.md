@@ -21,6 +21,7 @@ winget install llvm.llvm
 winget install Kitware.CMake
 winget install github.cli
 winget install 7zip.7zip
+winget install DuongDieuPhap.ImageGlass
 ```
 ## [npm](https://www.npmjs.com/) [pnpm](https://pnpm.io/) packages
 ```bash
