@@ -20,7 +20,7 @@ winget install voidtools.Everything
 winget install llvm.llvm
 winget install Kitware.CMake
 winget install github.cli
-
+winget install 7zip.7zip
 ```
 
 ```bash
@@ -34,9 +34,8 @@ npm remove -g packageName
 npm i -g npm@latest
 npm i -g pnpm
 npm i -g typescript
-npm i -g nodemon
 npm i -g ts-node
-
+npm i -g nodemon
 ```
 
 
