@@ -22,11 +22,6 @@ winget install Kitware.CMake
 winget install github.cli
 
 ```
-```
-llvm clangd make stylua godot naps2 xnconvert everything
-```
-
-
 
 | App name | Sites |
 | --- | --- |
