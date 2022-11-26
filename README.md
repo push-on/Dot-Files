@@ -22,7 +22,7 @@ winget install Kitware.CMake
 winget install github.cli
 winget install 7zip.7zip
 ```
-
+## [nodejs](https://nodejs.org/en/), [npm](https://www.npmjs.com/) ,[pnpm](https://pnpm.io/)
 ```bash
 # list installed Packages
 npm list -g --depth=0
