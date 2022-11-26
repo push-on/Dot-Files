@@ -22,19 +22,22 @@ winget install Kitware.CMake
 winget install github.cli
 
 ```
+```
+# list installed Packages
+npm list -g --depth=0
 
-| App name | Sites |
-| --- | --- |
-| HFS http file transfer | https://www.rejetto.com/hfs/ |
-| raw drive viewer | https://www.osforensics.com/raw-disk-viewer.html |
-| Zoom it | https://learn.microsoft.com/en-us/sysinternals/downloads/zoomit |
-| Xn Convert | https://www.xnview.com/en/xnconvert/ |
-|  |  |
-| Github Apps |  |
-| REmap keys to Registry | ‣ |
-| Spot X | ‣ |
-| Folder Icons | ‣ |
-|  |  |
+# uninsatall pagages
+npm remove -g packageName
+
+# Apps
+npm i -g npm@latest
+npm i -g pnpm
+npm i -g typescript
+npm i -g nodemon
+npm i -g ts-node
+
+```
+
 
 
 
