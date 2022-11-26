@@ -19,14 +19,10 @@ winget install Nilesoft.Shell
 llvm clangd make stylua godot naps2 xnconvert everything
 ```
 
-|  | Shortcuts |  |
-| --- | --- | --- |
-| Chrome | ctrl + L | focus Address bar |
+
 
 | App name | Sites |
 | --- | --- |
-| All in one brightness control | winget install twinkletray |
-| Context Menu  | winget install Nilesoft.Shell |
 | HFS http file transfer | https://www.rejetto.com/hfs/ |
 | PDF Scanner | https://www.naps2.com/ |
 | raw drive viewer | https://www.osforensics.com/raw-disk-viewer.html |
