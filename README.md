@@ -24,7 +24,7 @@ winget install 7zip.7zip
 winget install DuongDieuPhap.ImageGlass
 winget install Facebook.Messenger
 winget install Discord.Discord
-
+winget install qBittorrent.qBittorrent
 ```
 ## [npm](https://www.npmjs.com/) [pnpm](https://pnpm.io/) packages
 ```bash
