@@ -17,6 +17,7 @@ winget install Microsoft.PowerShell
 winget install Cyanfish.NAPS2
 winget install XnSoft.XnConvert
 winget install voidtools.Everything
+winget install OpenJS.NodeJS
 winget install llvm.llvm
 winget install Kitware.CMake
 winget install github.cli
@@ -25,6 +26,7 @@ winget install DuongDieuPhap.ImageGlass
 winget install Facebook.Messenger
 winget install Discord.Discord
 winget install qBittorrent.qBittorrent
+winget install OBSProject.OBSStudio
 ```
 ## [npm](https://www.npmjs.com/) [pnpm](https://pnpm.io/) packages
 ```bash
