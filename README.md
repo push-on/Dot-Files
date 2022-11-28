@@ -27,6 +27,7 @@ powercfg.exe /hibernate off
 ```ps1
 # Admin Rights required
 Install-Script winfetch
+irm https://deno.land/install.ps1 | iex
 
 # winget apps
 winget install twinkletray
