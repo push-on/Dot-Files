@@ -14,3 +14,10 @@ www.geeksforgeeks.org##.practiceBannerFromPlugin
 
 ! 2022-11-24 https://www.scrum.org
 www.scrum.org##.last-p-mb-0.text-align-center.fs-9.generic-page-banner
+
+! 2022-11-27 https://svelte.dev
+svelte.dev##.svelte-1vzj3k2.ukr
+
+! 2022-11-28 https://jestjs.io
+jestjs.io##.announcementBarContent_t7IR.content_bSb_
+
