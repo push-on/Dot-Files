@@ -32,21 +32,24 @@ irm https://deno.land/install.ps1 | iex
 # winget apps
 winget install twinkletray
 winget install Nilesoft.Shell
-winget install Microsoft.PowerShell
 winget install Cyanfish.NAPS2
 winget install XnSoft.XnConvert
 winget install voidtools.Everything
-winget install OpenJS.NodeJS
-winget install llvm.llvm
-winget install Kitware.CMake
-winget install github.cli
-winget install 7zip.7zip
 winget install DuongDieuPhap.ImageGlass
 winget install Facebook.Messenger
 winget install Discord.Discord
 winget install qBittorrent.qBittorrent
 winget install OBSProject.OBSStudio
 winget install Microsoft.PowerToys
+
+# winget dev tools
+winget install Microsoft.PowerShell
+winget install OpenJS.NodeJS
+winget install llvm.llvm
+winget install Kitware.CMake
+winget install github.cli
+winget install 7zip.7zip
+winget install Rustlang.Rustup
 winget install Neovim.Neovim
 ```
 
