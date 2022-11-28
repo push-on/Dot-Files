@@ -47,6 +47,7 @@ winget install Discord.Discord
 winget install qBittorrent.qBittorrent
 winget install OBSProject.OBSStudio
 winget install Microsoft.PowerToys
+winget install Neovim.Neovim
 ```
 
 
