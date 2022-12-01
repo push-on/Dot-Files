@@ -53,4 +53,14 @@ winget install Rustlang.Rustup
 winget install Neovim.Neovim
 ```
 
+## Scoop
+```ps1
+# install scoop
+irm get.scoop.sh | iex
+# Extra Repos
+scoop bucket add extras
+scoop bucket add versions
+# Apps
+scoop install godot-beta
 
+```
