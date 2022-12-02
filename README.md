@@ -45,12 +45,9 @@ winget install Microsoft.PowerToys
 # winget dev tools
 winget install Microsoft.PowerShell
 winget install OpenJS.NodeJS
-winget install llvm.llvm
 winget install Kitware.CMake
 winget install github.cli
-winget install 7zip.7zip
 winget install Rustlang.Rustup
-winget install Neovim.Neovim
 ```
 
 ## Scoop
@@ -60,6 +57,14 @@ irm get.scoop.sh | iex
 # Extra Repos
 scoop bucket add extras
 scoop bucket add versions
+# scoop devtools
+scoop install llvm
+scoop install 7zip
+scoop install neovim
+scoop install neovide
+scoop install helix
+scoop install lf
+
 # Apps
 scoop install godot-beta
 
