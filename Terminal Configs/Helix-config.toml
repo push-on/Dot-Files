@@ -12,6 +12,8 @@ completion-trigger-len = 2
 auto-info = true
 true-color = true
 color-modes = true
+auto-save = true
+bufferline = "always"
 
 [editor.cursor-shape]
 insert = "bar"
