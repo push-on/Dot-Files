@@ -60,8 +60,6 @@ scoop install mingw
 scoop install python
 scoop install nodejs
 scoop install llvm
-scoop install neovim
-scoop install neovide
 scoop install helix
 scoop install lf
 scoop install lazygit
