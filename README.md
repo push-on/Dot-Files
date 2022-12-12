@@ -69,3 +69,8 @@ scoop install cmake
 # Apps
 scoop install godot-beta
 ```
+
+## remove Edge
+```ps1
+iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/AveYo/fox/main/Edge_Removal.bat'))
+```
