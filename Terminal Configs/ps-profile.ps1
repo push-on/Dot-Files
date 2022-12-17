@@ -2,21 +2,25 @@ oh-my-posh init pwsh --config "C:\Users\zero\AppData\Local\Programs\oh-my-posh\t
 Set-PSReadLineOption -PredictionSource History
 Set-PSReadLineOption -PredictionViewStyle ListView
 Set-PSReadLineOption -Colors @{
-  Default            = 'Green'
-  Command            = 'Magenta'
-  Comment            = 'DarkGray'
-  ContinuationPrompt = 'Red'
-  Error              = 'DarkRed'
-  keyword            = 'Red'
-  String             = 'Yellow'
-  Number             = 'Red'
-  Member             = 'Red'
-  Operator           = 'Red'
-  Type               = 'Red'
-  Parameter          = 'Cyan'
-  Variable           = 'Blue'
+  Default            = '#98C379'
+  Command            = '#61AFEF'
+  Comment            = '#abb2bf'
+  ContinuationPrompt = '#56B6C2'
+  Error              = '#E06C75'
+  keyword            = '#C678DD'
+  String             = '#e6a26f'
+  Number             = '#E5C07B'
+  Member             = '#56B6C2'
+  Operator           = '#C678DD'
+  Type               = '#98C379'
+  Parameter          = '#e6a26f'
+  Variable           = '#E06C75'
+  Emphasis           = '#98C379'
 }
-Import-Module -Name Terminal-Icons
+Import-Module "$($(Get-Item $(Get-Command scoop.ps1).Path).Directory.Parent.FullName)\modules\scoop-completion"
+# Import-Module -Name Terminal-Icons
+# Import-Module posh-docker
+
 function showList {
   Get-ChildItem | Format-Wide
 }
