@@ -26,12 +26,12 @@ function showList {
 }
 function acp {
   git add .
-  git commit -m "commit"
+  git commit -m "Update $(Get-Date)"
   git push
 }
 function lazygit {
   git add .
-  git commit -m "commit"
+  git commit -m "Update $(Get-Date)"
 }
 Set-Alias la showList
 Set-Alias add_commit_push acp
