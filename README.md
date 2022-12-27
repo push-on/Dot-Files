@@ -2,7 +2,7 @@
 ```ps1
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 Install-Module -Name Terminal-Icons -Repository PSGallery
-Install-Module PSReadLine -Force
+Install-Module -Name PSReadLine -Force
 ```
 ## [npm](https://www.npmjs.com/) [pnpm](https://pnpm.io/) packages
 ```bash
