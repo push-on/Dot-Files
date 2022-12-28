@@ -8,15 +8,11 @@ Install-Module -Name PSReadLine -Force
 ```bash
 # list installed Packages
 npm list -g --depth=0
-
 # uninsatall pagages
 npm remove -g packageName
-
 # Apps
 npm i -g npm@latest
 npm i -g pnpm
-npm i -g typescript
-npm i -g ts-node
 npm i -g nodemon
 ```
 ```ps1
@@ -28,14 +24,12 @@ powercfg.exe /hibernate off
 # Admin Rights required
 Install-Script winfetch
 irm https://deno.land/install.ps1 | iex
-
 # winget apps
 winget install twinkletray
 winget install Facebook.Messenger
 winget install Discord.Discord
 ```
-
-## Scoop
+## [Scoop](https://scoop.sh/)
 ```ps1
 scoop bucket add extras
 scoop bucket add main
