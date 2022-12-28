@@ -31,43 +31,49 @@ irm https://deno.land/install.ps1 | iex
 
 # winget apps
 winget install twinkletray
-winget install Nilesoft.Shell
-winget install Cyanfish.NAPS2
-winget install XnSoft.XnConvert
-winget install voidtools.Everything
-winget install DuongDieuPhap.ImageGlass
 winget install Facebook.Messenger
 winget install Discord.Discord
-winget install qBittorrent.qBittorrent
-winget install OBSProject.OBSStudio
-winget install Microsoft.PowerToys
-
-# winget dev tools
-winget install Microsoft.PowerShell
-winget install github.cli
 ```
 
 ## Scoop
 ```ps1
-# install scoop
-irm get.scoop.sh | iex
-# Extra Repos
 scoop bucket add extras
+scoop bucket add main
 scoop bucket add versions
-# scoop devtools
+
 scoop install 7zip
-scoop install mingw
-scoop install python
-scoop install nodejs
-scoop install llvm
-scoop install helix
-scoop install lf
-scoop install lazygit
-scoop install rust-msvc
-scoop install rust-analyzer
-scoop install cmake
-# Apps
+scoop install blender
+scoop install deno
+scoop install everything
+scoop install ffmpeg
 scoop install godot-beta
+scoop install helix
+scoop install imageglass
+scoop install lf
+scoop install llvm
+scoop install naps2
+scoop install neovide
+scoop install neovim
+scoop install nilesoft-shell
+scoop install notepadplusplus
+scoop install nvim
+scoop install obs-studio
+scoop install obsidian
+scoop install oh-my-posh
+scoop install posh-docker
+scoop install powertoys
+scoop install qbittorrent
+scoop install scoop-completion
+scoop install stylua
+scoop install windows-terminal
+scoop install windows-terminal-preview
+scoop install winfetch
+scoop install xnconvert
+
+scoop list
+scoop status
+scoop update
+scoop update *
 ```
 
 ## remove Edge
