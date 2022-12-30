@@ -14,6 +14,8 @@ npm remove -g packageName
 npm i -g npm@latest
 npm i -g pnpm
 npm i -g nodemon
+npm i -g typescript
+npm i -g eslint
 ```
 ```ps1
 # Admin Rights required
@@ -60,7 +62,6 @@ scoop install qbittorrent
 scoop install scoop-completion
 scoop install stylua
 scoop install windows-terminal
-scoop install windows-terminal-preview
 scoop install winfetch
 scoop install xnconvert
 
@@ -73,4 +74,16 @@ scoop update *
 ## remove Edge
 ```ps1
 iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/AveYo/fox/main/Edge_Removal.bat'))
+```
+
+## Neovim Dependencies
+```bash
+npm i -g neovim
+npm i -g prettier
+npm i -g bash-language-server
+npm i -g dockerfile-language-server-nodejs
+npm i -g vscode-langservers-extracted
+npm i -g typescript-language-server
+npm i -g tree-sitter-cli
+npm i -g svelte-language-server
 ```
