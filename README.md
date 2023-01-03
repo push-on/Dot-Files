@@ -87,3 +87,15 @@ npm i -g typescript-language-server
 npm i -g tree-sitter-cli
 npm i -g svelte-language-server
 ```
+
+## Npm Libraries
+```bash
+# front End
+pnpm i @material-tailwind/react
+
+# backend
+pn i axios
+pn i cors
+pn i mongoose
+pn i morgan
+```
