@@ -1,82 +1,103 @@
-## [Pwsh](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.3#winget) Modules
+## [pwsh](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.3#winget) Modules
+
 ```ps1
+# script permission 
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+# powershell extenitons
 Install-Module -Name Terminal-Icons -Repository PSGallery
 Install-Module -Name PSReadLine -Force
+
+# system imfo cli script
+Install-Script winfetch
 ```
+
 ## [npm](https://www.npmjs.com/) [pnpm](https://pnpm.io/) packages
+
 ```bash
 # list installed Packages
 npm list -g --depth=0
 # uninsatall pagages
 npm remove -g packageName
-# Apps
+# global dependencys
 npm i -g npm@latest
 npm i -g pnpm
 npm i -g nodemon
 npm i -g typescript
 npm i -g eslint
+
+# Dev dependency 
+# front end
+pnpm i @material-tailwind/react
+
+# backend
+pn i axios
+pn i cors
+pn i mongoose
+pn i morgan
 ```
+
 ```ps1
 # Admin Rights required
 powercfg.exe /hibernate off
 ```
-## [Winget](https://winget.run/) Apps
+
+## [scoop](https://scoop.sh/)
+
 ```ps1
-# Admin Rights required
-Install-Script winfetch
-irm https://deno.land/install.ps1 | iex
-# winget apps
-winget install twinkletray
-winget install Facebook.Messenger
-winget install Discord.Discord
-```
-## [Scoop](https://scoop.sh/)
-```ps1
+# install Scoop
+irm get.scoop.sh | iex
+
+# add repo
 scoop bucket add extras
 scoop bucket add main
 scoop bucket add versions
 
+# dev dependency
 scoop install 7zip
-scoop install blender
-scoop install deno
-scoop install everything
 scoop install ffmpeg
-scoop install godot-beta
-scoop install helix
-scoop install imageglass
-scoop install lf
 scoop install llvm
-scoop install naps2
+scoop install stylua
+scoop install mingw
+scoop install llvm
+scoop install clangd
+scoop install nodejs-lts
+scoop install git
+scoop install anaconda3
+
+# cli Tools
+scoop install lf
+scoop install deno
 scoop install neovide
 scoop install neovim
+scoop install helix
+
+# desktop apps
+scoop install blender
+scoop install everything
+scoop install godot-beta
+scoop install imageglass
+scoop install naps2
 scoop install nilesoft-shell
 scoop install notepadplusplus
-scoop install nvim
 scoop install obs-studio
 scoop install obsidian
 scoop install oh-my-posh
-scoop install posh-docker
 scoop install powertoys
 scoop install qbittorrent
-scoop install scoop-completion
-scoop install stylua
-scoop install windows-terminal
-scoop install winfetch
 scoop install xnconvert
+scoop install twinkle-tray
+scoop install zoom
 
+# commands
 scoop list
 scoop status
 scoop update
 scoop update *
 ```
 
-## remove Edge
-```ps1
-iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/AveYo/fox/main/Edge_Removal.bat'))
-```
+## [nvim](https://vimhelp.org/) dependencies
 
-## Neovim Dependencies
 ```bash
 npm i -g neovim
 npm i -g prettier
@@ -86,16 +107,4 @@ npm i -g vscode-langservers-extracted
 npm i -g typescript-language-server
 npm i -g tree-sitter-cli
 npm i -g svelte-language-server
-```
-
-## Npm Libraries
-```bash
-# front End
-pnpm i @material-tailwind/react
-
-# backend
-pn i axios
-pn i cors
-pn i mongoose
-pn i morgan
 ```
