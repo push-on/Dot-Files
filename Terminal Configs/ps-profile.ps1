@@ -1,4 +1,4 @@
-oh-my-posh init pwsh --config "C:\Users\zero\AppData\Local\Programs\oh-my-posh\themes\win.omp.json" | Invoke-Expression
+oh-my-posh init pwsh --config "D:\Apps\Configs\win.omp.json" | Invoke-Expression
 Set-PSReadLineOption -PredictionSource History
 Set-PSReadLineOption -PredictionViewStyle ListView
 Set-PSReadLineOption -Colors @{
@@ -17,9 +17,6 @@ Set-PSReadLineOption -Colors @{
   Variable           = '#E06C75'
   Emphasis           = '#98C379'
 }
-Import-Module "$($(Get-Item $(Get-Command scoop.ps1).Path).Directory.Parent.FullName)\modules\scoop-completion"
-# Import-Module -Name Terminal-Icons
-# Import-Module posh-docker
 
 function showList {
   Get-ChildItem | Format-Wide
@@ -36,4 +33,13 @@ function lazygit {
 Set-Alias la showList
 Set-Alias add_commit_push acp
 Set-Alias add_commit lazygit
-set-alias -name pn -value pnpm
+Set-Alias -name pn -value pnpm
+
+function Get-WebContent {
+    param([string]$Uri)
+    return (Invoke-WebRequest -Uri $Uri).Content
+}
+
+Set-Alias -name fwc -value Get-WebContent
+
+# Import-Module -Name Terminal-Icons
