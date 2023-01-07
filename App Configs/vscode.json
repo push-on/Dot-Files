@@ -4,14 +4,12 @@
   "editor.formatOnType": true,
   "explorer.sortOrder": "type",
   "workbench.layoutControl.type": "menu",
-  "workbench.layoutControl.enabled": false,
   "workbench.startupEditor": "none",
   "terminal.integrated.cursorBlinking": true,
   "editor.minimap.renderCharacters": false,
   "explorer.confirmDragAndDrop": false,
   "explorer.confirmDelete": false,
   "files.enableTrash": false,
-  "editor.minimap.showSlider": "always",
   "editor.minimap.side": "left",
   "editor.minimap.enabled": false,
   "security.workspace.trust.untrustedFiles": "open",
@@ -31,7 +29,7 @@
   "files.associations": {
     "*.json": "jsonc",
     "*.js": "javascript",
-    "*.css": "tailwindcss",
+    "*.css": "css",
     "*.shl": "cpp"
   },
   "editor.codeLens": false,
@@ -47,7 +45,6 @@
   "debug.inlineValues": "on",
   "editor.suggest.showInlineDetails": false,
   "window.autoDetectColorScheme": true,
-  "errorLens.statusBarColorsEnabled": true,
   "workbench.editor.splitInGroupLayout": "vertical",
   "debug.internalConsoleOptions": "neverOpen",
   "debug.openDebug": "neverOpen",
@@ -56,9 +53,6 @@
   "less.lint.duplicateProperties": "warning",
   "scss.lint.duplicateProperties": "warning",
   "editor.suggest.showDeprecated": false,
-  "[css]": {
-    "editor.defaultFormatter": "vscode.css-language-features"
-  },
   "problems.showCurrentInStatus": true,
   "emmet.triggerExpansionOnTab": true,
   "editor.detectIndentation": false,
@@ -69,11 +63,11 @@
     "editor.defaultFormatter": "vscode.css-language-features"
   },
   "[jsonc]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "errorLens.gutterIconSet": "defaultOutline",
   "errorLens.gutterIconSize": "80%",
-  "workbench.reduceMotion": "off",
+  "workbench.reduceMotion": "on",
   "workbench.editor.highlightModifiedTabs": true,
   "scm.alwaysShowRepositories": true,
   "scm.alwaysShowActions": true,
@@ -83,13 +77,11 @@
   },
   "errorLens.fontStyleItalic": true,
   "editor.foldingMaximumRegions": 50000,
-  "javascript.format.semicolons": "remove",
-  "javascript.suggest.completeJSDocs": false,
+  "javascript.format.semicolons": "insert",
   "terminal.integrated.allowChords": false,
   "terminal.integrated.altClickMovesCursor": false,
   "terminal.integrated.cursorWidth": 3,
-  "typescript.format.semicolons": "remove",
-  "css.lint.unknownAtRules": "ignore",
+  "typescript.format.semicolons": "insert",
   "window.customMenuBarAltFocus": false,
   "window.enableMenuBarMnemonics": false,
   "[typescriptreact]": {
@@ -115,11 +107,7 @@
   "git.allowForcePush": true,
   "explorer.openEditors.visible": 0,
   "search.defaultViewMode": "tree",
-  "workbench.list.smoothScrolling": true,
-  "editor.smoothScrolling": true,
-  "terminal.integrated.smoothScrolling": true,
   "debug.console.fontFamily": " CaskaydiaCove NF mono, Cascadia code , Consolas",
-  "files.autoSave": "afterDelay",
   "explorer.compactFolders": false,
   "scm.defaultViewMode": "tree",
   "scm.countBadge": "off",
@@ -135,9 +123,7 @@
       "path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
       "source": "PowerShell",
       "icon": "terminal-powershell",
-      "args": [
-        "-NoLogo"
-      ]
+      "args": ["-NoLogo"]
     }
   },
   "terminal.integrated.fontSize": 18,
@@ -146,27 +132,38 @@
   "terminal.integrated.minimumContrastRatio": 1,
   "php.suggest.basic": false,
   "php.validate.enable": false,
-  "emmet.excludeLanguages": [
-    "markdown",
-    "php"
-  ],
+  "emmet.excludeLanguages": ["markdown", "php"],
   "browse-lite.startUrl": "http://localhost:3000/ ",
   "browse-lite.verbose": true,
   "diffEditor.wordWrap": "off",
   "terminal.integrated.gpuAcceleration": "on",
   "terminal.integrated.mouseWheelScrollSensitivity": 3,
-  "terminal.integrated.tabs.hideCondition": "never",
   "editor.suggest.shareSuggestSelections": true,
   "editor.suggestSelection": "recentlyUsedByPrefix",
-  "breadcrumbs.enabled": false,
   "errorLens.gutterIconsEnabled": true,
   "thunder-client.saveToWorkspace": true,
   "errorLens.enabled": true,
-  // "workbench.colorCustomizations": {
-  //   "statusBar.background": "#1A1A1A",
-  //   "statusBar.noFolderBackground": "#212121",
-  //   "statusBar.debuggingBackground": "#263238",
-  // },
+  "workbench.colorCustomizations": {
+    "editorCursor.foreground": "#ffff00",
+    // "notebook.cellEditorBackground": "#131c2a",
+    // "notebook.cellBorderColor": "#282f3e",
+    "statusBar.background": "#1e1e1e",
+    "statusBar.focusBorder": "#1e1e1e",
+    "statusBar.noFolderBackground": "#1e1e1e",
+    "statusBar.debuggingBackground": "#1e1e1e",
+    "editor.lineHighlightBackground": "#25262a",
+    "editor.lineHighlightBorder": "#25262a",
+    "editor.inlineValuesBackground": "#6b995534",
+    "editor.inlineValuesForeground": "#6a9955",
+    "editor.stackFrameHighlightBackground": "#22690149",
+    "editorBracketHighlight.foreground1": "#4ec0a5",
+    "editorBracketHighlight.foreground2": "#cc74cb",
+    "editorBracketHighlight.foreground3": "#8dafff",
+    "editorBracketHighlight.foreground4": "#d5d590",
+    "editorBracketHighlight.foreground5": "#de936d",
+    "editorBracketHighlight.foreground6": "#df8bf6",
+    "editorBracketHighlight.unexpectedBracket.foreground": "#ff5555"
+  },
   "editor.mouseWheelZoom": true,
   "html.format.wrapLineLength": 0,
   "html.format.wrapAttributes": "preserve",
@@ -175,12 +172,8 @@
   "svelte.plugin.svelte.format.config.svelteBracketNewLine": false,
   "svelte.enable-ts-plugin": true,
   "svelte.plugin.svelte.note-new-transformation": false,
-  "window.menuBarVisibility": "compact",
   "color-highlight.matchRgbWithNoFunction": true,
-  "workbench.preferredDarkColorTheme": "After Dark",
-  "workbench.preferredLightColorTheme": "After Dark",
   "typescript.updateImportsOnFileMove.enabled": "always",
-  "markdown.occurrencesHighlight.enabled": true,
   "markdown.preview.breaks": true,
   "markdown.validate.enabled": true,
   "[html]": {
@@ -204,22 +197,24 @@
   "debug.showInStatusBar": "never",
   "debug.showSubSessionsInToolBar": true,
   "terminal.integrated.enablePersistentSessions": false,
-  "terminal.integrated.tabs.enabled": false,
-  "terminal.explorerKind": "external",
   "terminal.external.windowsExec": "wt",
   "editor.inlayHints.enabled": "offUnlessPressed",
   "path-intellisense.autoSlashAfterDirectory": true,
   "path-intellisense.autoTriggerNextSuggestion": true,
-  "workbench.colorTheme": "After Dark",
   "editor.tokenColorCustomizations": {
-    "comments": "#6c8093"
+    // "comments": "#6c8093",
+    "textMateRules": [
+      {
+        "scope": "comment",
+        "settings": {
+          "fontStyle": "italic"
+        }
+      }
+    ]
   },
   "editor.foldingHighlight": false,
-  "reactSnippets.settings.importReactOnTop": false,
-  "update.showReleaseNotes": false,
-  "color-highlight.matchWords": true,
-  "window.zoomLevel": 3,
   "files.eol": "\n",
+  "color-highlight.matchWords": true,
   "python.analysis.autoImportCompletions": true,
   "python.analysis.autoImportUserSymbols": true,
   "python.analysis.completeFunctionParens": true,
@@ -246,11 +241,11 @@
         "commonjs": true,
         "browser": true,
         "node": true,
-        "es6": true,
+        "es2021": true,
         "worker": true
       },
       "parserOptions": {
-        "ecmaVersion": 2019,
+        "ecmaVersion": "latest",
         "sourceType": "module",
         "impliedStrict": true,
         "ecmaFeatures": {
@@ -285,9 +280,7 @@
         "use-isnan": "warn",
         "valid-typeof": "warn",
         "accessor-pairs": "warn",
-        "arrow-body-style": "warn",
         "curly": "warn",
-        "no-confusing-arrow": "warn",
         "class-methods-use-this": "warn",
         "block-scoped-var": "warn",
         "eqeqeq": "warn",
@@ -316,5 +309,82 @@
         "strict": "error"
       }
     }
-  }
+  },
+  "color-highlight.markRuler": false,
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.overviewRulerBorder": false,
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "right"
+  },
+  "material-icon-theme.hidesExplorerArrows": true,
+  "merge-conflict.autoNavigateNextConflict.enabled": true,
+  "npm.packageManager": "pnpm",
+  "path-intellisense.showHiddenFiles": true,
+  "javascript.suggest.completeFunctionCalls": true,
+  "C_Cpp.autocompleteAddParentheses": true,
+  "C_Cpp.configurationWarnings": "disabled",
+  "git.ignoreRebaseWarning": true,
+  "editor.accessibilitySupport": "off",
+  "editor.codeActionWidget.showHeaders": false,
+  "editor.snippets.codeActions.enabled": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": false,
+    "source.organizeImports": false
+  },
+  "editor.lightbulb.enabled": false,
+  "terminal.integrated.customGlyphs": false,
+  "terminal.integrated.tabs.defaultColor": "terminal.ansiGreen",
+  "css.lint.unknownAtRules": "ignore",
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "reactSnippets.settings.importReactOnTop": false,
+  "markdown.preview.typographer": true,
+  "markdown.updateLinksOnFileMove.enabled": "prompt",
+  "markdown.validate.fragmentLinks.enabled": "ignore",
+  "markdown.validate.referenceLinks.enabled": "ignore",
+  "window.menuBarVisibility": "compact",
+  "rust-analyzer.hover.actions.references.enable": true,
+  "svgPreview.autoOpen": false,
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.quickSuggestions": {
+      "other": "on",
+      "comments": "on",
+      "strings": "on"
+    },
+    "editor.wordWrap": "off"
+  },
+  "dictCompletion.addSpaceAfterCompletion": true,
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "terminal.integrated.tabs.showActions": "always",
+  "terminal.integrated.tabs.showActiveTerminal": "always",
+  "terminal.integrated.tabs.enableAnimation": false,
+  "workbench.list.smoothScrolling": true,
+  "editor.smoothScrolling": true,
+  "terminal.integrated.smoothScrolling": true,
+  "notebook.cellToolbarVisibility": "hover",
+  "jupyter.themeMatplotlibPlots": true,
+  "notebook.lineNumbers": "on",
+  "breadcrumbs.enabled": false,
+  "jupyter.enableExtendedKernelCompletions": true,
+  "scm.diffDecorations": "gutter",
+  "scm.diffDecorationsGutterWidth": 1,
+  "jupyter.generateSVGPlots": true,
+  "workbench.editor.languageDetectionHints": {
+    "untitledEditors": false,
+    "notebookEditors": false
+  },
+  "debug.console.collapseIdenticalLines": false,
+  "explorer.fileNesting.expand": false,
+  "files.autoSave": "afterDelay",
+  "workbench.layoutControl.enabled": false,
+  "window.zoomLevel": 2,
+  "[yaml]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "window.commandCenter": true
 }
