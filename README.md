@@ -52,11 +52,11 @@ irm get.scoop.sh | iex
 scoop bucket add extras
 scoop bucket add main
 scoop bucket add versions
+scoop bucket add java
 
 # dev dependency
 scoop install 7zip
 scoop install ffmpeg
-scoop install llvm
 scoop install stylua
 scoop install mingw
 scoop install llvm
@@ -64,6 +64,7 @@ scoop install clangd
 scoop install nodejs-lts
 scoop install git
 scoop install anaconda3
+scoop install microsoft-jdk
 
 # cli Tools
 scoop install lf
