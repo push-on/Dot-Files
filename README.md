@@ -109,3 +109,25 @@ npm i -g typescript-language-server
 npm i -g tree-sitter-cli
 npm i -g svelte-language-server
 ```
+
+## python packages (pip)
+```python
+pip install matplotlib
+pip install pandas
+pip install pipenv
+pip install jupyter
+pip install numpy
+
+# webdev
+pip install django
+
+# linter & intelisence
+pip install black
+pip install autopep8
+pip install jedi
+
+# neovim dependencies
+pip install pipwin
+pip install pynvim
+pip install python-lsp-server
+```
