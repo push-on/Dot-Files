@@ -1,0 +1,130 @@
+{
+  "Tailwind Config": {
+    "prefix": "Tailwind Config",
+    "body": [
+      "/** @type {import('tailwindcss').Config} */",
+      "module.exports = {",
+      "  content: [",
+      "    \"./index.html\",",
+      "    \"./src/**/*.{js,ts,jsx,tsx,html,svelte}\",",
+      "  ],",
+      "  theme: {",
+      "    extend: {},",
+      "  },",
+      "  plugins: [],",
+      "  darkMode: 'class'",
+      "};"
+    ],
+    "description": "Tailwind Config"
+  },
+  "for Loop": {
+    "prefix": "for",
+    "body": [
+      "for (let ${1:i} = ${2:0}; ${1:i} <${3:} ${4:n}; ${1:i}++) {",
+      "    ${5:}",
+      "}"
+    ],
+    "description": "for Loop"
+  },
+  "for Array": {
+    "prefix": "for arr",
+    "body": ["for (let entry of ${1:arr}) {", "    ${2:}", "}"],
+    "description": "for array"
+  },
+  "Create inline arrow function {}": {
+    "prefix": "fa",
+    "body": ["($1) => {$2}"],
+    "description": "Create an inline arrow function"
+  },
+  "Create inline arrow function ()": {
+    "prefix": "fa",
+    "body": ["($1) => ($2)"],
+    "description": "Create an inline arrow function"
+  },
+
+  "reactArrowFunctionComponent": {
+    "prefix": "rafc",
+    "body": [
+      "export const ${1:${TM_FILENAME_BASE}} = () => {",
+      "  return (",
+      "    <div>${1:first}</div>",
+      "  )",
+      "}",
+      ""
+    ],
+    "description": "React Arrow Function"
+  },
+  "useReducer": {
+    "prefix": "useReducer",
+    "body": [
+      "const [state, dispatch] = useReducer(${1:first}, ${2:second}, ${3:third})"
+    ]
+  },
+  "useRef": {
+    "prefix": "useRef",
+    "body": ["const ${1:first} = useRef(${2:second})"]
+  },
+  "useState": {
+    "prefix": "useState",
+    "body": [
+      "const [${1:first}, set${1/(.*)/${1:/capitalize}/}] = useState(${2:second})"
+    ]
+  },
+  "useLayoutEffect": {
+    "prefix": "useLayoutEffect",
+    "body": [
+      "useLayoutEffect(() => {",
+      "  ${1:first}",
+      "",
+      "  return () => {",
+      "    ${2:second}",
+      "  };",
+      "}, [${3:third}])"
+    ]
+  },
+  "useMemo": {
+    "prefix": "useMemo",
+    "body": ["useMemo(() => ${1:first}, [${2:second}])"]
+  },
+  "useCallback": {
+    "prefix": "useCallback",
+    "body": [
+      "useCallback(",
+      "  () => {",
+      "    ${1:first}",
+      "  },",
+      "  [${2:second}],",
+      ")",
+      ""
+    ]
+  },
+  "useContext": {
+    "prefix": "useContext",
+    "body": ["const ${1:first} = useContext(${2:second})"]
+  },
+  "useEffect": {
+    "prefix": "useEffect",
+    "body": [
+      "useEffect(() => {",
+      "  ${1:first}",
+      "",
+      "  return () => {",
+      "    ${2:second}",
+      "  }",
+      "}, [${3:third}])",
+      ""
+    ]
+  },
+  "useImperativeHandle": {
+    "prefix": "useImperativeHandle",
+    "body": [
+      "useImperativeHandle(",
+      "  ${1:first},",
+      "  () => {",
+      "    ${2:second}",
+      "  },",
+      "  [${3:third}],",
+      ")"
+    ]
+  }
+}
