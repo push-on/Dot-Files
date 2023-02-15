@@ -3,14 +3,6 @@
   "$schema": "https://aka.ms/terminal-profiles-schema",
   "actions": [
     {
-      "command": "find",
-      "keys": "ctrl+shift+f"
-    },
-    {
-      "command": "paste",
-      "keys": "ctrl+v"
-    },
-    {
       "command": {
         "action": "copy",
         "singleLine": false
@@ -18,18 +10,155 @@
       "keys": "ctrl+c"
     },
     {
+      "command": "paste",
+      "keys": "ctrl+v"
+    },
+    {
+      "command": {
+        "action": "newTab",
+        "index": 1
+      },
+      "keys": "ctrl+2"
+    },
+    {
+      "command": "duplicateTab",
+      "keys": "ctrl+d"
+    },
+    {
+      "command": "find",
+      "keys": "ctrl+f"
+    },
+    {
+      "command": {
+        "action": "newTab",
+        "index": 2
+      },
+      "keys": "alt+3"
+    },
+    {
+      "command": "unbound",
+      "keys": "alt+f4"
+    },
+    {
+      "command": "unbound",
+      "keys": "ctrl+insert"
+    },
+    {
+      "command": "unbound",
+      "keys": "enter"
+    },
+    {
+      "command": "unbound",
+      "keys": "ctrl+shift+c"
+    },
+    {
+      "command": "unbound",
+      "keys": "ctrl+numpad_minus"
+    },
+    {
+      "command": "unbound",
+      "keys": "alt+shift+d"
+    },
+    {
+      "command": "unbound",
+      "keys": "ctrl+shift+d"
+    },
+    {
+      "command": "unbound",
+      "keys": "ctrl+shift+f"
+    },
+    {
+      "command": "unbound",
+      "keys": "ctrl+numpad_plus"
+    },
+    {
+      "command": "unbound",
+      "keys": "ctrl+alt+left"
+    },
+    {
+      "command": "unbound",
+      "keys": "ctrl+shift+t"
+    },
+    {
+      "command": "unbound",
+      "keys": "ctrl+shift+1"
+    },
+    {
+      "command": "unbound",
+      "keys": "ctrl+shift+2"
+    },
+    {
+      "command": "unbound",
+      "keys": "ctrl+1"
+    },
+    {
+      "command": "unbound",
+      "keys": "ctrl+shift+3"
+    },
+    {
+      "command": "unbound",
+      "keys": "ctrl+shift+n"
+    },
+    {
+      "command": "unbound",
+      "keys": "ctrl+alt+comma"
+    },
+    {
+      "command": "unbound",
+      "keys": "ctrl+shift+space"
+    },
+    {
+      "command": "unbound",
+      "keys": "ctrl+shift+v"
+    },
+    {
+      "command": "unbound",
+      "keys": "shift+insert"
+    },
+    {
+      "command": "unbound",
+      "keys": "ctrl+numpad0"
+    },
+    {
       "command": {
         "action": "splitPane",
         "split": "auto",
         "splitMode": "duplicate"
+      }
+    },
+    {
+      "command": {
+        "action": "newTab"
       },
-      "keys": "alt+shift+d"
+      "keys": "ctrl+t"
+    },
+    {
+      "command": {
+        "action": "closeTab"
+      },
+      "keys": "ctrl+w"
+    },
+    {
+      "command": {
+        "action": "newTab",
+        "index": 0
+      },
+      "keys": "alt+1"
+    },
+    {
+      "command": "closePane",
+      "keys": "ctrl+shift+w"
+    },
+    {
+      "command": {
+        "action": "newWindow"
+      },
+      "keys": "ctrl+n"
     }
   ],
   "copyFormatting": "none",
   "copyOnSelect": false,
-  "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
-  "firstWindowPreference": "defaultProfile",
+  "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
   "initialCols": 100,
   "initialPosition": "750,350",
   "initialRows": 26,
@@ -41,43 +170,30 @@
         "face": "CaskaydiaCove NF Mono",
         "size": 14
       },
-      "opacity": 90,
-      "startingDirectory": "C:\\Users\\Administrator\\Desktop",
-      "tabColor": "#000000",
+      "opacity": 70,
+      "padding": "4",
+      "startingDirectory": "C:\\Users\\zero\\Desktop",
       "useAcrylic": true
     },
     "list": [
       {
-        "commandline": "powershell.exe -nologo",
+        "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe --nologo",
         "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
         "hidden": false,
         "name": "Windows PowerShell"
       },
       {
-        "altGrAliasing": true,
-        "antialiasingMode": "grayscale",
-        "closeOnExit": "automatic",
-        "commandline": "%windir%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -ExecutionPolicy ByPass -NoExit -Command \"& 'C:\\Users\\Administrator\\miniconda3\\shell\\condabin\\conda-hook.ps1' ; conda activate 'C:\\Users\\Administrator\\miniconda3' \"",
-        "guid": "{8f2f2de8-9d48-4326-bbe8-496dc0fde903}",
-        "hidden": false,
-        "historySize": 9001,
-        "icon": "ms-appx:///ProfileIcons/{61c54bbd-c2c6-5271-96e7-009a87ff44bf}.png",
-        "name": "Conda",
-        "padding": "8, 8, 8, 8",
-        "snapOnInput": true,
-        "tabTitle": "Conda"
-      },
-      {
-        "commandline": "cmd.exe -nologo",
+        "commandline": "%SystemRoot%\\System32\\cmd.exe",
         "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
         "hidden": false,
         "name": "Command Prompt"
       },
       {
-        "guid": "{46ca431a-3a87-5fb3-83cd-11ececc031d2}",
+        "commandline": "\"C:\\Program Files\\PowerShell\\7\\pwsh.exe\" --nologo",
+        "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
         "hidden": false,
-        "name": "kali-linux",
-        "source": "Windows.Terminal.Wsl"
+        "name": "PowerShell",
+        "source": "Windows.Terminal.PowershellCore"
       }
     ]
   },
@@ -129,7 +245,7 @@
       "yellow": "#C19C00"
     },
     {
-      "background": "#040C1A",
+      "background": "#0E1533",
       "black": "#282C34",
       "blue": "#61AFEF",
       "brightBlack": "#5A6374",
@@ -290,6 +406,7 @@
       "yellow": "#808000"
     }
   ],
+  "themes": [],
   "useAcrylicInTabRow": true,
   "windowingBehavior": "useExisting"
 }
