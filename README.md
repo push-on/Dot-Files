@@ -1,7 +1,7 @@
 ## [pwsh](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.3#winget) Modules
 
 ```ps1
-# script permission 
+# script permission
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 # powershell extenitons
@@ -23,10 +23,13 @@ npm remove -g packageName
 npm i -g npm@latest
 npm i -g pnpm
 npm i -g nodemon
+npm i -g ts-node
 npm i -g typescript
 npm i -g eslint
 
-# Dev dependency 
+npm i -g @sanity/cli
+
+# Dev dependency
 # front end
 pnpm i @material-tailwind/react
 
@@ -111,6 +114,7 @@ npm i -g svelte-language-server
 ```
 
 ## python packages (pip)
+
 ```python
 pip install matplotlib
 pip install pandas

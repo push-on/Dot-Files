@@ -37,7 +37,7 @@
     "description": "Create an inline arrow function"
   },
   "Create inline arrow function ()": {
-    "prefix": "fa",
+    "prefix": "faa",
     "body": ["($1) => ($2)"],
     "description": "Create an inline arrow function"
   },
