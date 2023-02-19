@@ -135,3 +135,14 @@ npm i -g typescript-language-server
 npm i -g tree-sitter-cli
 npm i -g svelte-language-server
 ```
+
+## Debian packages
+
+```bash
+# check update
+apt list --upgradable
+sudo apt update
+sudo apt upgrade
+# essentials
+sudo apt install build-essential
+```
