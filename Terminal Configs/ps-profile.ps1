@@ -1,5 +1,4 @@
-# Import-Module -Name Terminal-Icons
-oh-my-posh init pwsh --config "D:\Apps\win.omp.json" | Invoke-Expression
+Invoke-Expression (&starship init powershell)
 Set-PSReadLineOption -PredictionSource History
 Set-PSReadLineOption -PredictionViewStyle ListView
 
