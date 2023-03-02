@@ -18,17 +18,12 @@ powercfg.exe /hibernate off
 ```bash
 # list installed Packages
 npm list -g --depth=0
+
 # uninsatall pagages
 npm remove -g packageName
-# global dependencys
-npm i -g npm@latest
-npm i -g pnpm
-npm i -g nodemon
-npm i -g ts-node
-npm i -g typescript
-npm i -g eslint
 
-npm i -g @sanity/cli
+# global dependencys
+npm i -g npm@latest pnpm nodemon ts-node typescript eslint @sanity/cli
 
 # Dev dependency
 # front end
