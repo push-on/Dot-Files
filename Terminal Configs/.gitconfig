@@ -1,21 +1,23 @@
 # .gitconfig
+
 [user]
-	name = 
-	email = 
+	name = mhimranhossain
+	email = mh.imranhossain@outlook.com
 [code]
 	editor = code --wait
 	autocrlf = true
 [diff]
-  tool = vscode
+  tool = code
 [difftool "vscode"]
   cmd = code --wait --diff $LOCAL $REMOTE
 [merge]
-  tool = vscode
+  tool = code
 [mergetool "vscode"]
   cmd = code --wait $MERGED
 [safe]
     directory = *
 [core]
+	editor = code
 	autocrlf = true
 	safecrlf = false
 [push]
