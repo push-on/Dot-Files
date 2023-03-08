@@ -36,6 +36,11 @@
     "body": ["($1) => {$2}"],
     "description": "Create an inline arrow function"
   },
+  "Create inline arrow function": {
+    "prefix": "faf",
+    "body": ["($1) => $2"],
+    "description": "Create an inline arrow function"
+  },
   "Create inline arrow function ()": {
     "prefix": "faa",
     "body": ["($1) => ($2)"],
