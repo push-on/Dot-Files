@@ -23,7 +23,7 @@ npm list -g --depth=0
 npm remove -g packageName
 
 # global dependencys
-npm i -g npm@latest pnpm nodemon ts-node typescript eslint @sanity/cli
+npm i -g npm@latest pnpm nodemon ts-node typescript eslint @sanity/cli neovim prettier bash-language-server dockerfile-language-server-nodejs vscode-langservers-extracted typescript-language-server tree-sitter-cli svelte-language-server
 
 # Dev dependency
 # front end
@@ -39,7 +39,7 @@ pn i morgan
 ## python packages (pip)
 
 ```python
-pip install matplotlib pandas pipenv jupyter numpy django black autopep8 jedi
+pip install matplotlib pandas pipenv jupyter numpy django black autopep8 jedi pynvim python-lsp-server
 ```
 
 ## [scoop](https://scoop.sh/)
@@ -54,7 +54,7 @@ scoop bucket add main
 scoop bucket add versions
 
 # dev dependency
-scoop install 7zip ffmpeg mingw llvm clangd nodejs-lts git deno starship
+scoop install 7zip ffmpeg mingw llvm clangd nodejs-lts git deno starship stylua
 
 # desktop apps
 scoop install blender krita obs-studio godot imageglass naps2 obsidian xnconvert twinkle-tray everything bulk-rename-utility mp3tag
