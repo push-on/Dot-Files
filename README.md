@@ -39,7 +39,7 @@ pn i morgan
 ## python packages (pip)
 
 ```python
-pip install matplotlib pandas pipenv jupyter numpy django black autopep8 jedi pynvim python-lsp-server
+py -m pip install matplotlib pandas pipenv jupyter numpy django black autopep8 jedi pynvim python-lsp-server scikit-learn
 ```
 
 ## [scoop](https://scoop.sh/)
@@ -54,7 +54,7 @@ scoop bucket add main
 scoop bucket add versions
 
 # dev dependency
-scoop install 7zip ffmpeg mingw llvm clangd nodejs-lts git deno starship stylua
+scoop install 7zip ffmpeg mingw llvm clangd deno starship stylua
 
 # desktop apps
 scoop install blender krita obs-studio godot imageglass naps2 obsidian xnconvert twinkle-tray everything bulk-rename-utility mp3tag

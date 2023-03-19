@@ -1,0 +1,74 @@
+window:
+  dimensions:
+    columns: 100
+    lines: 20
+  position:
+    x: 650
+    y: 350
+  #opacity: 1.0
+  title: Alacritty
+  dynamic_title: true
+scrolling:
+  history: 10000
+  multiplier: 3
+font:
+  normal:
+    Default: CaskaydiaCove NF Mono
+    family: CaskaydiaCove NF Mono
+  bold:
+    family: CaskaydiaCove NF Mono
+  italic:
+    family: CaskaydiaCove NF Mono
+  bold_italic:
+    family: CaskaydiaCove NF Mono
+  size: 16.0
+  builtin_box_drawing: true
+
+colors:
+  #primary:
+  #  background: '#1d1f21'
+  #  foreground: '#c5c8c6'
+  normal:
+    black: "#1d1f21"
+    red: "#cc6666"
+    green: "#b5bd68"
+    yellow: "#f0c674"
+    blue: "#81a2be"
+    magenta: "#b294bb"
+    cyan: "#8abeb7"
+    white: "#c5c8c6"
+
+  bright:
+    black: "#666666"
+    red: "#d54e53"
+    green: "#b9ca4a"
+    yellow: "#e7c547"
+    blue: "#7aa6da"
+    magenta: "#c397d8"
+    cyan: "#70c0b1"
+    white: "#eaeaea"
+
+  dim:
+    black: "#131415"
+    red: "#864343"
+    green: "#777c44"
+    yellow: "#9e824c"
+    blue: "#556a7d"
+    magenta: "#75617b"
+    cyan: "#5b7d78"
+    white: "#828482"
+
+cursor:
+  style:
+    shape: Block
+    blinking: Always
+  blink_interval: 300
+  thickness: 0.15
+
+shell:
+  program: C:\\Program Files\\PowerShell\\7\\pwsh.exe
+  args:
+    - -nologo
+working_directory: C:\\Users\\zero\\Desktop
+mouse:
+  hide_when_typing: true

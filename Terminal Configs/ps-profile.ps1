@@ -22,18 +22,17 @@ Set-PSReadLineOption -Colors @{
 function showList {
   Get-ChildItem | Format-Wide
 }
-function Get-WebContent {
-  param([string]$Uri)
-  return (Invoke-WebRequest -Uri $Uri).Content
-}
+
 function addCommit {
   git add .
   git commit -m "Update $(Get-Date)"
 }
+
 function addCommitPush {
   addCommit
   git push
 }
+
 Set-Alias add_commit_push addCommitPush
 Set-Alias add_commit addCommit
 
