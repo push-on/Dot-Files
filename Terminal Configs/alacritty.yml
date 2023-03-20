@@ -72,3 +72,5 @@ shell:
 working_directory: C:\\Users\\zero\\Desktop
 mouse:
   hide_when_typing: true
+mouse_bindings:
+  - { mouse: Right, action: Paste }
