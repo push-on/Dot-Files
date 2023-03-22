@@ -33,9 +33,13 @@ function addCommitPush {
   git push
 }
 
+function nvimgui {
+  neovide --multigrid
+}
+
 Set-Alias add_commit_push addCommitPush
 Set-Alias add_commit addCommit
-
+Set-Alias vi nvimgui
 Set-Alias la showList
 Set-Alias -name pn -value pnpm
 Set-Alias -name fwc -value Get-WebContent
