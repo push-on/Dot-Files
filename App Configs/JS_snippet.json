@@ -59,6 +59,11 @@
     ],
     "description": "React Arrow Function"
   },
+  "React Function Component": {
+    "prefix": "rfc",
+    "body": ["export function ${1:Name}() {", "  return (${2:null})", "}"],
+    "description": "React Function Component"
+  },
   "useReducer": {
     "prefix": "useReducer",
     "body": [

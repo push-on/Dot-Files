@@ -1,0 +1,76 @@
+:root {
+  color-scheme: light dark;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: none;
+}
+
+html,
+body {
+  margin: 0;
+  width: 100%;
+  overflow: hidden;
+  background-color: black;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+canvas,
+button,
+select,
+input,
+iframe,
+textarea {
+  border: none;
+  outline: none;
+}
+
+button:hover,
+input[type="submit"]:hover {
+  cursor: pointer;
+}
+
+img,
+object,
+video {
+  max-width: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+li,
+ul {
+  list-style: none;
+}
+
+input:not([type="checkbox"], [type="radio"]) {
+  width: 100%;
+}
+
+input:not([type="checkbox"], [type="radio"], [type="range"], [type="file"]) {
+  padding: 0.75rem 1rem;
+}
+
+:where(input, select, textarea)+small {
+  display: block;
+}
+
+button {
+  background-color: white;
+  color: black
+}
+
+.webgl {
+  position: fixed;
+}
