@@ -13,7 +13,6 @@ html,
 body {
   margin: 0;
   width: 100%;
-  overflow: hidden;
   background-color: black;
 }
 
@@ -66,7 +65,8 @@ input:not([type="checkbox"], [type="radio"], [type="range"], [type="file"]) {
   display: block;
 }
 
-button {
+button,
+input {
   text-transform: capitalize;
   font-size: 1.5rem;
   border: 1px solid white;
@@ -76,4 +76,28 @@ button {
   padding-bottom: 10px;
   padding-left: 20px;
   padding-right: 20px;
+}
+
+.wh-full {
+  width: 100%;
+  height: 100vh;
+}
+
+.my {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.mx {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.flex {
+  display: flex;
+
+}
+
+.border {
+  border: 1px solid white;
 }
