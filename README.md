@@ -67,3 +67,11 @@ scoop status
 scoop update
 scoop update *
 ```
+
+## [Astro Nvim]
+
+```ps1
+scoop install neovim neovide
+git clone --depth 1 https://github.com/AstroNvim/AstroNvim $env:LOCALAPPDATA\nvim
+git clone https://github.com/push-on/astro.git $env:LOCALAPPDATA\nvim\lua\user
+```
