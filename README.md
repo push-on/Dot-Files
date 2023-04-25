@@ -1,3 +1,9 @@
+# Dot file locations
+### ___lf___ 
+`C:\Users\zero\AppData\Local\lf`
+### ___alacritty___
+`C:\Users\zero\AppData\Roaming\alacritty`
+
 ## ✨ link to [CSS](https://github.com/push-on/Dot-Files/blob/main/CSS/style.css) template
 
 ## [pwsh](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.3#winget) Modules
