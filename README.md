@@ -47,7 +47,7 @@ pn i morgan
 ## python packages (pip)
 
 ```python
-py -m pip install matplotlib pandas pipenv jupyter numpy django black autopep8 jedi pynvim python-lsp-server scikit-learn
+pip install matplotlib pandas pipenv jupyter numpy django black autopep8 jedi pynvim python-lsp-server scikit-learn
 ```
 
 ## [scoop](https://scoop.sh/)
