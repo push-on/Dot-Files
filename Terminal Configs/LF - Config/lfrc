@@ -48,4 +48,4 @@ map C clear
 map dd trash
 map dr restore_trash
 
-map <enter> $nvim $Env:f
+map <enter> $hx $Env:f
