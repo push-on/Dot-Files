@@ -37,9 +37,25 @@ function nvimgui {
   neovide --multigrid
 }
 
+
+function lf_cd {
+
+$tmp = [System.IO.Path]::GetTempFileName()
+lf -last-dir-path="$tmp" $args
+if (Test-Path -PathType Leaf "$tmp") {
+    $dir = Get-Content "$tmp"
+    Remove-Item -Force "$tmp"
+    if (Test-Path -PathType Container "$dir") {
+        if ("$dir" -ne "$pwd") {
+            cd "$dir"
+        }
+    }
+}
+}
+
+Set-Alias lfcd lf_cd
 Set-Alias add_commit_push addCommitPush
 Set-Alias add_commit addCommit
-Set-Alias vi nvimgui
 Set-Alias la showList
 Set-Alias -name pn -value pnpm
 Set-Alias -name fwc -value Get-WebContent
