@@ -28,25 +28,34 @@
   },
   "for Array": {
     "prefix": "for arr",
-    "body": ["for (let entry of ${1:arr}) {", "    ${2:}", "}"],
+    "body": [
+      "for (let entry of ${1:arr}) {",
+      "    ${2:}",
+      "}"
+    ],
     "description": "for array"
   },
   "Create inline arrow function {}": {
     "prefix": "fa",
-    "body": ["($1) => {$2}"],
+    "body": [
+      "($1) => {$2}"
+    ],
     "description": "Create an inline arrow function"
   },
   "Create inline arrow function": {
     "prefix": "faf",
-    "body": ["($1) => $2"],
+    "body": [
+      "($1) => $2"
+    ],
     "description": "Create an inline arrow function"
   },
   "Create inline arrow function ()": {
     "prefix": "faa",
-    "body": ["($1) => ($2)"],
+    "body": [
+      "($1) => ($2)"
+    ],
     "description": "Create an inline arrow function"
   },
-
   "reactArrowFunctionComponent": {
     "prefix": "rafc",
     "body": [
@@ -61,7 +70,11 @@
   },
   "React Function Component": {
     "prefix": "rfc",
-    "body": ["export function ${1:Name}() {", "  return (${2:null})", "}"],
+    "body": [
+      "export function ${1:Name}() {",
+      "  return (${2:null})",
+      "}"
+    ],
     "description": "React Function Component"
   },
   "Typescript React Function Component": {
@@ -89,7 +102,9 @@
   },
   "useRef": {
     "prefix": "useRef",
-    "body": ["const ${1:first} = useRef(${2:second})"]
+    "body": [
+      "const ${1:first} = useRef(${2:second})"
+    ]
   },
   "useState": {
     "prefix": "useState",
@@ -111,7 +126,9 @@
   },
   "useMemo": {
     "prefix": "useMemo",
-    "body": ["useMemo(() => ${1:first}, [${2:second}])"]
+    "body": [
+      "useMemo(() => ${1:first}, [${2:second}])"
+    ]
   },
   "useCallback": {
     "prefix": "useCallback",
@@ -127,7 +144,9 @@
   },
   "useContext": {
     "prefix": "useContext",
-    "body": ["const ${1:first} = useContext(${2:second})"]
+    "body": [
+      "const ${1:first} = useContext(${2:second})"
+    ]
   },
   "useEffect": {
     "prefix": "useEffect",

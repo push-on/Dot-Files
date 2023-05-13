@@ -25,7 +25,7 @@
   "git.autofetch": true,
   "git.enableSmartCommit": true,
   "git.showPushSuccessNotification": true,
-  "editor.fontFamily": " CaskaydiaCove NF mono, Cascadia code , Consolas",
+  "editor.fontFamily": "CaskaydiaCove NF mono, Cascadia code , Consolas",
   "terminal.integrated.fontFamily": "CaskaydiaCove NF mono, Cascadia Mono, Consolas",
   "editor.fontLigatures": true,
   "files.associations": {
@@ -62,7 +62,7 @@
     "editor.defaultFormatter": "vscode.css-language-features"
   },
   "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "vscode.json-language-features"
   },
   "errorLens.gutterIconSet": "defaultOutline",
   "errorLens.gutterIconSize": "80%",
@@ -77,7 +77,6 @@
   "editor.foldingMaximumRegions": 50000,
   "javascript.format.semicolons": "remove",
   "terminal.integrated.altClickMovesCursor": false,
-  "terminal.integrated.cursorWidth": 3,
   "typescript.format.semicolons": "remove",
   "window.customMenuBarAltFocus": false,
   "window.enableMenuBarMnemonics": false,
@@ -92,7 +91,6 @@
   },
   "terminal.integrated.enableMultiLinePasteWarning": false,
   "git.postCommitCommand": "push",
-
   "audioCues.lineHasInlineSuggestion": "off",
   "terminal.integrated.confirmOnKill": "never",
   "terminal.integrated.copyOnSelection": true,
@@ -118,7 +116,9 @@
       "path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
       "source": "PowerShell",
       "icon": "terminal-powershell",
-      "args": ["-NoLogo"]
+      "args": [
+        "-NoLogo"
+      ]
     }
   },
   "terminal.integrated.fontSize": 18,
@@ -126,7 +126,10 @@
   "terminal.integrated.minimumContrastRatio": 1,
   "php.suggest.basic": false,
   "php.validate.enable": false,
-  "emmet.excludeLanguages": ["markdown", "php"],
+  "emmet.excludeLanguages": [
+    "markdown",
+    "php"
+  ],
   "diffEditor.wordWrap": "off",
   "terminal.integrated.gpuAcceleration": "on",
   "terminal.integrated.mouseWheelScrollSensitivity": 3,
@@ -139,19 +142,11 @@
     "statusBarItem.remoteBackground": "#181818",
     "statusBarItem.remoteForeground": "#ccc",
     "statusBar.focusBorder": "#000000",
-    "statusBar.noFolderBackground": "#1e1e1e",
+    "statusBar.noFolderBackground": "#4c4c4c",
     "statusBar.debuggingBackground": "#1e1e1e",
-
-    // "editor.inlineValuesBackground": "#6b995534",
-    // "editor.inlineValuesForeground": "#6a9955",
-    // "editor.stackFrameHighlightBackground": "#22690149",
-
-    "editorBracketHighlight.foreground1": "#4ec0a5",
-    "editorBracketHighlight.foreground2": "#cc74cb",
-    "editorBracketHighlight.foreground3": "#8dafff",
-    "editorBracketHighlight.foreground4": "#d5d590",
-    "editorBracketHighlight.foreground5": "#de936d",
-    "editorBracketHighlight.foreground6": "#df8bf6",
+    "editor.inlineValuesBackground": "#6b995534",
+    "editor.inlineValuesForeground": "#6a9955",
+    "editor.stackFrameHighlightBackground": "#22690149",
     "editorBracketHighlight.unexpectedBracket.foreground": "#ff5555"
   },
   "editor.mouseWheelZoom": true,
@@ -161,7 +156,6 @@
   "svelte.plugin.svelte.format.config.singleQuote": true,
   "svelte.plugin.svelte.format.config.svelteBracketNewLine": false,
   "svelte.enable-ts-plugin": true,
-
   "typescript.updateImportsOnFileMove.enabled": "always",
   "markdown.preview.breaks": true,
   "markdown.validate.enabled": true,
@@ -187,7 +181,6 @@
   "debug.showSubSessionsInToolBar": true,
   "terminal.integrated.enablePersistentSessions": false,
   "terminal.external.windowsExec": "wt",
-
   "path-intellisense.autoSlashAfterDirectory": true,
   "path-intellisense.autoTriggerNextSuggestion": true,
   "editor.tokenColorCustomizations": {
@@ -222,7 +215,6 @@
     "default": "right",
     "jupyter-notebook": "right"
   },
-
   "material-icon-theme.hidesExplorerArrows": true,
   "merge-conflict.autoNavigateNextConflict.enabled": true,
   "npm.packageManager": "pnpm",
@@ -284,7 +276,6 @@
   "markdown.preview.scrollEditorWithPreview": false,
   "markdown.preview.scrollPreviewWithEditor": false,
   "editor.autoClosingBrackets": "always",
-
   "[json]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
@@ -297,10 +288,8 @@
   "emmet.useInlineCompletions": true,
   "prettier.semi": false,
   "git.openRepositoryInParentFolders": "never",
-
   "workbench.iconTheme": "material-icon-theme",
   "debug.console.closeOnEnd": true,
-  "workbench.colorTheme": "Default Dark+ Experimental",
   "terminal.integrated.defaultLocation": "editor",
   "terminal.integrated.shellIntegration.decorationsEnabled": "never",
   "terminal.integrated.smoothScrolling": true,
@@ -352,7 +341,6 @@
         "no-self-compare": "warn",
         "no-setter-return": "warn",
         "no-sparse-arrays": "warn",
-
         "no-unexpected-multiline": "warn",
         "no-unmodified-loop-condition": "warn",
         "no-unreachable": "warn",
@@ -362,7 +350,6 @@
         "use-isnan": "warn",
         "valid-typeof": "warn",
         "accessor-pairs": "warn",
-
         "class-methods-use-this": "warn",
         "block-scoped-var": "warn",
         "eqeqeq": "warn",
@@ -393,19 +380,31 @@
     }
   },
   "terminal.integrated.env.windows": {},
-
   "editor.suggest.showInlineDetails": false,
   "errorLens.statusBarColorsEnabled": true,
   "errorLens.editorHoverPartsEnabled": {
     "buttonsEnabled": false
   },
-  "files.autoSave": "afterDelay",
   "telemetry.telemetryLevel": "off",
-  "editor.cursorWidth": 2,
   "csharp.inlayHints.types.enabled": true,
   "editor.inlayHints.enabled": "offUnlessPressed",
   "workbench.sideBar.location": "right",
   "typescript.enablePromptUseWorkspaceTsdk": false,
   "typescript.suggest.completeFunctionCalls": true,
-  "editor.parameterHints.enabled": false
+  "editor.parameterHints.enabled": false,
+  "editor.inlineSuggest.enabled": false,
+  "editor.inlineSuggest.suppressSuggestions": false,
+  "window.zoomLevel": 2,
+  "cSpell.userWords": [
+    "Behaviour",
+    "Mathf",
+    "tailwindcss",
+    "Ummah",
+    "upstash",
+    "webp"
+  ],
+  "godot_tools.gdscript_lsp_server_port": 6005,
+  "godot_tools.reconnect_attempts": 5,
+  "godot_tools.editor_path": "\"C:\\Users\\zero\\scoop\\apps\\godot\\current\\godot.exe\"",
+  "files.autoSave": "afterDelay",
 }
