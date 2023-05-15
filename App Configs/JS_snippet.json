@@ -68,14 +68,17 @@
     ],
     "description": "React Arrow Function"
   },
-  "React Function Component": {
+  "reactDefaultFunctionComponent": {
     "prefix": "rfc",
     "body": [
-      "export function ${1:Name}() {",
-      "  return (${2:null})",
-      "}"
+      "export default function ${1:${TM_FILENAME_BASE}} () {",
+      "  return (",
+      "    <div>${1:first}</div>",
+      "  )",
+      "}",
+      ""
     ],
-    "description": "React Function Component"
+    "description": "React Default Function"
   },
   "Typescript React Function Component": {
     "prefix": "fc",
