@@ -14,6 +14,9 @@ Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 # system imfo cli script
 Install-Script winfetch
+
+# Completion Predictor
+Install-Module -Name CompletionPredictor
 ```
 
 ```ps1

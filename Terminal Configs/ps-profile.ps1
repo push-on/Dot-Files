@@ -1,7 +1,7 @@
 Invoke-Expression (&starship init powershell)
-Set-PSReadLineOption -PredictionSource History
-Set-PSReadLineOption -PredictionViewStyle ListView
-
+Set-PSReadLineOption -PredictionSource HistoryAndPlugin
+Import-Module CompletionPredictor
+Set-PSReadLineOption -PredictionViewStyle list
 Set-PSReadLineOption -Colors @{
   Default            = '#98C379'
   Command            = '#61AFEF'
@@ -17,6 +17,7 @@ Set-PSReadLineOption -Colors @{
   Parameter          = '#e6a26f'
   Variable           = '#E06C75'
   Emphasis           = '#98C379'
+  InlinePrediction   = '#E5C07B'
 }
 
 function showList {
@@ -33,29 +34,7 @@ function addCommitPush {
   git push
 }
 
-function nvimgui {
-  neovide --multigrid
-}
-
-
-function lf_cd {
-
-$tmp = [System.IO.Path]::GetTempFileName()
-lf -last-dir-path="$tmp" $args
-if (Test-Path -PathType Leaf "$tmp") {
-    $dir = Get-Content "$tmp"
-    Remove-Item -Force "$tmp"
-    if (Test-Path -PathType Container "$dir") {
-        if ("$dir" -ne "$pwd") {
-            cd "$dir"
-        }
-    }
-}
-}
-
-Set-Alias lfcd lf_cd
 Set-Alias add_commit_push addCommitPush
 Set-Alias add_commit addCommit
 Set-Alias la showList
 Set-Alias -name pn -value pnpm
-Set-Alias -name fwc -value Get-WebContent
