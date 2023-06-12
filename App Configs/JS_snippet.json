@@ -90,7 +90,11 @@
       "}",
       "",
       "const $TM_FILENAME_BASE: FC<${TM_FILENAME_BASE}Props> = ({$2}) => {",
-      "  return <div>$TM_FILENAME_BASE</div>",
+      "  return (",
+      "    <div>",
+      "      <h1 className='text-3xl font-bold underline'>$TM_FILENAME_BASE</h1>",
+      "    </div>",
+      "  )",
       "}",
       "",
       "export default $TM_FILENAME_BASE"
