@@ -1,0 +1,586 @@
+adb devices
+adb shell
+add .
+Add-PoshGitToProfile -AllHosts
+add_commit
+add_commit_push
+bun
+cargo
+cargo -v
+cargo build
+cargo new my-rust-app
+cargo run
+cargo tauri build --target
+cargo update
+clear
+deno
+deno --help
+deno --version
+deno task dev
+deno upgrade
+echo hello > file.txt
+explorer.exe .
+find-module psreadline -allversions -allowprerelease
+fs
+fwc http://localhost:8080
+git
+git --version
+git add
+git add -A
+git add .
+git add .a
+git add README.md
+git bisect start
+git blame -e -L 1,3 audience.txt
+git blame -e audience.txt
+git blame audience.txt
+git branch
+git branch --delete minimal
+git branch -a
+git branch -m
+git checkout feature
+git checkout lession-9
+git checkout main
+git checkout master
+git checkout minimal
+git checkout origin/03-basics
+git checkout origin/lesson-9
+git checkout origin/lesson-11
+git checkout origin/trpc-node-react-setup
+git commit -m
+git commit -m "added routes and models"
+git commit -m "final commit"
+git commit -m "first commit"
+git commit -m "readme"
+git config --global
+git config --global --add --bool push.autoSetupRemote true
+git config --global -e
+git config -e
+git diff
+git diff --staged
+git diff --stagedGet-PoshThemes
+git diff HEAD~2 HEAD
+git diff master..bugfix-signup-form
+git difftool
+git difftool --staged
+git help config
+git init
+git int
+git log
+git log --oneline
+git log --oneline --all
+git log --oneline --all --graph
+git log --oneline --reverse
+git log --oneline -stats
+git log --summary
+git ls
+git ls-files
+git ls-files -h
+git ls-files -help
+git ls-tree
+git ls-tree -d
+git ls-tree HEAD~1
+git marge bugfix
+git merge
+git merge bugfix
+git pull
+git pull main
+git pull origin
+git pull origin-main
+git pull origin/main
+git push
+git push -u origin
+git push -u origin main
+git push origin
+git push origin --delete
+git push origin -–delete minimal
+git push origin -–delete minimal -f
+git push origin -–delete minimal command
+git push origin bugfix -d
+git push origin minimal -d
+git push origin –delete minimal
+git push origin –delete minimal -f
+git remote add origin
+git remote set-url origin
+git restore --source=HEAD~1 fielx.txt
+git restore --source=HEAD~1 filex.txt
+git restore --staged file1.txt
+git restore --staged file3.txt
+git restore -h
+git restore -S
+git restore -s
+git restore -s -a
+git restore -s .
+git restore -s file3.txt
+git restore .
+git rm --cached
+git rm -r
+git rm file3.txt
+git rm file3.txt -f
+git rm file4.txt -f
+git rm filex.txt
+git rm toc.txt
+git shortlog
+git shortlog -n -s -e
+git show 20527e5
+git show HEAD~1
+git show HEAD~1:.gitignore
+git show HEAD~2
+git show HEAD~3
+git show HEAD~4
+git show HEAD~5
+git show HEAD~6
+git stash
+git stash clear
+git stash push -am "adding new file to stash"
+git stash push -m "new tax rules."
+Git Status
+git status
+git status -s
+git switch bugfix
+git switch bugfix-signup-form
+git switch main
+git switch master
+git switch origin/lesson-11
+git tag -a v1.1 -m "my version 1.1" 50db987
+git tag -n
+git tag v1.0 5e7a828
+git tag v1.0
+hx
+hx --grammar build
+hx --grammar fetch
+hx --health
+hx .
+npm --loglevel=error
+npm --version
+npm audit fix
+npm audit fix --force
+npm build
+npm config ls --global
+npm create vite@latest my-project
+npm create vite@latest my-project -- --template react
+npm create vite@latest Svelte-app
+npm create-html --title "html file"
+npm fund
+npm i
+npm i -D @fullhuman/postcss-purgecss
+npm i -D @swc/cli @swc/core
+npm i -g bash-language-server
+npm i -g eslint
+npm i -g neovim
+npm i -g nodemon
+npm i -g npm@latest
+npm i -g pnpm
+npm i -g prettier
+npm i -g pritter
+npm i -g rimraf
+npm i -g stylua
+npm i -g svelte-language-server
+npm i -g tree-sitter-cli
+npm i -g tsc
+npm i -g typescript
+npm i -g typescript-language-server
+npm i -g vercel
+npm i -g vscode-langservers-extracted
+npm i pnpm
+npm init
+npm init -y
+npm init @eslint/config
+npm init vite .
+npm init vite new-app
+npm init vite tail-app
+npm install @types/node --save-dev
+npm install purgecss --save-dev
+npm list
+npm list -g
+npm list -g --depth=0
+npm npm list -g --depth=0
+npm outdated -g
+npm remove -g eslint
+npm remove -g jshint
+npm remove -g pnpm
+npm run build
+npm run dev
+npm run start
+npm search stylua
+ocat
+oh-my-posh
+oh-my-posh config
+pgrep edge
+ping etf.bg.ac.rs
+ping facebook.com
+ping google.com
+ping http://registry.npmjs.org/
+ping reddit.com
+ping registry.npmjs.org
+pip
+pip --version
+pip -v
+pip freeze | %{$_.split('==')[0]} | %{pip install --upgrade $_}
+pip install "gdtoolkit==4.*"
+pip install "python-lsp-server[all]"
+pip install --upgrade pip
+pip install -U TTS
+pip install black
+pip install django
+pip install GDToolkit
+pip install jupyter
+pip install matplotlib
+pip install openpyxl
+pip install pandas
+pip install pipenv
+pip install pipwin
+pip install pynvim
+pip install python-lsp-server
+pip install scikit-learn
+pip install seaborn
+pip list
+pip list --outdated
+pip update
+pipenv install django
+pipwin install numpy
+pm list packages
+pn
+pn --help
+pn --offline create vite@latest
+pn -g -r sourcemap-codec@1.4.8
+pn -r sourcemap-codec
+pn -r sourcemap-codec@1.4.8
+pn -r swc-node ./src/index.ts
+pn -r swc-node index.ts
+pn -r swc-node src/index.ts
+pn -v
+pn add -D vitest
+pn add -g pn
+pn add @trpc/client @trpc/server @trpc/react-query @tanstack/react-query
+pn add @trpc/server zod
+pn build
+pn create --help
+pn create @eslint/config
+pn create create-tauri-app
+pn create next-app
+pn create next-app --typescript
+pn create next-app --typescript my-app
+pn create svelte@latest my-app
+pn create svelte@latest my-svelte-app
+pn create svelte@latest thretle
+pn create svelte@latest Thretle-App
+pn create t3-app@latest
+pn create tauri-app
+pn create vite my-app --template react
+pn create vite@beta
+pn create vite@lates
+pn create vite@latest
+pn create vite@latest --template
+pn create vite@latest --template react
+pn create vite@latest --template svelte
+pn create vite@latest .
+pn create vite@latest . --template svelte
+pn create vite@latest ./
+pn create vite@latest ./ --template react-ts
+pn create vite@latest ./ --template svelte
+pn create vite@latest my-app
+pn create vite@latest my-app --template react
+pn create vite@latest my-app --template react-ts
+pn create vite@latest my-app --template svelte
+pn create vite@latest my-app --template svelte-ts
+pn create vite@latest my-app --template vanilla-ts
+pn create vite@latest my-app react
+pn create vite@latest my-app-rts --template react-ts
+pn create vite@latest my-svelte-app
+pn create vite@latest react
+pn create vite@latest react-ts
+pn create vite@latest svelte-timer
+pn create-next-app@latest
+pn create-tauri-app
+pn degit solidjs/templates/ts solid-app
+pn eslint --init
+pn h add
+pn help add
+pn i
+pn i --help
+pn i --offline
+pn i --offline nodemon
+pn i --offline vite
+pn i --offline vitest
+pn i -D @babylonjs/materials
+pn i -D @babylonjs/materials [other packages]
+pn i -D @fullhuman/postcss-purgecss
+pn i -D @swc-node/register
+pn i -D @swc/cli @swc/core
+pn i -D @tailwindcss/forms
+pn i -d @types/cors
+pn i -D @types/express
+pn i -D @types/morgan
+pn i -D @types/node
+pn i -D eslint
+pn i -D nodemon
+pn i -D postcss
+pn i -D postcss sass @fullhuman/postcss-purgecss
+pn i -D postcss-uncss uncss
+pn i -D purgecss
+pn i -D rimraf
+pn i -D swc-node
+pn i -D tailwindcss postcss autoprefixer
+pn i -D typescript
+pn i -D typescript @types/node nodemon esbuild esbuild-node-tsc
+pn i -D vite vitest
+pn i -D vite vitest typescript
+pn i -d vitest
+pn i -g nodemon
+pn i @babylonjs/core
+pn i @eslint/config
+pn i @heroicons/react
+pn i @heroicons/react@v1
+pn i @react-three/drei
+pn i @threlte/core@next
+pn i @trpc/server zod cors
+pn i @types/three
+pn i axios
+pn i cors
+pn i dotenv
+pn i eslint
+pn i express
+pn i express body-parser mysql
+pn i gitignore
+pn i mongoose
+pn i morgan
+pn i nextjs
+pn i node-sass
+pn i nodemon
+pn i react-hot-toast
+pn i react-icons
+pn i react-loader-spinner
+pn i react-router-dom@latest
+pn i sass
+pn i three @react-three/fiber
+pn i tsc
+pn i typescript
+pn i use-debounce
+pn i vite
+pn i vitest
+pn init
+pn init -y
+pn init @eslint/config
+pn install
+pn install tree-sitter-cli
+pn intall
+pn list --offline
+pn list -g
+pn next dev
+pn next telemetry disable
+pn nodemon index.js
+pn outdated
+pn outdated -g
+pn preview
+pn run build
+pn run check
+pn run dev
+pn run dev --port=3000
+pn run dev --port=4000
+pn run open
+pn run pn run build
+pn run preview
+pn run start
+pn run tauri
+pn run tauri dev
+pn run test
+pn setup
+pn start
+pn store path
+pn swc-node
+pn swc-node ./src/index.ts
+pn tailwindcss init -p
+pn tauri build
+pn tauri dev
+pn tauri dev --port=4000
+pn test
+pn tsc --init
+pn tsc .\node.ts
+pn tsc init
+pn u
+pn up
+pn up --latest
+pn update
+pn vitest
+pnpx create-next-app@latest
+pnpx degit solidjs/templates/ts solid-app
+powercfg.exe /hibernate off
+prd
+pwd
+py
+py --version
+py -m pip install --upgrade pip
+py -m pip install pipenv
+py -m pipenv install django
+py .\Draft.py
+py .\h.py
+py .\main.py
+py manage.py runserver
+py manage.py startapp PlayGround
+python
+python3
+python --verstion
+python -v
+python .\\Test.py
+python.exe -m pip install --upgrade pip
+quit
+refreshenv
+reg import
+rm -rf node_modules
+rm -rf node_modules && npm install
+rm .\\new.txt
+rm .\\node_modules\\ -r -fo
+rm .\\test.txt
+rm .\desktop.ini
+rm .\StoreFront\
+rm file3.txt
+rust
+rustc --print sysroot
+rustc .\\src\\main.rs
+rustc hello.rs
+rustc main.rs
+rustc src/hello.rs
+rustup self uninstall
+rustup set default-host x86_64-pc-windows-gnu
+rustup toolchain install stable-gnu
+rustup toolchain install stable-x86_64-pc-windows-gnu
+rustup update stable
+scoop bucket add extras
+scoop bucket add java
+scoop bucket add main
+scoop bucket add versions
+scoop cache
+scoop cache rm *
+scoop cleanup
+scoop cleanup *
+scoop install 7zip
+scoop install caprine
+scoop install clangd
+scoop install cmake
+scoop install deno
+scoop install docker
+scoop install docker-machine
+scoop install everything
+scoop install ffmpeg
+scoop install fluent-reader
+scoop install GIMP
+scoop install github
+scoop install go
+scoop install godot
+scoop install godot-beta
+scoop install helix
+scoop install imageglass
+scoop install instant-eyedropper
+scoop install krita
+scoop install lapce
+scoop install lf
+scoop install llvm
+scoop install material-maker
+scoop install microsoft-jdk
+scoop install mingw
+scoop install mp3tag
+scoop install msedgeredirect
+scoop install naps2
+scoop install neovide
+scoop install neovim
+scoop install neovim neovide
+scoop install nilesoft-shell
+scoop install ninja
+scoop install notepadplusplus
+scoop install nvim
+scoop install obs-studio
+scoop install obsidian
+scoop install ocat
+scoop install oh-my-posh
+scoop install posh-docker
+scoop install powertoys
+scoop install pypy3
+scoop install qbittorrent
+scoop install scoop-completion
+scoop install Shotcut
+scoop install starship
+scoop install stylua
+scoop install swipl
+scoop install thunderbird
+scoop install twinkle-tray
+scoop install ungoogled-chromium
+scoop install vscodium
+scoop install windows-terminal
+scoop install windows-terminal-preview
+scoop install winfetch
+scoop install xnconvert
+scoop install zig
+scoop list
+scoop ls
+scoop remove helix
+scoop remove obsidian
+scoop search godot
+scoop search godot-beta
+scoop status
+scoop uninstall bulk-rename-utility
+scoop uninstall caprine
+scoop uninstall clangd
+scoop uninstall docker
+scoop uninstall docker-machine
+scoop uninstall fluent-reader
+scoop uninstall git
+scoop uninstall github
+scoop uninstall go
+scoop uninstall godot
+scoop uninstall godot-beta
+scoop uninstall helix
+scoop uninstall instant-eyedropper
+scoop uninstall krita
+scoop uninstall llvm
+scoop uninstall material-maker
+scoop uninstall microsoft-jdk
+scoop uninstall mingw
+scoop uninstall neovide
+scoop uninstall neovide neovim helix
+scoop uninstall neovim
+scoop uninstall neovim helix
+scoop uninstall ninja
+scoop uninstall nodejs-lts
+scoop uninstall notepadplusplus
+scoop uninstall obsidian
+scoop uninstall ocat
+scoop uninstall oh-my-posh
+scoop uninstall posh-docker
+scoop uninstall powertoys
+scoop uninstall pypy3
+scoop uninstall qbittorrent
+scoop uninstall rust-analyzer rust-gnu rustup-gnu
+scoop uninstall stylua
+scoop uninstall vscodium
+scoop uninstall windows-terminal
+scoop uninstall windows-terminal-preview
+scoop update
+scoop update *
+shell
+shell -re
+shell.shl
+srd
+starship
+starship completions
+starship config
+start (Get-PSReadLineOption | select -ExpandProperty HistorySavePath)
+Stop-Process -Name "Neovide"
+vim
+vscode-langservers-extracted
+winfetch
+wsl
+wsl --help
+wsl --install
+wsl --install -d Debian
+wsl --install -d kali-linux
+wsl --list
+wsl --list --online
+wsl --set-default-version 2
+wsl --shutdown
+wsl --status
+wsl --unregister Debian
+wsl --unregister Ubuntu
+wsl --unregister Ubuntu-22.04wslpip list
+wsl --update
+wsl --version
