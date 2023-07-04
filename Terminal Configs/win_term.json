@@ -1,5 +1,5 @@
 {
-  "initialCols": 90,
-  "initialPosition": "700,320",
-  "initialRows": 20
+    "initialCols": 90,
+    "initialRows": 20,
+    "initialPosition": "550,300"
 }
