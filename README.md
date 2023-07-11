@@ -31,18 +31,3 @@ scoop bucket add extras versions
 # desktop apps
 scoop install 7zip starship blender obs-studio imageglass naps2 xnconvert twinkle-tray everything bulk-rename-utility
 ```
-
-## [Astro Nvim]
-
-```ps1
-scoop install neovim neovide
-git clone --depth 1 https://github.com/AstroNvim/AstroNvim $env:LOCALAPPDATA\nvim
-git clone https://github.com/push-on/astro.git $env:LOCALAPPDATA\nvim\lua\user
-```
-
-
-# Dot file locations
-### ___lf___ 
-`C:\Users\zero\AppData\Local\lf`
-### ___alacritty___
-`C:\Users\zero\AppData\Roaming\alacritty`
