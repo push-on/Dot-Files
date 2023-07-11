@@ -6,6 +6,7 @@
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 Install-Script winfetch
 Install-Module -Name CompletionPredictor
+Install-Module PSReadLine -Force
 ```
 ```ps1
 # Admin Rights required
