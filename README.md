@@ -27,12 +27,9 @@ pip install matplotlib pandas pipenv jupyter numpy django black autopep8 jedi py
 # install Scoop
 irm get.scoop.sh | iex
 # add repo
-scoop bucket add main
-scoop bucket add versions
-# dev dependency
-scoop install 7zip starship
+scoop bucket add extras versions
 # desktop apps
-scoop install blender obs-studio imageglass naps2 xnconvert twinkle-tray everything bulk-rename-utility
+scoop install 7zip starship blender obs-studio imageglass naps2 xnconvert twinkle-tray everything bulk-rename-utility
 ```
 
 ## [Astro Nvim]
