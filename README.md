@@ -13,7 +13,7 @@ Install-Module PSReadLine -Force
 powercfg.exe /hibernate off
 ```
 
-## 📦 [npm](https://www.npmjs.com/) [pnpm](https://pnpm.io/) Packages
+## 📦 [npm](https://www.npmjs.com/) Packages
 
 ```bash
 npm i -g npm@latest pnpm nodemon ts-node typescript eslint @sanity/cli neovim prettier bash-language-server dockerfile-language-server-nodejs vscode-langservers-extracted typescript-language-server tree-sitter-cli svelte-language-server
