@@ -8,8 +8,8 @@ Install-Script winfetch
 Install-Module -Name CompletionPredictor
 Install-Module PSReadLine -Force
 ```
+`Admin Rights required`
 ```ps1
-# Admin Rights required
 powercfg.exe /hibernate off
 ```
 
