@@ -30,5 +30,5 @@ irm get.scoop.sh | iex
 # add repo
 scoop bucket add extras versions
 # desktop apps
-scoop install 7zip starship blender godot go obs-studio imageglass naps2 xnconvert twinkle-tray everything bulk-rename-utility
+scoop install 7zip starship blender godot obsidian go obs-studio imageglass naps2 xnconvert twinkle-tray everything bulk-rename-utility
 ```
