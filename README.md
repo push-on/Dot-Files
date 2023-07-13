@@ -13,16 +13,17 @@ Install-Module PSReadLine -Force
 powercfg.exe /hibernate off
 ```
 
-## [npm](https://www.npmjs.com/) [pnpm](https://pnpm.io/) packages
+## 📦 [npm](https://www.npmjs.com/) [pnpm](https://pnpm.io/) Packages
 
 ```bash
 npm i -g npm@latest pnpm nodemon ts-node typescript eslint @sanity/cli neovim prettier bash-language-server dockerfile-language-server-nodejs vscode-langservers-extracted typescript-language-server tree-sitter-cli svelte-language-server
 ```
+## 📦 Python Packages
 ```python
 pip install matplotlib pandas pipenv jupyter numpy django black autopep8 jedi pynvim python-lsp-server scikit-learn
 ```
 
-## [scoop](https://scoop.sh/)
+## 📦 [scoop](https://scoop.sh/)
 
 ```ps1
 irm get.scoop.sh | iex
