@@ -25,11 +25,8 @@ pip install matplotlib pandas pipenv jupyter numpy django black autopep8 jedi py
 ## [scoop](https://scoop.sh/)
 
 ```ps1
-# install Scoop
 irm get.scoop.sh | iex
-# add repo
 scoop bucket add extras
 scoop bucket add versions
-# desktop apps
 scoop install 7zip starship blender godot obsidian go obs-studio imageglass naps2 xnconvert twinkle-tray everything bulk-rename-utility
 ```
