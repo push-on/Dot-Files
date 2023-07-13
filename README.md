@@ -20,7 +20,7 @@ npm i -g npm@latest pnpm nodemon ts-node typescript eslint @sanity/cli neovim pr
 ```
 ## 📦 [pip](https://pypi.org/) Packages
 ```bash
-pip install matplotlib pandas pipenv jupyter numpy django black autopep8 jedi pynvim python-lsp-server scikit-learn
+pip install matplotlib pandas pipenv jupyter numpy django black autopep8 jedi pynvim python-lsp-server scikit-learn seaborn requests pillow
 ```
 
 ## 📦 [scoop](https://scoop.sh/)
