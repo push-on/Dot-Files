@@ -1,0 +1,2958 @@
+{
+	"Tailwind Config": {
+		"prefix": "Tailwind Config",
+		"body": [
+			"@tailwind base;",
+			"@tailwind components;",
+			"@tailwind utilities;",
+			"",
+			"/* @layer base {",
+			"  body {",
+			"    @apply ;",
+			"  }",
+			"} */",
+			"",
+			"/* @layer components {",
+			"  .Custom-class {",
+			"    @apply ;",
+			"  }",
+			"} */"
+		],
+		"description": "Tailwind Config"
+	},
+	"flex": {
+		"prefix": "flex",
+		"body": [
+			"display: flex;",
+			""
+		],
+		"description": "flex"
+	},
+	"CSS Starter": {
+		"prefix": "CSS Starter",
+		"body": [
+			":root {",
+			"  color-scheme: light dark;",
+			"  box-sizing: border-box;",
+			"  font-family: sans-serif;",
+			"  font-synthesis: none;",
+			"  text-rendering: optimizeLegibility;",
+			"  -webkit-font-smoothing: antialiased;",
+			"  -moz-osx-font-smoothing: grayscale;",
+			"  -webkit-text-size-adjust: none;",
+			"}",
+			"",
+			"html,",
+			"body {",
+			"  margin: 0;",
+			"  width: 100%;",
+			"  background-color: black;",
+			"}",
+			"",
+			"*,",
+			"*::before,",
+			"*::after {",
+			"  box-sizing: border-box;",
+			"}",
+			"",
+			"canvas,",
+			"button,",
+			"select,",
+			"input,",
+			"iframe,",
+			"textarea {",
+			"  border: none;",
+			"  outline: none;",
+			"}",
+			"",
+			"button:hover,",
+			"input[type=\"submit\"]:hover {",
+			"  cursor: pointer;",
+			"}",
+			"",
+			"img,",
+			"object,",
+			"video {",
+			"  max-width: 100%;",
+			"}",
+			"",
+			"a {",
+			"  color: inherit;",
+			"  text-decoration: none;",
+			"}",
+			"",
+			"li,",
+			"ul {",
+			"  list-style: none;",
+			"}",
+			"",
+			"input:not([type=\"checkbox\"], [type=\"radio\"]) {",
+			"  width: 100%;",
+			"}",
+			"",
+			"input:not([type=\"checkbox\"], [type=\"radio\"], [type=\"range\"], [type=\"file\"]) {",
+			"  padding: 0.75rem 1rem;",
+			"}",
+			"",
+			":where(input, select, textarea)+small {",
+			"  display: block;",
+			"}",
+			"",
+			"button,",
+			"input {",
+			"  text-transform: capitalize;",
+			"  font-size: 1.5rem;",
+			"  border: 1px solid white;",
+			"  background: none;",
+			"  color: white;",
+			"  padding-top: 10px;",
+			"  padding-bottom: 10px;",
+			"  padding-left: 20px;",
+			"  padding-right: 20px;",
+			"}",
+			"",
+			""
+		],
+		"description": "CSS Starter"
+	},
+	"justify center": {
+		"prefix": "justify center",
+		"body": [
+			"justify-content: center;",
+			""
+		],
+		"description": "justify center"
+	},
+	"align center": {
+		"prefix": "align center",
+		"body": [
+			"align-items: center;",
+			""
+		],
+		"description": "align center"
+	},
+	"flex center": {
+		"prefix": "flex center",
+		"body": [
+			"display: flex;",
+			"justify-content: center;",
+			"align-items: center;"
+		],
+		"description": "flex center"
+	},
+	"hide": {
+		"prefix": "Mask",
+		"body": [
+			"overflow: hidden;",
+			""
+		],
+		"description": "hide"
+	},
+	"red-950": {
+		"prefix": "red-950",
+		"body": [
+			"#1c0d06"
+		],
+		"description": "hide"
+	},
+	"red-900": {
+		"prefix": "red-900",
+		"body": [
+			"#30130a"
+		],
+		"description": "hide"
+	},
+	"red-850": {
+		"prefix": "red-850",
+		"body": [
+			"#45150c"
+		],
+		"description": "hide"
+	},
+	"red-800": {
+		"prefix": "red-800",
+		"body": [
+			"#5c160d"
+		],
+		"description": "hide"
+	},
+	"red-750": {
+		"prefix": "red-750",
+		"body": [
+			"#72170f"
+		],
+		"description": "hide"
+	},
+	"red-700": {
+		"prefix": "red-700",
+		"body": [
+			"#861d13"
+		],
+		"description": "hide"
+	},
+	"red-650": {
+		"prefix": "red-650",
+		"body": [
+			"#9b2318"
+		],
+		"description": "hide"
+	},
+	"red-600": {
+		"prefix": "red-600",
+		"body": [
+			"#af291d"
+		],
+		"description": "hide"
+	},
+	"red-550": {
+		"prefix": "red-550",
+		"body": [
+			"#c52f21"
+		],
+		"description": "hide"
+	},
+	"red-500": {
+		"prefix": "red-500",
+		"body": [
+			"#d93526"
+		],
+		"description": "hide"
+	},
+	"red-450": {
+		"prefix": "red-450",
+		"body": [
+			"#ee402e"
+		],
+		"description": "hide"
+	},
+	"red-400": {
+		"prefix": "red-400",
+		"body": [
+			"#f06048"
+		],
+		"description": "hide"
+	},
+	"red-350": {
+		"prefix": "red-350",
+		"body": [
+			"#f17961"
+		],
+		"description": "hide"
+	},
+	"red-300": {
+		"prefix": "red-300",
+		"body": [
+			"#f38f79"
+		],
+		"description": "hide"
+	},
+	"red-250": {
+		"prefix": "red-250",
+		"body": [
+			"#f5a390"
+		],
+		"description": "hide"
+	},
+	"red-200": {
+		"prefix": "red-200",
+		"body": [
+			"#f5b7a8"
+		],
+		"description": "hide"
+	},
+	"red-150": {
+		"prefix": "red-150",
+		"body": [
+			"#f6cabf"
+		],
+		"description": "hide"
+	},
+	"red-100": {
+		"prefix": "red-100",
+		"body": [
+			"#f8dcd6"
+		],
+		"description": "hide"
+	},
+	"red-50": {
+		"prefix": "red-50",
+		"body": [
+			"#faeeeb"
+		],
+		"description": "hide"
+	},
+	"red": {
+		"prefix": "red",
+		"body": [
+			"#c52f21"
+		],
+		"description": "hide"
+	},
+	"pink-950": {
+		"prefix": "pink-950",
+		"body": [
+			"#25060c"
+		],
+		"description": "hide"
+	},
+	"pink-900": {
+		"prefix": "pink-900",
+		"body": [
+			"#380916"
+		],
+		"description": "hide"
+	},
+	"pink-850": {
+		"prefix": "pink-850",
+		"body": [
+			"#4b0c1f"
+		],
+		"description": "hide"
+	},
+	"pink-800": {
+		"prefix": "pink-800",
+		"body": [
+			"#5f0e28"
+		],
+		"description": "hide"
+	},
+	"pink-750": {
+		"prefix": "pink-750",
+		"body": [
+			"#740f31"
+		],
+		"description": "hide"
+	},
+	"pink-700": {
+		"prefix": "pink-700",
+		"body": [
+			"#88143b"
+		],
+		"description": "hide"
+	},
+	"pink-650": {
+		"prefix": "pink-650",
+		"body": [
+			"#9d1945"
+		],
+		"description": "hide"
+	},
+	"pink-600": {
+		"prefix": "pink-600",
+		"body": [
+			"#b21e4f"
+		],
+		"description": "hide"
+	},
+	"pink-550": {
+		"prefix": "pink-550",
+		"body": [
+			"#c72259"
+		],
+		"description": "hide"
+	},
+	"pink-500": {
+		"prefix": "pink-500",
+		"body": [
+			"#d92662"
+		],
+		"description": "hide"
+	},
+	"pink-450": {
+		"prefix": "pink-450",
+		"body": [
+			"#f42c6f"
+		],
+		"description": "hide"
+	},
+	"pink-400": {
+		"prefix": "pink-400",
+		"body": [
+			"#f6547e"
+		],
+		"description": "hide"
+	},
+	"pink-350": {
+		"prefix": "pink-350",
+		"body": [
+			"#f7708e"
+		],
+		"description": "hide"
+	},
+	"pink-300": {
+		"prefix": "pink-300",
+		"body": [
+			"#f8889e"
+		],
+		"description": "hide"
+	},
+	"pink-250": {
+		"prefix": "pink-250",
+		"body": [
+			"#f99eae"
+		],
+		"description": "hide"
+	},
+	"pink-200": {
+		"prefix": "pink-200",
+		"body": [
+			"#f9b4be"
+		],
+		"description": "hide"
+	},
+	"pink-150": {
+		"prefix": "pink-150",
+		"body": [
+			"#f9c8ce"
+		],
+		"description": "hide"
+	},
+	"pink-100": {
+		"prefix": "pink-100",
+		"body": [
+			"#f9dbdf"
+		],
+		"description": "hide"
+	},
+	"pink-50": {
+		"prefix": "pink-50",
+		"body": [
+			"#fbedef"
+		],
+		"description": "hide"
+	},
+	"pink": {
+		"prefix": "pink",
+		"body": [
+			"#d92662"
+		],
+		"description": "hide"
+	},
+	"fuchsia-950": {
+		"prefix": "fuchsia-950",
+		"body": [
+			"#230518"
+		],
+		"description": "hide"
+	},
+	"fuchsia-900": {
+		"prefix": "fuchsia-900",
+		"body": [
+			"#360925"
+		],
+		"description": "hide"
+	},
+	"fuchsia-850": {
+		"prefix": "fuchsia-850",
+		"body": [
+			"#480b33"
+		],
+		"description": "hide"
+	},
+	"fuchsia-800": {
+		"prefix": "fuchsia-800",
+		"body": [
+			"#5c0d41"
+		],
+		"description": "hide"
+	},
+	"fuchsia-750": {
+		"prefix": "fuchsia-750",
+		"body": [
+			"#700e4f"
+		],
+		"description": "hide"
+	},
+	"fuchsia-700": {
+		"prefix": "fuchsia-700",
+		"body": [
+			"#84135e"
+		],
+		"description": "hide"
+	},
+	"fuchsia-650": {
+		"prefix": "fuchsia-650",
+		"body": [
+			"#98176d"
+		],
+		"description": "hide"
+	},
+	"fuchsia-600": {
+		"prefix": "fuchsia-600",
+		"body": [
+			"#ac1c7c"
+		],
+		"description": "hide"
+	},
+	"fuchsia-550": {
+		"prefix": "fuchsia-550",
+		"body": [
+			"#c1208b"
+		],
+		"description": "hide"
+	},
+	"fuchsia-500": {
+		"prefix": "fuchsia-500",
+		"body": [
+			"#d9269d"
+		],
+		"description": "hide"
+	},
+	"fuchsia-450": {
+		"prefix": "fuchsia-450",
+		"body": [
+			"#ed2aac"
+		],
+		"description": "hide"
+	},
+	"fuchsia-400": {
+		"prefix": "fuchsia-400",
+		"body": [
+			"#f748b7"
+		],
+		"description": "hide"
+	},
+	"fuchsia-350": {
+		"prefix": "fuchsia-350",
+		"body": [
+			"#f869bf"
+		],
+		"description": "hide"
+	},
+	"fuchsia-300": {
+		"prefix": "fuchsia-300",
+		"body": [
+			"#f983c7"
+		],
+		"description": "hide"
+	},
+	"fuchsia-250": {
+		"prefix": "fuchsia-250",
+		"body": [
+			"#fa9acf"
+		],
+		"description": "hide"
+	},
+	"fuchsia-200": {
+		"prefix": "fuchsia-200",
+		"body": [
+			"#f9b1d8"
+		],
+		"description": "hide"
+	},
+	"fuchsia-150": {
+		"prefix": "fuchsia-150",
+		"body": [
+			"#f9c6e1"
+		],
+		"description": "hide"
+	},
+	"fuchsia-100": {
+		"prefix": "fuchsia-100",
+		"body": [
+			"#f9daea"
+		],
+		"description": "hide"
+	},
+	"fuchsia-50": {
+		"prefix": "fuchsia-50",
+		"body": [
+			"#fbedf4"
+		],
+		"description": "hide"
+	},
+	"fuchsia": {
+		"prefix": "fuchsia",
+		"body": [
+			"#c1208b"
+		],
+		"description": "hide"
+	},
+	"purple-950": {
+		"prefix": "purple-950",
+		"body": [
+			"#1e0820"
+		],
+		"description": "hide"
+	},
+	"purple-900": {
+		"prefix": "purple-900",
+		"body": [
+			"#2d0f33"
+		],
+		"description": "hide"
+	},
+	"purple-850": {
+		"prefix": "purple-850",
+		"body": [
+			"#3d1545"
+		],
+		"description": "hide"
+	},
+	"purple-800": {
+		"prefix": "purple-800",
+		"body": [
+			"#4d1a57"
+		],
+		"description": "hide"
+	},
+	"purple-750": {
+		"prefix": "purple-750",
+		"body": [
+			"#5e206b"
+		],
+		"description": "hide"
+	},
+	"purple-700": {
+		"prefix": "purple-700",
+		"body": [
+			"#6f277d"
+		],
+		"description": "hide"
+	},
+	"purple-650": {
+		"prefix": "purple-650",
+		"body": [
+			"#802e90"
+		],
+		"description": "hide"
+	},
+	"purple-600": {
+		"prefix": "purple-600",
+		"body": [
+			"#9236a4"
+		],
+		"description": "hide"
+	},
+	"purple-550": {
+		"prefix": "purple-550",
+		"body": [
+			"#aa40bf"
+		],
+		"description": "hide"
+	},
+	"purple-500": {
+		"prefix": "purple-500",
+		"body": [
+			"#b645cd"
+		],
+		"description": "hide"
+	},
+	"purple-450": {
+		"prefix": "purple-450",
+		"body": [
+			"#c652dc"
+		],
+		"description": "hide"
+	},
+	"purple-400": {
+		"prefix": "purple-400",
+		"body": [
+			"#cd68e0"
+		],
+		"description": "hide"
+	},
+	"purple-350": {
+		"prefix": "purple-350",
+		"body": [
+			"#d47de4"
+		],
+		"description": "hide"
+	},
+	"purple-300": {
+		"prefix": "purple-300",
+		"body": [
+			"#db90e8"
+		],
+		"description": "hide"
+	},
+	"purple-250": {
+		"prefix": "purple-250",
+		"body": [
+			"#e2a3eb"
+		],
+		"description": "hide"
+	},
+	"purple-200": {
+		"prefix": "purple-200",
+		"body": [
+			"#e7b6ee"
+		],
+		"description": "hide"
+	},
+	"purple-150": {
+		"prefix": "purple-150",
+		"body": [
+			"#edc9f1"
+		],
+		"description": "hide"
+	},
+	"purple-100": {
+		"prefix": "purple-100",
+		"body": [
+			"#f2dcf4"
+		],
+		"description": "hide"
+	},
+	"purple-50": {
+		"prefix": "purple-50",
+		"body": [
+			"#f8eef9"
+		],
+		"description": "hide"
+	},
+	"purple": {
+		"prefix": "purple",
+		"body": [
+			"#9236a4"
+		],
+		"description": "hide"
+	},
+	"violet-950": {
+		"prefix": "violet-950",
+		"body": [
+			"#190928"
+		],
+		"description": "hide"
+	},
+	"violet-900": {
+		"prefix": "violet-900",
+		"body": [
+			"#251140"
+		],
+		"description": "hide"
+	},
+	"violet-850": {
+		"prefix": "violet-850",
+		"body": [
+			"#321856"
+		],
+		"description": "hide"
+	},
+	"violet-800": {
+		"prefix": "violet-800",
+		"body": [
+			"#3f1e6d"
+		],
+		"description": "hide"
+	},
+	"violet-750": {
+		"prefix": "violet-750",
+		"body": [
+			"#4d2585"
+		],
+		"description": "hide"
+	},
+	"violet-700": {
+		"prefix": "violet-700",
+		"body": [
+			"#5b2d9c"
+		],
+		"description": "hide"
+	},
+	"violet-650": {
+		"prefix": "violet-650",
+		"body": [
+			"#6935b3"
+		],
+		"description": "hide"
+	},
+	"violet-600": {
+		"prefix": "violet-600",
+		"body": [
+			"#7540bf"
+		],
+		"description": "hide"
+	},
+	"violet-550": {
+		"prefix": "violet-550",
+		"body": [
+			"#8352c5"
+		],
+		"description": "hide"
+	},
+	"violet-500": {
+		"prefix": "violet-500",
+		"body": [
+			"#9062ca"
+		],
+		"description": "hide"
+	},
+	"violet-450": {
+		"prefix": "violet-450",
+		"body": [
+			"#9b71cf"
+		],
+		"description": "hide"
+	},
+	"violet-400": {
+		"prefix": "violet-400",
+		"body": [
+			"#a780d4"
+		],
+		"description": "hide"
+	},
+	"violet-350": {
+		"prefix": "violet-350",
+		"body": [
+			"#b290d9"
+		],
+		"description": "hide"
+	},
+	"violet-300": {
+		"prefix": "violet-300",
+		"body": [
+			"#bd9fdf"
+		],
+		"description": "hide"
+	},
+	"violet-250": {
+		"prefix": "violet-250",
+		"body": [
+			"#c9afe4"
+		],
+		"description": "hide"
+	},
+	"violet-200": {
+		"prefix": "violet-200",
+		"body": [
+			"#d3bfe8"
+		],
+		"description": "hide"
+	},
+	"violet-150": {
+		"prefix": "violet-150",
+		"body": [
+			"#decfed"
+		],
+		"description": "hide"
+	},
+	"violet-100": {
+		"prefix": "violet-100",
+		"body": [
+			"#e8dff2"
+		],
+		"description": "hide"
+	},
+	"violet-50": {
+		"prefix": "violet-50",
+		"body": [
+			"#f3eff7"
+		],
+		"description": "hide"
+	},
+	"violet": {
+		"prefix": "violet",
+		"body": [
+			"#7540bf"
+		],
+		"description": "hide"
+	},
+	"indigo-950": {
+		"prefix": "indigo-950",
+		"body": [
+			"#110b31"
+		],
+		"description": "hide"
+	},
+	"indigo-900": {
+		"prefix": "indigo-900",
+		"body": [
+			"#181546"
+		],
+		"description": "hide"
+	},
+	"indigo-850": {
+		"prefix": "indigo-850",
+		"body": [
+			"#1f1e5e"
+		],
+		"description": "hide"
+	},
+	"indigo-800": {
+		"prefix": "indigo-800",
+		"body": [
+			"#272678"
+		],
+		"description": "hide"
+	},
+	"indigo-750": {
+		"prefix": "indigo-750",
+		"body": [
+			"#2f2f92"
+		],
+		"description": "hide"
+	},
+	"indigo-700": {
+		"prefix": "indigo-700",
+		"body": [
+			"#3838ab"
+		],
+		"description": "hide"
+	},
+	"indigo-650": {
+		"prefix": "indigo-650",
+		"body": [
+			"#4040bf"
+		],
+		"description": "hide"
+	},
+	"indigo-600": {
+		"prefix": "indigo-600",
+		"body": [
+			"#524ed2"
+		],
+		"description": "hide"
+	},
+	"indigo-550": {
+		"prefix": "indigo-550",
+		"body": [
+			"#655cd6"
+		],
+		"description": "hide"
+	},
+	"indigo-500": {
+		"prefix": "indigo-500",
+		"body": [
+			"#7569da"
+		],
+		"description": "hide"
+	},
+	"indigo-450": {
+		"prefix": "indigo-450",
+		"body": [
+			"#8577dd"
+		],
+		"description": "hide"
+	},
+	"indigo-400": {
+		"prefix": "indigo-400",
+		"body": [
+			"#9486e1"
+		],
+		"description": "hide"
+	},
+	"indigo-350": {
+		"prefix": "indigo-350",
+		"body": [
+			"#a294e5"
+		],
+		"description": "hide"
+	},
+	"indigo-300": {
+		"prefix": "indigo-300",
+		"body": [
+			"#b0a3e8"
+		],
+		"description": "hide"
+	},
+	"indigo-250": {
+		"prefix": "indigo-250",
+		"body": [
+			"#bdb2ec"
+		],
+		"description": "hide"
+	},
+	"indigo-200": {
+		"prefix": "indigo-200",
+		"body": [
+			"#cac1ee"
+		],
+		"description": "hide"
+	},
+	"indigo-150": {
+		"prefix": "indigo-150",
+		"body": [
+			"#d8d0f1"
+		],
+		"description": "hide"
+	},
+	"indigo-100": {
+		"prefix": "indigo-100",
+		"body": [
+			"#e5e0f4"
+		],
+		"description": "hide"
+	},
+	"indigo-50": {
+		"prefix": "indigo-50",
+		"body": [
+			"#f2f0f9"
+		],
+		"description": "hide"
+	},
+	"indigo": {
+		"prefix": "indigo",
+		"body": [
+			"#524ed2"
+		],
+		"description": "hide"
+	},
+	"blue-950": {
+		"prefix": "blue-950",
+		"body": [
+			"#080f2d"
+		],
+		"description": "hide"
+	},
+	"blue-900": {
+		"prefix": "blue-900",
+		"body": [
+			"#0c1a41"
+		],
+		"description": "hide"
+	},
+	"blue-850": {
+		"prefix": "blue-850",
+		"body": [
+			"#0e2358"
+		],
+		"description": "hide"
+	},
+	"blue-800": {
+		"prefix": "blue-800",
+		"body": [
+			"#0f2d70"
+		],
+		"description": "hide"
+	},
+	"blue-750": {
+		"prefix": "blue-750",
+		"body": [
+			"#0f3888"
+		],
+		"description": "hide"
+	},
+	"blue-700": {
+		"prefix": "blue-700",
+		"body": [
+			"#1343a0"
+		],
+		"description": "hide"
+	},
+	"blue-650": {
+		"prefix": "blue-650",
+		"body": [
+			"#184eb8"
+		],
+		"description": "hide"
+	},
+	"blue-600": {
+		"prefix": "blue-600",
+		"body": [
+			"#1d59d0"
+		],
+		"description": "hide"
+	},
+	"blue-550": {
+		"prefix": "blue-550",
+		"body": [
+			"#2060df"
+		],
+		"description": "hide"
+	},
+	"blue-500": {
+		"prefix": "blue-500",
+		"body": [
+			"#3c71f7"
+		],
+		"description": "hide"
+	},
+	"blue-450": {
+		"prefix": "blue-450",
+		"body": [
+			"#5c7ef8"
+		],
+		"description": "hide"
+	},
+	"blue-400": {
+		"prefix": "blue-400",
+		"body": [
+			"#748bf8"
+		],
+		"description": "hide"
+	},
+	"blue-350": {
+		"prefix": "blue-350",
+		"body": [
+			"#8999f9"
+		],
+		"description": "hide"
+	},
+	"blue-300": {
+		"prefix": "blue-300",
+		"body": [
+			"#9ca7fa"
+		],
+		"description": "hide"
+	},
+	"blue-250": {
+		"prefix": "blue-250",
+		"body": [
+			"#aeb5fb"
+		],
+		"description": "hide"
+	},
+	"blue-200": {
+		"prefix": "blue-200",
+		"body": [
+			"#bfc3fa"
+		],
+		"description": "hide"
+	},
+	"blue-150": {
+		"prefix": "blue-150",
+		"body": [
+			"#d0d2fa"
+		],
+		"description": "hide"
+	},
+	"blue-100": {
+		"prefix": "blue-100",
+		"body": [
+			"#e0e1fa"
+		],
+		"description": "hide"
+	},
+	"blue-50": {
+		"prefix": "blue-50",
+		"body": [
+			"#f0f0fb"
+		],
+		"description": "hide"
+	},
+	"blue": {
+		"prefix": "blue",
+		"body": [
+			"#2060df"
+		],
+		"description": "hide"
+	},
+	"azure-950": {
+		"prefix": "azure-950",
+		"body": [
+			"#04121d"
+		],
+		"description": "hide"
+	},
+	"azure-900": {
+		"prefix": "azure-900",
+		"body": [
+			"#061e2f"
+		],
+		"description": "hide"
+	},
+	"azure-850": {
+		"prefix": "azure-850",
+		"body": [
+			"#052940"
+		],
+		"description": "hide"
+	},
+	"azure-800": {
+		"prefix": "azure-800",
+		"body": [
+			"#033452"
+		],
+		"description": "hide"
+	},
+	"azure-750": {
+		"prefix": "azure-750",
+		"body": [
+			"#014063"
+		],
+		"description": "hide"
+	},
+	"azure-700": {
+		"prefix": "azure-700",
+		"body": [
+			"#014c75"
+		],
+		"description": "hide"
+	},
+	"azure-650": {
+		"prefix": "azure-650",
+		"body": [
+			"#015887"
+		],
+		"description": "hide"
+	},
+	"azure-600": {
+		"prefix": "azure-600",
+		"body": [
+			"#02659a"
+		],
+		"description": "hide"
+	},
+	"azure-550": {
+		"prefix": "azure-550",
+		"body": [
+			"#0172ad"
+		],
+		"description": "hide"
+	},
+	"azure-500": {
+		"prefix": "azure-500",
+		"body": [
+			"#017fc0"
+		],
+		"description": "hide"
+	},
+	"azure-450": {
+		"prefix": "azure-450",
+		"body": [
+			"#018cd4"
+		],
+		"description": "hide"
+	},
+	"azure-400": {
+		"prefix": "azure-400",
+		"body": [
+			"#029ae8"
+		],
+		"description": "hide"
+	},
+	"azure-350": {
+		"prefix": "azure-350",
+		"body": [
+			"#01aaff"
+		],
+		"description": "hide"
+	},
+	"azure-300": {
+		"prefix": "azure-300",
+		"body": [
+			"#51b4ff"
+		],
+		"description": "hide"
+	},
+	"azure-250": {
+		"prefix": "azure-250",
+		"body": [
+			"#79c0ff"
+		],
+		"description": "hide"
+	},
+	"azure-200": {
+		"prefix": "azure-200",
+		"body": [
+			"#9bccfd"
+		],
+		"description": "hide"
+	},
+	"azure-150": {
+		"prefix": "azure-150",
+		"body": [
+			"#b7d9fc"
+		],
+		"description": "hide"
+	},
+	"azure-100": {
+		"prefix": "azure-100",
+		"body": [
+			"#d1e5fb"
+		],
+		"description": "hide"
+	},
+	"azure-50": {
+		"prefix": "azure-50",
+		"body": [
+			"#e9f2fc"
+		],
+		"description": "hide"
+	},
+	"azure": {
+		"prefix": "azure",
+		"body": [
+			"#0172ad"
+		],
+		"description": "hide"
+	},
+	"cyan-950": {
+		"prefix": "cyan-950",
+		"body": [
+			"#041413"
+		],
+		"description": "hide"
+	},
+	"cyan-900": {
+		"prefix": "cyan-900",
+		"body": [
+			"#051f1f"
+		],
+		"description": "hide"
+	},
+	"cyan-850": {
+		"prefix": "cyan-850",
+		"body": [
+			"#052b2b"
+		],
+		"description": "hide"
+	},
+	"cyan-800": {
+		"prefix": "cyan-800",
+		"body": [
+			"#043737"
+		],
+		"description": "hide"
+	},
+	"cyan-750": {
+		"prefix": "cyan-750",
+		"body": [
+			"#014343"
+		],
+		"description": "hide"
+	},
+	"cyan-700": {
+		"prefix": "cyan-700",
+		"body": [
+			"#015050"
+		],
+		"description": "hide"
+	},
+	"cyan-650": {
+		"prefix": "cyan-650",
+		"body": [
+			"#025d5d"
+		],
+		"description": "hide"
+	},
+	"cyan-600": {
+		"prefix": "cyan-600",
+		"body": [
+			"#046a6a"
+		],
+		"description": "hide"
+	},
+	"cyan-550": {
+		"prefix": "cyan-550",
+		"body": [
+			"#047878"
+		],
+		"description": "hide"
+	},
+	"cyan-500": {
+		"prefix": "cyan-500",
+		"body": [
+			"#058686"
+		],
+		"description": "hide"
+	},
+	"cyan-450": {
+		"prefix": "cyan-450",
+		"body": [
+			"#059494"
+		],
+		"description": "hide"
+	},
+	"cyan-400": {
+		"prefix": "cyan-400",
+		"body": [
+			"#05a2a2"
+		],
+		"description": "hide"
+	},
+	"cyan-350": {
+		"prefix": "cyan-350",
+		"body": [
+			"#0ab1b1"
+		],
+		"description": "hide"
+	},
+	"cyan-300": {
+		"prefix": "cyan-300",
+		"body": [
+			"#0ac2c2"
+		],
+		"description": "hide"
+	},
+	"cyan-250": {
+		"prefix": "cyan-250",
+		"body": [
+			"#0ccece"
+		],
+		"description": "hide"
+	},
+	"cyan-200": {
+		"prefix": "cyan-200",
+		"body": [
+			"#25dddd"
+		],
+		"description": "hide"
+	},
+	"cyan-150": {
+		"prefix": "cyan-150",
+		"body": [
+			"#3deceb"
+		],
+		"description": "hide"
+	},
+	"cyan-100": {
+		"prefix": "cyan-100",
+		"body": [
+			"#58faf9"
+		],
+		"description": "hide"
+	},
+	"cyan-50": {
+		"prefix": "cyan-50",
+		"body": [
+			"#c3fcfa"
+		],
+		"description": "hide"
+	},
+	"cyan": {
+		"prefix": "cyan",
+		"body": [
+			"#047878"
+		],
+		"description": "hide"
+	},
+	"jade-950": {
+		"prefix": "jade-950",
+		"body": [
+			"#04140c"
+		],
+		"description": "hide"
+	},
+	"jade-900": {
+		"prefix": "jade-900",
+		"body": [
+			"#052014"
+		],
+		"description": "hide"
+	},
+	"jade-850": {
+		"prefix": "jade-850",
+		"body": [
+			"#042c1b"
+		],
+		"description": "hide"
+	},
+	"jade-800": {
+		"prefix": "jade-800",
+		"body": [
+			"#033823"
+		],
+		"description": "hide"
+	},
+	"jade-750": {
+		"prefix": "jade-750",
+		"body": [
+			"#00452b"
+		],
+		"description": "hide"
+	},
+	"jade-700": {
+		"prefix": "jade-700",
+		"body": [
+			"#015234"
+		],
+		"description": "hide"
+	},
+	"jade-650": {
+		"prefix": "jade-650",
+		"body": [
+			"#005f3d"
+		],
+		"description": "hide"
+	},
+	"jade-600": {
+		"prefix": "jade-600",
+		"body": [
+			"#006d46"
+		],
+		"description": "hide"
+	},
+	"jade-550": {
+		"prefix": "jade-550",
+		"body": [
+			"#007a50"
+		],
+		"description": "hide"
+	},
+	"jade-500": {
+		"prefix": "jade-500",
+		"body": [
+			"#00895a"
+		],
+		"description": "hide"
+	},
+	"jade-450": {
+		"prefix": "jade-450",
+		"body": [
+			"#029764"
+		],
+		"description": "hide"
+	},
+	"jade-400": {
+		"prefix": "jade-400",
+		"body": [
+			"#00a66e"
+		],
+		"description": "hide"
+	},
+	"jade-350": {
+		"prefix": "jade-350",
+		"body": [
+			"#00b478"
+		],
+		"description": "hide"
+	},
+	"jade-300": {
+		"prefix": "jade-300",
+		"body": [
+			"#00c482"
+		],
+		"description": "hide"
+	},
+	"jade-250": {
+		"prefix": "jade-250",
+		"body": [
+			"#00cc88"
+		],
+		"description": "hide"
+	},
+	"jade-200": {
+		"prefix": "jade-200",
+		"body": [
+			"#21e299"
+		],
+		"description": "hide"
+	},
+	"jade-150": {
+		"prefix": "jade-150",
+		"body": [
+			"#39f1a6"
+		],
+		"description": "hide"
+	},
+	"jade-100": {
+		"prefix": "jade-100",
+		"body": [
+			"#70fcba"
+		],
+		"description": "hide"
+	},
+	"jade-50": {
+		"prefix": "jade-50",
+		"body": [
+			"#cbfce1"
+		],
+		"description": "hide"
+	},
+	"jade": {
+		"prefix": "jade",
+		"body": [
+			"#007a50"
+		],
+		"description": "hide"
+	},
+	"green-950": {
+		"prefix": "green-950",
+		"body": [
+			"#0b1305"
+		],
+		"description": "hide"
+	},
+	"green-900": {
+		"prefix": "green-900",
+		"body": [
+			"#131f07"
+		],
+		"description": "hide"
+	},
+	"green-850": {
+		"prefix": "green-850",
+		"body": [
+			"#152b07"
+		],
+		"description": "hide"
+	},
+	"green-800": {
+		"prefix": "green-800",
+		"body": [
+			"#173806"
+		],
+		"description": "hide"
+	},
+	"green-750": {
+		"prefix": "green-750",
+		"body": [
+			"#1a4405"
+		],
+		"description": "hide"
+	},
+	"green-700": {
+		"prefix": "green-700",
+		"body": [
+			"#205107"
+		],
+		"description": "hide"
+	},
+	"green-650": {
+		"prefix": "green-650",
+		"body": [
+			"#265e09"
+		],
+		"description": "hide"
+	},
+	"green-600": {
+		"prefix": "green-600",
+		"body": [
+			"#2c6c0c"
+		],
+		"description": "hide"
+	},
+	"green-550": {
+		"prefix": "green-550",
+		"body": [
+			"#33790f"
+		],
+		"description": "hide"
+	},
+	"green-500": {
+		"prefix": "green-500",
+		"body": [
+			"#398712"
+		],
+		"description": "hide"
+	},
+	"green-450": {
+		"prefix": "green-450",
+		"body": [
+			"#409614"
+		],
+		"description": "hide"
+	},
+	"green-400": {
+		"prefix": "green-400",
+		"body": [
+			"#47a417"
+		],
+		"description": "hide"
+	},
+	"green-350": {
+		"prefix": "green-350",
+		"body": [
+			"#4eb31b"
+		],
+		"description": "hide"
+	},
+	"green-300": {
+		"prefix": "green-300",
+		"body": [
+			"#55c21e"
+		],
+		"description": "hide"
+	},
+	"green-250": {
+		"prefix": "green-250",
+		"body": [
+			"#5dd121"
+		],
+		"description": "hide"
+	},
+	"green-200": {
+		"prefix": "green-200",
+		"body": [
+			"#62d926"
+		],
+		"description": "hide"
+	},
+	"green-150": {
+		"prefix": "green-150",
+		"body": [
+			"#77ef3d"
+		],
+		"description": "hide"
+	},
+	"green-100": {
+		"prefix": "green-100",
+		"body": [
+			"#95fb62"
+		],
+		"description": "hide"
+	},
+	"green-50": {
+		"prefix": "green-50",
+		"body": [
+			"#d7fbc1"
+		],
+		"description": "hide"
+	},
+	"green": {
+		"prefix": "green",
+		"body": [
+			"#398712"
+		],
+		"description": "hide"
+	},
+	"lime-950": {
+		"prefix": "lime-950",
+		"body": [
+			"#101203"
+		],
+		"description": "hide"
+	},
+	"lime-900": {
+		"prefix": "lime-900",
+		"body": [
+			"#191d03"
+		],
+		"description": "hide"
+	},
+	"lime-850": {
+		"prefix": "lime-850",
+		"body": [
+			"#202902"
+		],
+		"description": "hide"
+	},
+	"lime-800": {
+		"prefix": "lime-800",
+		"body": [
+			"#273500"
+		],
+		"description": "hide"
+	},
+	"lime-750": {
+		"prefix": "lime-750",
+		"body": [
+			"#304100"
+		],
+		"description": "hide"
+	},
+	"lime-700": {
+		"prefix": "lime-700",
+		"body": [
+			"#394d00"
+		],
+		"description": "hide"
+	},
+	"lime-650": {
+		"prefix": "lime-650",
+		"body": [
+			"#435a00"
+		],
+		"description": "hide"
+	},
+	"lime-600": {
+		"prefix": "lime-600",
+		"body": [
+			"#4d6600"
+		],
+		"description": "hide"
+	},
+	"lime-550": {
+		"prefix": "lime-550",
+		"body": [
+			"#577400"
+		],
+		"description": "hide"
+	},
+	"lime-500": {
+		"prefix": "lime-500",
+		"body": [
+			"#628100"
+		],
+		"description": "hide"
+	},
+	"lime-450": {
+		"prefix": "lime-450",
+		"body": [
+			"#6c8f00"
+		],
+		"description": "hide"
+	},
+	"lime-400": {
+		"prefix": "lime-400",
+		"body": [
+			"#779c00"
+		],
+		"description": "hide"
+	},
+	"lime-350": {
+		"prefix": "lime-350",
+		"body": [
+			"#82ab00"
+		],
+		"description": "hide"
+	},
+	"lime-300": {
+		"prefix": "lime-300",
+		"body": [
+			"#8eb901"
+		],
+		"description": "hide"
+	},
+	"lime-250": {
+		"prefix": "lime-250",
+		"body": [
+			"#99c801"
+		],
+		"description": "hide"
+	},
+	"lime-200": {
+		"prefix": "lime-200",
+		"body": [
+			"#a5d601"
+		],
+		"description": "hide"
+	},
+	"lime-150": {
+		"prefix": "lime-150",
+		"body": [
+			"#b2e51a"
+		],
+		"description": "hide"
+	},
+	"lime-100": {
+		"prefix": "lime-100",
+		"body": [
+			"#c1f335"
+		],
+		"description": "hide"
+	},
+	"lime-50": {
+		"prefix": "lime-50",
+		"body": [
+			"#defc85"
+		],
+		"description": "hide"
+	},
+	"lime": {
+		"prefix": "lime",
+		"body": [
+			"#a5d601"
+		],
+		"description": "hide"
+	},
+	"yellow-950": {
+		"prefix": "yellow-950",
+		"body": [
+			"#141103"
+		],
+		"description": "hide"
+	},
+	"yellow-900": {
+		"prefix": "yellow-900",
+		"body": [
+			"#1f1c02"
+		],
+		"description": "hide"
+	},
+	"yellow-850": {
+		"prefix": "yellow-850",
+		"body": [
+			"#2b2600"
+		],
+		"description": "hide"
+	},
+	"yellow-800": {
+		"prefix": "yellow-800",
+		"body": [
+			"#363100"
+		],
+		"description": "hide"
+	},
+	"yellow-750": {
+		"prefix": "yellow-750",
+		"body": [
+			"#423c00"
+		],
+		"description": "hide"
+	},
+	"yellow-700": {
+		"prefix": "yellow-700",
+		"body": [
+			"#4e4700"
+		],
+		"description": "hide"
+	},
+	"yellow-650": {
+		"prefix": "yellow-650",
+		"body": [
+			"#5b5300"
+		],
+		"description": "hide"
+	},
+	"yellow-600": {
+		"prefix": "yellow-600",
+		"body": [
+			"#685f00"
+		],
+		"description": "hide"
+	},
+	"yellow-550": {
+		"prefix": "yellow-550",
+		"body": [
+			"#756b00"
+		],
+		"description": "hide"
+	},
+	"yellow-500": {
+		"prefix": "yellow-500",
+		"body": [
+			"#827800"
+		],
+		"description": "hide"
+	},
+	"yellow-450": {
+		"prefix": "yellow-450",
+		"body": [
+			"#908501"
+		],
+		"description": "hide"
+	},
+	"yellow-400": {
+		"prefix": "yellow-400",
+		"body": [
+			"#9e9200"
+		],
+		"description": "hide"
+	},
+	"yellow-350": {
+		"prefix": "yellow-350",
+		"body": [
+			"#ad9f00"
+		],
+		"description": "hide"
+	},
+	"yellow-300": {
+		"prefix": "yellow-300",
+		"body": [
+			"#bbac00"
+		],
+		"description": "hide"
+	},
+	"yellow-250": {
+		"prefix": "yellow-250",
+		"body": [
+			"#caba01"
+		],
+		"description": "hide"
+	},
+	"yellow-200": {
+		"prefix": "yellow-200",
+		"body": [
+			"#d9c800"
+		],
+		"description": "hide"
+	},
+	"yellow-150": {
+		"prefix": "yellow-150",
+		"body": [
+			"#e8d600"
+		],
+		"description": "hide"
+	},
+	"yellow-100": {
+		"prefix": "yellow-100",
+		"body": [
+			"#f2df0d"
+		],
+		"description": "hide"
+	},
+	"yellow-50": {
+		"prefix": "yellow-50",
+		"body": [
+			"#fdf1b4"
+		],
+		"description": "hide"
+	},
+	"yellow": {
+		"prefix": "yellow",
+		"body": [
+			"#f2df0d"
+		],
+		"description": "hide"
+	},
+	"amber-950": {
+		"prefix": "amber-950",
+		"body": [
+			"#161003"
+		],
+		"description": "hide"
+	},
+	"amber-900": {
+		"prefix": "amber-900",
+		"body": [
+			"#231a03"
+		],
+		"description": "hide"
+	},
+	"amber-850": {
+		"prefix": "amber-850",
+		"body": [
+			"#312302"
+		],
+		"description": "hide"
+	},
+	"amber-800": {
+		"prefix": "amber-800",
+		"body": [
+			"#3f2d00"
+		],
+		"description": "hide"
+	},
+	"amber-750": {
+		"prefix": "amber-750",
+		"body": [
+			"#4d3700"
+		],
+		"description": "hide"
+	},
+	"amber-700": {
+		"prefix": "amber-700",
+		"body": [
+			"#5b4200"
+		],
+		"description": "hide"
+	},
+	"amber-650": {
+		"prefix": "amber-650",
+		"body": [
+			"#694d00"
+		],
+		"description": "hide"
+	},
+	"amber-600": {
+		"prefix": "amber-600",
+		"body": [
+			"#785800"
+		],
+		"description": "hide"
+	},
+	"amber-550": {
+		"prefix": "amber-550",
+		"body": [
+			"#876400"
+		],
+		"description": "hide"
+	},
+	"amber-500": {
+		"prefix": "amber-500",
+		"body": [
+			"#977000"
+		],
+		"description": "hide"
+	},
+	"amber-450": {
+		"prefix": "amber-450",
+		"body": [
+			"#a77c00"
+		],
+		"description": "hide"
+	},
+	"amber-400": {
+		"prefix": "amber-400",
+		"body": [
+			"#b78800"
+		],
+		"description": "hide"
+	},
+	"amber-350": {
+		"prefix": "amber-350",
+		"body": [
+			"#c79400"
+		],
+		"description": "hide"
+	},
+	"amber-300": {
+		"prefix": "amber-300",
+		"body": [
+			"#d8a100"
+		],
+		"description": "hide"
+	},
+	"amber-250": {
+		"prefix": "amber-250",
+		"body": [
+			"#e8ae01"
+		],
+		"description": "hide"
+	},
+	"amber-200": {
+		"prefix": "amber-200",
+		"body": [
+			"#ffbf00"
+		],
+		"description": "hide"
+	},
+	"amber-150": {
+		"prefix": "amber-150",
+		"body": [
+			"#fecc63"
+		],
+		"description": "hide"
+	},
+	"amber-100": {
+		"prefix": "amber-100",
+		"body": [
+			"#fddea6"
+		],
+		"description": "hide"
+	},
+	"amber-50": {
+		"prefix": "amber-50",
+		"body": [
+			"#fcefd9"
+		],
+		"description": "hide"
+	},
+	"amber": {
+		"prefix": "amber",
+		"body": [
+			"#ffbf00"
+		],
+		"description": "hide"
+	},
+	"pumpkin-950": {
+		"prefix": "pumpkin-950",
+		"body": [
+			"#180f04"
+		],
+		"description": "hide"
+	},
+	"pumpkin-900": {
+		"prefix": "pumpkin-900",
+		"body": [
+			"#271805"
+		],
+		"description": "hide"
+	},
+	"pumpkin-850": {
+		"prefix": "pumpkin-850",
+		"body": [
+			"#372004"
+		],
+		"description": "hide"
+	},
+	"pumpkin-800": {
+		"prefix": "pumpkin-800",
+		"body": [
+			"#482802"
+		],
+		"description": "hide"
+	},
+	"pumpkin-750": {
+		"prefix": "pumpkin-750",
+		"body": [
+			"#593100"
+		],
+		"description": "hide"
+	},
+	"pumpkin-700": {
+		"prefix": "pumpkin-700",
+		"body": [
+			"#693a00"
+		],
+		"description": "hide"
+	},
+	"pumpkin-650": {
+		"prefix": "pumpkin-650",
+		"body": [
+			"#7a4400"
+		],
+		"description": "hide"
+	},
+	"pumpkin-600": {
+		"prefix": "pumpkin-600",
+		"body": [
+			"#8b4f00"
+		],
+		"description": "hide"
+	},
+	"pumpkin-550": {
+		"prefix": "pumpkin-550",
+		"body": [
+			"#9c5900"
+		],
+		"description": "hide"
+	},
+	"pumpkin-500": {
+		"prefix": "pumpkin-500",
+		"body": [
+			"#ad6400"
+		],
+		"description": "hide"
+	},
+	"pumpkin-450": {
+		"prefix": "pumpkin-450",
+		"body": [
+			"#bf6e00"
+		],
+		"description": "hide"
+	},
+	"pumpkin-400": {
+		"prefix": "pumpkin-400",
+		"body": [
+			"#d27a01"
+		],
+		"description": "hide"
+	},
+	"pumpkin-350": {
+		"prefix": "pumpkin-350",
+		"body": [
+			"#e48500"
+		],
+		"description": "hide"
+	},
+	"pumpkin-300": {
+		"prefix": "pumpkin-300",
+		"body": [
+			"#ff9500"
+		],
+		"description": "hide"
+	},
+	"pumpkin-250": {
+		"prefix": "pumpkin-250",
+		"body": [
+			"#ffa23a"
+		],
+		"description": "hide"
+	},
+	"pumpkin-200": {
+		"prefix": "pumpkin-200",
+		"body": [
+			"#feb670"
+		],
+		"description": "hide"
+	},
+	"pumpkin-150": {
+		"prefix": "pumpkin-150",
+		"body": [
+			"#fcca9b"
+		],
+		"description": "hide"
+	},
+	"pumpkin-100": {
+		"prefix": "pumpkin-100",
+		"body": [
+			"#fcdcc1"
+		],
+		"description": "hide"
+	},
+	"pumpkin-50": {
+		"prefix": "pumpkin-50",
+		"body": [
+			"#fceee3"
+		],
+		"description": "hide"
+	},
+	"pumpkin": {
+		"prefix": "pumpkin",
+		"body": [
+			"#ff9500"
+		],
+		"description": "hide"
+	},
+	"orange-950": {
+		"prefix": "orange-950",
+		"body": [
+			"#1b0d06"
+		],
+		"description": "hide"
+	},
+	"orange-900": {
+		"prefix": "orange-900",
+		"body": [
+			"#2d1509"
+		],
+		"description": "hide"
+	},
+	"orange-850": {
+		"prefix": "orange-850",
+		"body": [
+			"#411a0a"
+		],
+		"description": "hide"
+	},
+	"orange-800": {
+		"prefix": "orange-800",
+		"body": [
+			"#561e0a"
+		],
+		"description": "hide"
+	},
+	"orange-750": {
+		"prefix": "orange-750",
+		"body": [
+			"#6b220a"
+		],
+		"description": "hide"
+	},
+	"orange-700": {
+		"prefix": "orange-700",
+		"body": [
+			"#7f270b"
+		],
+		"description": "hide"
+	},
+	"orange-650": {
+		"prefix": "orange-650",
+		"body": [
+			"#942d0d"
+		],
+		"description": "hide"
+	},
+	"orange-600": {
+		"prefix": "orange-600",
+		"body": [
+			"#a83410"
+		],
+		"description": "hide"
+	},
+	"orange-550": {
+		"prefix": "orange-550",
+		"body": [
+			"#bd3c13"
+		],
+		"description": "hide"
+	},
+	"orange-500": {
+		"prefix": "orange-500",
+		"body": [
+			"#d24317"
+		],
+		"description": "hide"
+	},
+	"orange-450": {
+		"prefix": "orange-450",
+		"body": [
+			"#e74b1a"
+		],
+		"description": "hide"
+	},
+	"orange-400": {
+		"prefix": "orange-400",
+		"body": [
+			"#f45d2c"
+		],
+		"description": "hide"
+	},
+	"orange-350": {
+		"prefix": "orange-350",
+		"body": [
+			"#f56b3d"
+		],
+		"description": "hide"
+	},
+	"orange-300": {
+		"prefix": "orange-300",
+		"body": [
+			"#f68e68"
+		],
+		"description": "hide"
+	},
+	"orange-250": {
+		"prefix": "orange-250",
+		"body": [
+			"#f8a283"
+		],
+		"description": "hide"
+	},
+	"orange-200": {
+		"prefix": "orange-200",
+		"body": [
+			"#f8b79f"
+		],
+		"description": "hide"
+	},
+	"orange-150": {
+		"prefix": "orange-150",
+		"body": [
+			"#f8cab9"
+		],
+		"description": "hide"
+	},
+	"orange-100": {
+		"prefix": "orange-100",
+		"body": [
+			"#f9dcd2"
+		],
+		"description": "hide"
+	},
+	"orange-50": {
+		"prefix": "orange-50",
+		"body": [
+			"#faeeea"
+		],
+		"description": "hide"
+	},
+	"orange": {
+		"prefix": "orange",
+		"body": [
+			"#d24317"
+		],
+		"description": "hide"
+	},
+	"sand-950": {
+		"prefix": "sand-950",
+		"body": [
+			"#111110"
+		],
+		"description": "hide"
+	},
+	"sand-900": {
+		"prefix": "sand-900",
+		"body": [
+			"#1c1b19"
+		],
+		"description": "hide"
+	},
+	"sand-850": {
+		"prefix": "sand-850",
+		"body": [
+			"#272622"
+		],
+		"description": "hide"
+	},
+	"sand-800": {
+		"prefix": "sand-800",
+		"body": [
+			"#32302b"
+		],
+		"description": "hide"
+	},
+	"sand-750": {
+		"prefix": "sand-750",
+		"body": [
+			"#3d3b35"
+		],
+		"description": "hide"
+	},
+	"sand-700": {
+		"prefix": "sand-700",
+		"body": [
+			"#49463f"
+		],
+		"description": "hide"
+	},
+	"sand-650": {
+		"prefix": "sand-650",
+		"body": [
+			"#55524a"
+		],
+		"description": "hide"
+	},
+	"sand-600": {
+		"prefix": "sand-600",
+		"body": [
+			"#615e55"
+		],
+		"description": "hide"
+	},
+	"sand-550": {
+		"prefix": "sand-550",
+		"body": [
+			"#6e6a60"
+		],
+		"description": "hide"
+	},
+	"sand-500": {
+		"prefix": "sand-500",
+		"body": [
+			"#7b776b"
+		],
+		"description": "hide"
+	},
+	"sand-450": {
+		"prefix": "sand-450",
+		"body": [
+			"#888377"
+		],
+		"description": "hide"
+	},
+	"sand-400": {
+		"prefix": "sand-400",
+		"body": [
+			"#959082"
+		],
+		"description": "hide"
+	},
+	"sand-350": {
+		"prefix": "sand-350",
+		"body": [
+			"#a39e8f"
+		],
+		"description": "hide"
+	},
+	"sand-300": {
+		"prefix": "sand-300",
+		"body": [
+			"#b0ab9b"
+		],
+		"description": "hide"
+	},
+	"sand-250": {
+		"prefix": "sand-250",
+		"body": [
+			"#beb8a7"
+		],
+		"description": "hide"
+	},
+	"sand-200": {
+		"prefix": "sand-200",
+		"body": [
+			"#ccc6b4"
+		],
+		"description": "hide"
+	},
+	"sand-150": {
+		"prefix": "sand-150",
+		"body": [
+			"#dad4c2"
+		],
+		"description": "hide"
+	},
+	"sand-100": {
+		"prefix": "sand-100",
+		"body": [
+			"#e8e2d2"
+		],
+		"description": "hide"
+	},
+	"sand-50": {
+		"prefix": "sand-50",
+		"body": [
+			"#f2f0ec"
+		],
+		"description": "hide"
+	},
+	"sand": {
+		"prefix": "sand",
+		"body": [
+			"#ccc6b4"
+		],
+		"description": "hide"
+	},
+	"grey-950": {
+		"prefix": "grey-950",
+		"body": [
+			"#111111"
+		],
+		"description": "hide"
+	},
+	"grey-900": {
+		"prefix": "grey-900",
+		"body": [
+			"#1b1b1b"
+		],
+		"description": "hide"
+	},
+	"grey-850": {
+		"prefix": "grey-850",
+		"body": [
+			"#262626"
+		],
+		"description": "hide"
+	},
+	"grey-800": {
+		"prefix": "grey-800",
+		"body": [
+			"#303030"
+		],
+		"description": "hide"
+	},
+	"grey-750": {
+		"prefix": "grey-750",
+		"body": [
+			"#3b3b3b"
+		],
+		"description": "hide"
+	},
+	"grey-700": {
+		"prefix": "grey-700",
+		"body": [
+			"#474747"
+		],
+		"description": "hide"
+	},
+	"grey-650": {
+		"prefix": "grey-650",
+		"body": [
+			"#525252"
+		],
+		"description": "hide"
+	},
+	"grey-600": {
+		"prefix": "grey-600",
+		"body": [
+			"#5e5e5e"
+		],
+		"description": "hide"
+	},
+	"grey-550": {
+		"prefix": "grey-550",
+		"body": [
+			"#6a6a6a"
+		],
+		"description": "hide"
+	},
+	"grey-500": {
+		"prefix": "grey-500",
+		"body": [
+			"#777777"
+		],
+		"description": "hide"
+	},
+	"grey-450": {
+		"prefix": "grey-450",
+		"body": [
+			"#808080"
+		],
+		"description": "hide"
+	},
+	"grey-400": {
+		"prefix": "grey-400",
+		"body": [
+			"#919191"
+		],
+		"description": "hide"
+	},
+	"grey-350": {
+		"prefix": "grey-350",
+		"body": [
+			"#9e9e9e"
+		],
+		"description": "hide"
+	},
+	"grey-300": {
+		"prefix": "grey-300",
+		"body": [
+			"#ababab"
+		],
+		"description": "hide"
+	},
+	"grey-250": {
+		"prefix": "grey-250",
+		"body": [
+			"#b9b9b9"
+		],
+		"description": "hide"
+	},
+	"grey-200": {
+		"prefix": "grey-200",
+		"body": [
+			"#c6c6c6"
+		],
+		"description": "hide"
+	},
+	"grey-150": {
+		"prefix": "grey-150",
+		"body": [
+			"#d4d4d4"
+		],
+		"description": "hide"
+	},
+	"grey-100": {
+		"prefix": "grey-100",
+		"body": [
+			"#e2e2e2"
+		],
+		"description": "hide"
+	},
+	"grey-50": {
+		"prefix": "grey-50",
+		"body": [
+			"#f1f1f1"
+		],
+		"description": "hide"
+	},
+	"grey": {
+		"prefix": "grey",
+		"body": [
+			"#ababab"
+		],
+		"description": "hide"
+	},
+	"zinc-950": {
+		"prefix": "zinc-950",
+		"body": [
+			"#0f1114"
+		],
+		"description": "hide"
+	},
+	"zinc-900": {
+		"prefix": "zinc-900",
+		"body": [
+			"#191c20"
+		],
+		"description": "hide"
+	},
+	"zinc-850": {
+		"prefix": "zinc-850",
+		"body": [
+			"#23262c"
+		],
+		"description": "hide"
+	},
+	"zinc-800": {
+		"prefix": "zinc-800",
+		"body": [
+			"#2d3138"
+		],
+		"description": "hide"
+	},
+	"zinc-750": {
+		"prefix": "zinc-750",
+		"body": [
+			"#373c44"
+		],
+		"description": "hide"
+	},
+	"zinc-700": {
+		"prefix": "zinc-700",
+		"body": [
+			"#424751"
+		],
+		"description": "hide"
+	},
+	"zinc-650": {
+		"prefix": "zinc-650",
+		"body": [
+			"#4d535e"
+		],
+		"description": "hide"
+	},
+	"zinc-600": {
+		"prefix": "zinc-600",
+		"body": [
+			"#5c6370"
+		],
+		"description": "hide"
+	},
+	"zinc-550": {
+		"prefix": "zinc-550",
+		"body": [
+			"#646b79"
+		],
+		"description": "hide"
+	},
+	"zinc-500": {
+		"prefix": "zinc-500",
+		"body": [
+			"#6f7887"
+		],
+		"description": "hide"
+	},
+	"zinc-450": {
+		"prefix": "zinc-450",
+		"body": [
+			"#7b8495"
+		],
+		"description": "hide"
+	},
+	"zinc-400": {
+		"prefix": "zinc-400",
+		"body": [
+			"#8891a4"
+		],
+		"description": "hide"
+	},
+	"zinc-350": {
+		"prefix": "zinc-350",
+		"body": [
+			"#969eaf"
+		],
+		"description": "hide"
+	},
+	"zinc-300": {
+		"prefix": "zinc-300",
+		"body": [
+			"#a4acba"
+		],
+		"description": "hide"
+	},
+	"zinc-250": {
+		"prefix": "zinc-250",
+		"body": [
+			"#b3b9c5"
+		],
+		"description": "hide"
+	},
+	"zinc-200": {
+		"prefix": "zinc-200",
+		"body": [
+			"#c2c7d0"
+		],
+		"description": "hide"
+	},
+	"zinc-150": {
+		"prefix": "zinc-150",
+		"body": [
+			"#d1d5db"
+		],
+		"description": "hide"
+	},
+	"zinc-100": {
+		"prefix": "zinc-100",
+		"body": [
+			"#e0e3e7"
+		],
+		"description": "hide"
+	},
+	"zinc-50": {
+		"prefix": "zinc-50",
+		"body": [
+			"#f0f1f3"
+		],
+		"description": "hide"
+	},
+	"zinc": {
+		"prefix": "zinc",
+		"body": [
+			"#646b79"
+		],
+		"description": "hide"
+	},
+	"slate-950": {
+		"prefix": "slate-950",
+		"body": [
+			"#0e1118"
+		],
+		"description": "hide"
+	},
+	"slate-900": {
+		"prefix": "slate-900",
+		"body": [
+			"#181c25"
+		],
+		"description": "hide"
+	},
+	"slate-850": {
+		"prefix": "slate-850",
+		"body": [
+			"#202632"
+		],
+		"description": "hide"
+	},
+	"slate-800": {
+		"prefix": "slate-800",
+		"body": [
+			"#2a3140"
+		],
+		"description": "hide"
+	},
+	"slate-750": {
+		"prefix": "slate-750",
+		"body": [
+			"#333c4e"
+		],
+		"description": "hide"
+	},
+	"slate-700": {
+		"prefix": "slate-700",
+		"body": [
+			"#3d475c"
+		],
+		"description": "hide"
+	},
+	"slate-650": {
+		"prefix": "slate-650",
+		"body": [
+			"#48536b"
+		],
+		"description": "hide"
+	},
+	"slate-600": {
+		"prefix": "slate-600",
+		"body": [
+			"#525f7a"
+		],
+		"description": "hide"
+	},
+	"slate-550": {
+		"prefix": "slate-550",
+		"body": [
+			"#5d6b89"
+		],
+		"description": "hide"
+	},
+	"slate-500": {
+		"prefix": "slate-500",
+		"body": [
+			"#687899"
+		],
+		"description": "hide"
+	},
+	"slate-450": {
+		"prefix": "slate-450",
+		"body": [
+			"#7385a9"
+		],
+		"description": "hide"
+	},
+	"slate-400": {
+		"prefix": "slate-400",
+		"body": [
+			"#8191b5"
+		],
+		"description": "hide"
+	},
+	"slate-350": {
+		"prefix": "slate-350",
+		"body": [
+			"#909ebe"
+		],
+		"description": "hide"
+	},
+	"slate-300": {
+		"prefix": "slate-300",
+		"body": [
+			"#a0acc7"
+		],
+		"description": "hide"
+	},
+	"slate-250": {
+		"prefix": "slate-250",
+		"body": [
+			"#b0b9d0"
+		],
+		"description": "hide"
+	},
+	"slate-200": {
+		"prefix": "slate-200",
+		"body": [
+			"#bfc7d9"
+		],
+		"description": "hide"
+	},
+	"slate-150": {
+		"prefix": "slate-150",
+		"body": [
+			"#cfd5e2"
+		],
+		"description": "hide"
+	},
+	"slate-100": {
+		"prefix": "slate-100",
+		"body": [
+			"#dfe3eb"
+		],
+		"description": "hide"
+	},
+	"slate-50": {
+		"prefix": "slate-50",
+		"body": [
+			"#eff1f4"
+		],
+		"description": "hide"
+	},
+	"slate": {
+		"prefix": "slate",
+		"body": [
+			"#525f7a"
+		],
+		"description": "hide"
+	},
+	"light": {
+		"prefix": "light",
+		"body": [
+			"#fff"
+		],
+		"description": "hide"
+	}
+}
