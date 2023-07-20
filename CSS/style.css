@@ -78,26 +78,3 @@ input {
   padding-right: 20px;
 }
 
-.wh-full {
-  width: 100%;
-  height: 100vh;
-}
-
-.my {
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
-}
-
-.mx {
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
-}
-
-.flex {
-  display: flex;
-
-}
-
-.border {
-  border: 1px solid white;
-}
