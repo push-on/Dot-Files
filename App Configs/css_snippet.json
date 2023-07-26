@@ -100,7 +100,6 @@
 			"",
 			"button,",
 			"input {",
-			"  text-transform: capitalize;",
 			"  font-size: 1.5rem;",
 			"  border: 1px solid white;",
 			"  background: none;",
@@ -113,7 +112,7 @@
 			"",
 			""
 		],
-		"description": "CSS Starter",
+		"description": "CSS Starter"
 	},
 	"tailwind variables": {
 		"prefix": "tailwind variables",
