@@ -4,13 +4,7 @@
 
 ```ps1
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
-Install-Script winfetch
 Install-Module -Name CompletionPredictor
-Install-Module PSReadLine -Force
-Install-Module -Name pnpm-tab-completion
-Install-Module -Name python-tab-completion
-Install-Module -Name pwsh-git-completion
-Install-Module -Name scoop-completion
 ```
 `Admin Rights required`
 ```ps1
