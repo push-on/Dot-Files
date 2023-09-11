@@ -29,3 +29,9 @@ scoop bucket add extras
 scoop bucket add versions
 scoop install 7zip starship blender godot obsidian go obs-studio imageglass naps2 xnconvert twinkle-tray everything bulk-rename-utility
 ```
+
+## ⚙ Alacritty
+`open Alacritty in current directory parameter for windows`
+```bash
+--working-directory %V
+```
