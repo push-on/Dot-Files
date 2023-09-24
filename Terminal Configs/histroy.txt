@@ -1,18 +1,53 @@
 adb devices
 adb shell
 add .
+Add-AppxPackage -Path .\terminal.msixbundle
 Add-PoshGitToProfile -AllHosts
 add_commit
 add_commit_push
 bun
 cargo
 cargo -v
+cargo add bevy
 cargo build
+cargo build --release
+cargo clean
+cargo install -f cargo-binutils
+cargo new my-bevy-app
 cargo new my-rust-app
 cargo run
 cargo tauri build --target
 cargo update
+cd '.\# Experiments\'
+cd ..
+cd .\admin-test\
+cd .\Auth\
+cd .\Code\
+cd .\Code\Hostel_Hive_Project_React_Firebase\
+cd .\my-bevy-app\
+cd .\my-rust-app\
+cd .\my-skeleton-app\
+cd .\my-svelte-app\
+cd .\notes\
+cd .\pico\
+cd .\Rust\
+cd .\sb-admin-svelte\
+cd .\sk-hostel\
+cd .\svelte_admin_app\
+cd .\sveltekit-skeleton-supabase-admin\
+cd .\sveltekit-supabase-dashboard\
+cd admin
+cd auth-protected-routes
+cd Downloads
+cd my-svelte-app
+cd sb-admin-svelte
+cd side-bar
+cd svelte_admin_app
+celar
 clear
+code .
+curl -fsSL https://bun.sh/install | bash
+debian
 deno
 deno --help
 deno --version
@@ -21,6 +56,7 @@ deno upgrade
 echo hello > file.txt
 explorer.exe .
 find-module psreadline -allversions -allowprerelease
+firebase login
 fs
 fwc http://localhost:8080
 git
@@ -47,6 +83,16 @@ git checkout origin/03-basics
 git checkout origin/lesson-9
 git checkout origin/lesson-11
 git checkout origin/trpc-node-react-setup
+git clone git clone https://push-on@bitbucket.org/pushons/sveltekit-skeleton-supabase-admin.git
+git clone git@github.com:GeekyAnts/sb-admin-svelte.git
+git clone https://github.com/GeekyAnts/sb-admin-svelte.git
+git clone https://github.com/godotengine/godot-syntax-themes.git "%APPDATA%\Godot\text_editor_themes"
+git clone https://github.com/push-on/Hostel_Hive_Project_React_Firebase.git
+git clone https://github.com/push-on/notes.git
+git clone https://github.com/push-on/svelte-css-animations.git
+git clone https://github.com/xulioc/sveltekit-supabase-dashboard.git
+git clone https://gitlab.com/push-on/notes.git
+git clone https://push-on@bitbucket.org/pushons/sveltekit-skeleton-supabase-admin.git
 git commit -m
 git commit -m "added routes and models"
 git commit -m "final commit"
@@ -146,11 +192,19 @@ git tag -a v1.1 -m "my version 1.1" 50db987
 git tag -n
 git tag v1.0 5e7a828
 git tag v1.0
+go
+helix
 hx
 hx --grammar build
 hx --grammar fetch
 hx --health
 hx .
+Install-Script -Name winget-install -Force
+irm https://christitus.com/win | iex
+la
+ls
+netstat -a
+netstat -aon
 npm --loglevel=error
 npm --version
 npm audit fix
@@ -166,10 +220,13 @@ npm i
 npm i -D @fullhuman/postcss-purgecss
 npm i -D @swc/cli @swc/core
 npm i -g bash-language-server
+npm i -g bun
 npm i -g eslint
+npm i -g firebase-tools
 npm i -g neovim
 npm i -g nodemon
 npm i -g npm@latest
+npm i -g npm@latest pnpm nodemon ts-node typescript eslint @sanity/cli neovim prettier bash-language-server dockerfile-language-server-nodejs vscode-langservers-extracted typescript-language-server tree-sitter-cli svelte-language-server
 npm i -g pnpm
 npm i -g prettier
 npm i -g pritter
@@ -189,6 +246,8 @@ npm init @eslint/config
 npm init vite .
 npm init vite new-app
 npm init vite tail-app
+npm install --save @fortawesome/fontawesome-free
+npm install -g firebase-tools
 npm install @types/node --save-dev
 npm install purgecss --save-dev
 npm list
@@ -203,6 +262,8 @@ npm run build
 npm run dev
 npm run start
 npm search stylua
+npx svelte-add@latest tailwindcss
+nvim
 ocat
 oh-my-posh
 oh-my-posh config
@@ -226,6 +287,7 @@ pip install django
 pip install GDToolkit
 pip install jupyter
 pip install matplotlib
+pip install matplotlib pandas pipenv jupyter numpy django black autopep8 jedi pynvim python-lsp-server scikit-learn seaborn requests pillow
 pip install openpyxl
 pip install pandas
 pip install pipenv
@@ -261,8 +323,14 @@ pn create create-tauri-app
 pn create next-app
 pn create next-app --typescript
 pn create next-app --typescript my-app
+pn create svelte@latest admin
+pn create svelte@latest Auth
+pn create svelte@latest auth-protected-routes
 pn create svelte@latest my-app
 pn create svelte@latest my-svelte-app
+pn create svelte@latest pico
+pn create svelte@latest side-bar
+pn create svelte@latest svelte_admin_app
 pn create svelte@latest thretle
 pn create svelte@latest Thretle-App
 pn create t3-app@latest
@@ -279,6 +347,7 @@ pn create vite@latest . --template svelte
 pn create vite@latest ./
 pn create vite@latest ./ --template react-ts
 pn create vite@latest ./ --template svelte
+pn create vite@latest admin-test
 pn create vite@latest my-app
 pn create vite@latest my-app --template react
 pn create vite@latest my-app --template react-ts
@@ -291,6 +360,7 @@ pn create vite@latest my-svelte-app
 pn create vite@latest react
 pn create vite@latest react-ts
 pn create vite@latest svelte-timer
+pn create vite@latest svelte_admin_app
 pn create-next-app@latest
 pn create-tauri-app
 pn degit solidjs/templates/ts solid-app
@@ -327,6 +397,7 @@ pn i -D typescript @types/node nodemon esbuild esbuild-node-tsc
 pn i -D vite vitest
 pn i -D vite vitest typescript
 pn i -d vitest
+pn i -g firebase-tools
 pn i -g nodemon
 pn i @babylonjs/core
 pn i @eslint/config
@@ -363,6 +434,7 @@ pn init
 pn init -y
 pn init @eslint/config
 pn install
+pn install --save @fortawesome/fontawesome-free
 pn install tree-sitter-cli
 pn intall
 pn list --offline
@@ -375,9 +447,12 @@ pn outdated -g
 pn preview
 pn run build
 pn run check
+pn run deploy
 pn run dev
 pn run dev --port=3000
 pn run dev --port=4000
+pn run devpn run dev
+pn run dve
 pn run open
 pn run pn run build
 pn run preview
@@ -403,8 +478,17 @@ pn up
 pn up --latest
 pn update
 pn vitest
+pnpm -v
+pnpm create skeleton-app@latest admin
+pnpm create skeleton-app@latest my-skeleton-app
+pnpm create skeleton-app@latest sk-hostel
+pnpm i -D vite-plugin-tailwind-purgecss
+pnpm install @picocss/pico@next
+pnpm install lucide-svelte
 pnpx create-next-app@latest
 pnpx degit solidjs/templates/ts solid-app
+pnpx shadcn-svelte@latest init
+pnpx svelte-add@latest tailwindcss
 powercfg.exe /hibernate off
 prd
 pwd
@@ -421,12 +505,16 @@ py manage.py startapp PlayGround
 python
 python3
 python --verstion
+python -m http.server 8000
+python -m http.server 8000 --reload
 python -v
 python .\\Test.py
 python.exe -m pip install --upgrade pip
 quit
 refreshenv
 reg import
+reg import "C:\Users\zero\scoop\apps\windows-terminal\current\install-context.reg"
+reg import reg import
 rm -rf node_modules
 rm -rf node_modules && npm install
 rm .\\new.txt
@@ -441,6 +529,7 @@ rustc .\\src\\main.rs
 rustc hello.rs
 rustc main.rs
 rustc src/hello.rs
+rustup component add llvm-tools-preview
 rustup self uninstall
 rustup set default-host x86_64-pc-windows-gnu
 rustup toolchain install stable-gnu
@@ -462,6 +551,7 @@ scoop install deno
 scoop install docker
 scoop install docker-machine
 scoop install everything
+scoop install extras/windows-terminal
 scoop install ffmpeg
 scoop install fluent-reader
 scoop install GIMP
@@ -476,6 +566,7 @@ scoop install krita
 scoop install lapce
 scoop install lf
 scoop install llvm
+scoop install main/vcpkg
 scoop install material-maker
 scoop install microsoft-jdk
 scoop install mingw
@@ -557,6 +648,7 @@ scoop uninstall windows-terminal
 scoop uninstall windows-terminal-preview
 scoop update
 scoop update *
+Set-PSRepository -Name 'PSGallery' -InstallationPolicy Trusted
 shell
 shell -re
 shell.shl
@@ -566,14 +658,22 @@ starship completions
 starship config
 start (Get-PSReadLineOption | select -ExpandProperty HistorySavePath)
 Stop-Process -Name "Neovide"
+ubuntu
+uvicorn
+vcpkg install raylib:x64-windows
+vcpkg integrate install
 vim
+vite
 vscode-langservers-extracted
 winfetch
+winget-install.ps1
 wsl
 wsl --help
 wsl --install
 wsl --install -d Debian
 wsl --install -d kali-linux
+wsl --install -d Ubuntu-22.04
+wsl --install Ubuntu-22.04
 wsl --list
 wsl --list --online
 wsl --set-default-version 2
@@ -581,6 +681,9 @@ wsl --shutdown
 wsl --status
 wsl --unregister Debian
 wsl --unregister Ubuntu
+wsl --unregister Ubuntu-22.04
 wsl --unregister Ubuntu-22.04wslpip list
 wsl --update
 wsl --version
+wsl --versionclear
+wsl -l
