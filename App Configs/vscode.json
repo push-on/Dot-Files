@@ -1,13 +1,9 @@
 {
-  "python.analysis.diagnosticSeverityOverrides": {
-    "reportMissingImports": "none",
-    "reportUndefinedVariable": "none"
-  },
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
   "editor.formatOnType": true,
   "explorer.sortOrder": "type",
-  "workbench.layoutControl.type": "menu",
+  "workbench.layoutControl.type": "toggles",
   "workbench.startupEditor": "none",
   "terminal.integrated.cursorBlinking": true,
   "editor.minimap.renderCharacters": false,
@@ -25,15 +21,9 @@
   "git.autofetch": true,
   "git.enableSmartCommit": true,
   "git.showPushSuccessNotification": true,
-  "editor.fontFamily": "CaskaydiaCove NF mono, Cascadia code , Consolas",
-  "terminal.integrated.fontFamily": "CaskaydiaCove NF mono, Cascadia Mono, Consolas",
+  "editor.fontFamily": "CaskaydiaCove NF mono, CaskaydiaCove Nerd Font Mono, Cascadia code , Consolas",
+  "terminal.integrated.fontFamily": "CaskaydiaCove NF mono,CaskaydiaCove Nerd Font Mono, Cascadia Mono, Consolas",
   "editor.fontLigatures": true,
-  "files.associations": {
-    "*.json": "jsonc",
-    "*.js": "javascript",
-    "*.css": "css",
-    "*.shl": "cpp"
-  },
   "editor.codeLens": false,
   "editor.suggest.snippetsPreventQuickSuggestions": false,
   "editor.quickSuggestions": {
@@ -81,7 +71,7 @@
   "window.customMenuBarAltFocus": false,
   "window.enableMenuBarMnemonics": false,
   "[typescriptreact]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "tailwindCSS.emmetCompletions": true,
   "tailwindCSS.includeLanguages": {
@@ -94,14 +84,11 @@
   "audioCues.lineHasInlineSuggestion": "off",
   "terminal.integrated.confirmOnKill": "never",
   "terminal.integrated.copyOnSelection": true,
-  "terminal.integrated.defaultProfile.windows": "PowerShell",
   "javascript.updateImportsOnFileMove.enabled": "always",
   "editor.guides.bracketPairs": true,
   "git.allowForcePush": true,
-  "explorer.openEditors.visible": 0,
   "search.defaultViewMode": "tree",
   "debug.console.fontFamily": " CaskaydiaCove NF mono, Cascadia code , Consolas",
-  "explorer.compactFolders": false,
   "scm.defaultViewMode": "tree",
   "scm.countBadge": "off",
   "files.exclude": {
@@ -110,7 +97,6 @@
     "**/desktop.ini": true
   },
   "diffEditor.ignoreTrimWhitespace": false,
-  "redhat.telemetry.enabled": false,
   "terminal.integrated.profiles.windows": {
     "PowerShell": {
       "path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
@@ -130,7 +116,7 @@
     "markdown",
     "php"
   ],
-  "diffEditor.wordWrap": "off",
+  "diffEditor.wordWrap": "on",
   "terminal.integrated.gpuAcceleration": "on",
   "terminal.integrated.mouseWheelScrollSensitivity": 3,
   "editor.suggest.shareSuggestSelections": true,
@@ -159,7 +145,7 @@
     "terminal.ansiBrightWhite": "#DCDFE4",
     "terminal.ansiBrightYellow": "#E5C07B",
     "terminal.ansiBlue": "#61AFEF",
-    "terminal.ansiCyan": "#8BA59B",
+    "terminal.ansiCyan": "#56B6C2",
     "terminal.ansiGreen": "#98C379",
     "terminal.ansiMagenta": "#C678DD",
     "terminal.ansiRed": "#E06C75",
@@ -182,10 +168,8 @@
   "json.trace.server": "messages",
   "javascript.inlayHints.enumMemberValues.enabled": true,
   "javascript.inlayHints.functionLikeReturnTypes.enabled": true,
-  "javascript.inlayHints.parameterNames.enabled": "all",
   "typescript.inlayHints.enumMemberValues.enabled": true,
   "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
-  "typescript.inlayHints.parameterNames.enabled": "all",
   "typescript.inlayHints.parameterTypes.enabled": true,
   "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
   "typescript.inlayHints.variableTypes.enabled": true,
@@ -206,25 +190,11 @@
         "settings": {
           "fontStyle": "italic"
         }
-      },
-      {
-        "scope": "keyword.other.dotenv",
-        "settings": {
-          "foreground": "#FF000000"
-        }
       }
     ]
   },
   "editor.foldingHighlight": false,
   "files.eol": "\n",
-  "python.analysis.autoImportCompletions": true,
-  "python.analysis.completeFunctionParens": true,
-  "python.analysis.diagnosticMode": "workspace",
-  "python.analysis.inlayHints.functionReturnTypes": true,
-  "python.analysis.inlayHints.variableTypes": true,
-  "python.analysis.typeCheckingMode": "basic",
-  "vsintellicode.features.python.deepLearning": "enabled",
-  "eslint.packageManager": "pnpm",
   "editor.hideCursorInOverviewRuler": true,
   "editor.overviewRulerBorder": false,
   "notebook.cellToolbarLocation": {
@@ -244,7 +214,6 @@
     "source.fixAll": false,
     "source.organizeImports": false
   },
-  "editor.lightbulb.enabled": false,
   "css.lint.unknownAtRules": "ignore",
   "[css]": {
     "editor.defaultFormatter": "vscode.css-language-features"
@@ -253,9 +222,6 @@
   "markdown.updateLinksOnFileMove.enabled": "prompt",
   "markdown.validate.fragmentLinks.enabled": "ignore",
   "markdown.validate.referenceLinks.enabled": "ignore",
-  "window.menuBarVisibility": "toggle",
-  "rust-analyzer.hover.actions.references.enable": true,
-  "svgPreview.autoOpen": false,
   "[markdown]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.quickSuggestions": {
@@ -270,8 +236,6 @@
   "terminal.integrated.tabs.showActions": "always",
   "terminal.integrated.tabs.showActiveTerminal": "always",
   "notebook.cellToolbarVisibility": "hover",
-  "jupyter.themeMatplotlibPlots": true,
-  "jupyter.enableExtendedKernelCompletions": true,
   "scm.diffDecorations": "gutter",
   "scm.diffDecorationsGutterWidth": 1,
   "workbench.editor.languageDetectionHints": {
@@ -281,9 +245,6 @@
   "debug.console.collapseIdenticalLines": false,
   "explorer.fileNesting.expand": false,
   "workbench.layoutControl.enabled": false,
-  "[yaml]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
   "editor.insertSpaces": false,
   "editor.tabSize": 2,
   "editor.indentSize": 2,
@@ -299,7 +260,6 @@
   "notebook.globalToolbar": false,
   "emmet.showSuggestionsAsSnippets": true,
   "emmet.useInlineCompletions": true,
-  "prettier.semi": false,
   "git.openRepositoryInParentFolders": "never",
   "workbench.iconTheme": "material-icon-theme",
   "debug.console.closeOnEnd": true,
@@ -392,41 +352,69 @@
     }
   },
   "terminal.integrated.env.windows": {},
-  "editor.suggest.showInlineDetails": false,
   "errorLens.statusBarColorsEnabled": true,
   "errorLens.editorHoverPartsEnabled": {
     "buttonsEnabled": false
   },
-  "telemetry.telemetryLevel": "off",
-  "csharp.inlayHints.types.enabled": true,
   "editor.inlayHints.enabled": "offUnlessPressed",
-  "workbench.sideBar.location": "right",
   "typescript.enablePromptUseWorkspaceTsdk": false,
   "typescript.suggest.completeFunctionCalls": true,
   "editor.parameterHints.enabled": false,
-  "editor.inlineSuggest.enabled": false,
   "editor.inlineSuggest.suppressSuggestions": false,
-  "window.zoomLevel": 2,
-  "cSpell.userWords": [
-    "Behaviour",
-    "Mathf",
-    "tailwindcss",
-    "Ummah",
-    "upstash",
-    "webp"
-  ],
-  "godot_tools.gdscript_lsp_server_port": 6005,
-  "godot_tools.reconnect_attempts": 5,
-  "godot_tools.editor_path": "\"C:\\Users\\zero\\scoop\\apps\\godot\\current\\godot.exe\"",
-  "files.autoSave": "afterDelay",
   "breadcrumbs.enabled": false,
-  "editor.wordWrap": "on",
-  "workbench.statusBar.visible": false,
-  "workbench.activityBar.visible": false,
   "workbench.editor.labelFormat": "short",
   "workbench.tree.indent": 12,
   "workbench.editor.sharedViewState": true,
   "terminal.integrated.cursorStyle": "line",
   "terminal.integrated.cursorWidth": 3,
-  "terminal.integrated.enableBell": true
+  "terminal.integrated.enableBell": true,
+  "dotenv.enableAutocloaking": false,
+  "extensions.closeExtensionDetailsOnViewChange": true,
+  "editor.suggest.showInlineDetails": false,
+  "editor.suggest.showWords": false,
+  "update.showReleaseNotes": false,
+  "window.commandCenter": false,
+  "ipynb.pasteImagesAsAttachments.enabled": false,
+  "workbench.list.smoothScrolling": true,
+  "editor.smoothScrolling": true,
+  "window.menuBarVisibility": "toggle",
+  "[svelte]": {
+    "editor.defaultFormatter": "svelte.svelte-vscode"
+  },
+  "files.associations": {
+    ".env*": "dotenv",
+    "*.postcss": "tailwindcss"
+  },
+  "codeium.enableConfig": {
+    "*": true,
+    "markdown": true,
+    "ignore": true,
+    "xml": true,
+    "dotenv": true,
+    "prisma": true,
+    "plaintext": true,
+    "godot-asset": true
+  },
+  "typescript.inlayHints.parameterNames.enabled": "all",
+  "javascript.inlayHints.parameterNames.enabled": "all",
+  "editor.lightbulb.enabled": false,
+  "security.allowedUNCHosts": [
+    "wsl.localhost"
+  ],
+  "window.zoomLevel": 2,
+  "livePreview.openPreviewTarget": "External Browser",
+  "livePreview.notifyOnOpenLooseFile": false,
+  "workbench.editorAssociations": {
+    "*.db": "sqlite-viewer.option"
+  },
+  "reporting.enabled": false,
+  "cSpell.userWords": [
+    "firestore",
+    "signup",
+    "webp"
+  ],
+  "prettier.bracketSameLine": true,
+  "prettier.semi": false,
+  "window.density.editorTabHeight": "compact",
+  "explorer.compactFolders": false,
 }
