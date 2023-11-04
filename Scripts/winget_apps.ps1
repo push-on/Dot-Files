@@ -21,7 +21,9 @@ $apps = @(
   "Notion.Notion",
   "Starship.Starship",
   "Discord.Discord", 
-  "CodecGuide.K-LiteCodecPack.Mega"
+  "CodecGuide.K-LiteCodecPack.Mega",
+  "qBittorrent.qBittorrent",
+  "Microsoft.PowerToys"
 )
 
 function Test-IsAdmin {
