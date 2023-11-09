@@ -23,7 +23,10 @@ $apps = @(
   "Discord.Discord", 
   "CodecGuide.K-LiteCodecPack.Mega",
   "qBittorrent.qBittorrent",
-  "Microsoft.PowerToys"
+  "Microsoft.PowerToys",
+  "Mp3tag.Mp3tag",
+  "Mozilla.Thunderbird",
+  "Facebook.Messenger"
 )
 
 function Test-IsAdmin {
