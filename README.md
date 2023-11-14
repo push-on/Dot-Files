@@ -40,6 +40,10 @@ alias apt='\nala'
 alias dapt='\apt'
 alias sudo='sudo '
 ```
+## Ubuntu Essentials
+```bash
+sudo apt install -y build-essential python3-pip fzf unzip python3.10-venv
+```
 
 ## ⚙ Alacritty
 `open Alacritty in current directory parameter for windows`
