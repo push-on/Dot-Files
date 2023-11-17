@@ -1,3 +1,4 @@
+.\winget_apps.ps1
 adb devices
 adb shell
 add .
@@ -23,7 +24,10 @@ cd ..
 cd .\admin-test\
 cd .\Auth\
 cd .\Code\
+cd .\CODE\admin-sveltekit-5
 cd .\Code\Hostel_Hive_Project_React_Firebase\
+cd .\Dot-Files\
+cd .\Godot_platformer_game_frogeye\
 cd .\my-bevy-app\
 cd .\my-rust-app\
 cd .\my-skeleton-app\
@@ -37,14 +41,17 @@ cd .\svelte_admin_app\
 cd .\sveltekit-skeleton-supabase-admin\
 cd .\sveltekit-supabase-dashboard\
 cd admin
+cd admin-next-14
 cd auth-protected-routes
 cd Downloads
 cd my-svelte-app
 cd sb-admin-svelte
 cd side-bar
+cd Space_invader_vanilla_ts_vite
 cd svelte_admin_app
 celar
 clear
+code
 code .
 curl -fsSL https://bun.sh/install | bash
 debian
@@ -83,12 +90,18 @@ git checkout origin/03-basics
 git checkout origin/lesson-9
 git checkout origin/lesson-11
 git checkout origin/trpc-node-react-setup
+git cloen https://github.com/push-on/Portfolio.git
+git cloen https://gitlab.com/push-on/notes.git
 git clone git clone https://push-on@bitbucket.org/pushons/sveltekit-skeleton-supabase-admin.git
 git clone git@github.com:GeekyAnts/sb-admin-svelte.git
 git clone https://github.com/GeekyAnts/sb-admin-svelte.git
 git clone https://github.com/godotengine/godot-syntax-themes.git "%APPDATA%\Godot\text_editor_themes"
+git clone https://github.com/push-on/Godot_platformer_game_frogeye
+git clone https://github.com/push-on/Godot_platformer_game_frogeye.git
 git clone https://github.com/push-on/Hostel_Hive_Project_React_Firebase.git
 git clone https://github.com/push-on/notes.git
+git clone https://github.com/push-on/Portfolio.git
+git clone https://github.com/push-on/Space_invader_vanilla_ts_vite.git
 git clone https://github.com/push-on/svelte-css-animations.git
 git clone https://github.com/xulioc/sveltekit-supabase-dashboard.git
 git clone https://gitlab.com/push-on/notes.git
@@ -180,7 +193,6 @@ git stash
 git stash clear
 git stash push -am "adding new file to stash"
 git stash push -m "new tax rules."
-Git Status
 git status
 git status -s
 git switch bugfix
@@ -192,19 +204,6 @@ git tag -a v1.1 -m "my version 1.1" 50db987
 git tag -n
 git tag v1.0 5e7a828
 git tag v1.0
-go
-helix
-hx
-hx --grammar build
-hx --grammar fetch
-hx --health
-hx .
-Install-Script -Name winget-install -Force
-irm https://christitus.com/win | iex
-la
-ls
-netstat -a
-netstat -aon
 npm --loglevel=error
 npm --version
 npm audit fix
@@ -262,6 +261,7 @@ npm run build
 npm run dev
 npm run start
 npm search stylua
+npx next telemetry disable
 npx svelte-add@latest tailwindcss
 nvim
 ocat
@@ -323,6 +323,7 @@ pn create create-tauri-app
 pn create next-app
 pn create next-app --typescript
 pn create next-app --typescript my-app
+pn create svelte@latest .
 pn create svelte@latest admin
 pn create svelte@latest Auth
 pn create svelte@latest auth-protected-routes
@@ -490,18 +491,10 @@ pnpx degit solidjs/templates/ts solid-app
 pnpx shadcn-svelte@latest init
 pnpx svelte-add@latest tailwindcss
 powercfg.exe /hibernate off
-prd
-pwd
-py
 py --version
 py -m pip install --upgrade pip
 py -m pip install pipenv
 py -m pipenv install django
-py .\Draft.py
-py .\h.py
-py .\main.py
-py manage.py runserver
-py manage.py startapp PlayGround
 python
 python3
 python --verstion
@@ -523,18 +516,6 @@ rm .\\test.txt
 rm .\desktop.ini
 rm .\StoreFront\
 rm file3.txt
-rust
-rustc --print sysroot
-rustc .\\src\\main.rs
-rustc hello.rs
-rustc main.rs
-rustc src/hello.rs
-rustup component add llvm-tools-preview
-rustup self uninstall
-rustup set default-host x86_64-pc-windows-gnu
-rustup toolchain install stable-gnu
-rustup toolchain install stable-x86_64-pc-windows-gnu
-rustup update stable
 scoop bucket add extras
 scoop bucket add java
 scoop bucket add main
@@ -543,147 +524,24 @@ scoop cache
 scoop cache rm *
 scoop cleanup
 scoop cleanup *
-scoop install 7zip
-scoop install caprine
-scoop install clangd
-scoop install cmake
-scoop install deno
-scoop install docker
-scoop install docker-machine
-scoop install everything
-scoop install extras/windows-terminal
-scoop install ffmpeg
-scoop install fluent-reader
-scoop install GIMP
-scoop install github
-scoop install go
-scoop install godot
-scoop install godot-beta
-scoop install helix
-scoop install imageglass
-scoop install instant-eyedropper
-scoop install krita
-scoop install lapce
-scoop install lf
-scoop install llvm
-scoop install main/vcpkg
-scoop install material-maker
-scoop install microsoft-jdk
-scoop install mingw
-scoop install mp3tag
-scoop install msedgeredirect
-scoop install naps2
-scoop install neovide
-scoop install neovim
-scoop install neovim neovide
-scoop install nilesoft-shell
-scoop install ninja
-scoop install notepadplusplus
-scoop install nvim
-scoop install obs-studio
-scoop install obsidian
-scoop install ocat
-scoop install oh-my-posh
-scoop install posh-docker
-scoop install powertoys
-scoop install pypy3
-scoop install qbittorrent
-scoop install scoop-completion
-scoop install Shotcut
-scoop install starship
-scoop install stylua
-scoop install swipl
-scoop install thunderbird
-scoop install twinkle-tray
-scoop install ungoogled-chromium
-scoop install vscodium
-scoop install windows-terminal
-scoop install windows-terminal-preview
-scoop install winfetch
-scoop install xnconvert
-scoop install zig
 scoop list
 scoop ls
-scoop remove helix
-scoop remove obsidian
-scoop search godot
-scoop search godot-beta
 scoop status
-scoop uninstall bulk-rename-utility
-scoop uninstall caprine
-scoop uninstall clangd
-scoop uninstall docker
-scoop uninstall docker-machine
-scoop uninstall fluent-reader
-scoop uninstall git
-scoop uninstall github
-scoop uninstall go
-scoop uninstall godot
-scoop uninstall godot-beta
-scoop uninstall helix
-scoop uninstall instant-eyedropper
-scoop uninstall krita
-scoop uninstall llvm
-scoop uninstall material-maker
-scoop uninstall microsoft-jdk
-scoop uninstall mingw
-scoop uninstall neovide
-scoop uninstall neovide neovim helix
-scoop uninstall neovim
-scoop uninstall neovim helix
-scoop uninstall ninja
-scoop uninstall nodejs-lts
-scoop uninstall notepadplusplus
-scoop uninstall obsidian
-scoop uninstall ocat
-scoop uninstall oh-my-posh
-scoop uninstall posh-docker
-scoop uninstall powertoys
-scoop uninstall pypy3
-scoop uninstall qbittorrent
-scoop uninstall rust-analyzer rust-gnu rustup-gnu
-scoop uninstall stylua
-scoop uninstall vscodium
-scoop uninstall windows-terminal
-scoop uninstall windows-terminal-preview
 scoop update
 scoop update *
-Set-PSRepository -Name 'PSGallery' -InstallationPolicy Trusted
-shell
-shell -re
-shell.shl
-srd
 starship
 starship completions
 starship config
 start (Get-PSReadLineOption | select -ExpandProperty HistorySavePath)
 Stop-Process -Name "Neovide"
-ubuntu
-uvicorn
-vcpkg install raylib:x64-windows
-vcpkg integrate install
-vim
-vite
-vscode-langservers-extracted
-winfetch
-winget-install.ps1
 wsl
 wsl --help
 wsl --install
-wsl --install -d Debian
-wsl --install -d kali-linux
-wsl --install -d Ubuntu-22.04
-wsl --install Ubuntu-22.04
 wsl --list
 wsl --list --online
-wsl --set-default-version 2
 wsl --shutdown
 wsl --status
-wsl --unregister Debian
 wsl --unregister Ubuntu
-wsl --unregister Ubuntu-22.04
-wsl --unregister Ubuntu-22.04wslpip list
 wsl --update
 wsl --version
 wsl --versionclear
-wsl -l
