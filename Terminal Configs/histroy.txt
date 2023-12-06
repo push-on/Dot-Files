@@ -1,4 +1,3 @@
-.\winget_apps.ps1
 adb devices
 adb shell
 add .
@@ -6,6 +5,7 @@ Add-AppxPackage -Path .\terminal.msixbundle
 Add-PoshGitToProfile -AllHosts
 add_commit
 add_commit_push
+build.preview
 bun
 cargo
 cargo -v
@@ -27,23 +27,32 @@ cd .\Code\
 cd .\CODE\admin-sveltekit-5
 cd .\Code\Hostel_Hive_Project_React_Firebase\
 cd .\Dot-Files\
+cd .\fade-in\
 cd .\Godot_platformer_game_frogeye\
+cd .\my-app\
 cd .\my-bevy-app\
 cd .\my-rust-app\
 cd .\my-skeleton-app\
 cd .\my-svelte-app\
 cd .\notes\
 cd .\pico\
+cd .\Python_BOT\
+cd .\qwik-app\
+cd .\qwik-todo\
+cd .\qwik-voting\
 cd .\Rust\
 cd .\sb-admin-svelte\
 cd .\sk-hostel\
 cd .\svelte_admin_app\
 cd .\sveltekit-skeleton-supabase-admin\
 cd .\sveltekit-supabase-dashboard\
+cd .\test\
+cd .\TEST_SITE\my-app\
 cd admin
 cd admin-next-14
 cd auth-protected-routes
 cd Downloads
+cd my-app
 cd my-svelte-app
 cd sb-admin-svelte
 cd side-bar
@@ -52,6 +61,7 @@ cd svelte_admin_app
 celar
 clear
 code
+code (Get-PSReadLineOption | select -ExpandProperty HistorySavePath)
 code .
 curl -fsSL https://bun.sh/install | bash
 debian
@@ -60,6 +70,7 @@ deno --help
 deno --version
 deno task dev
 deno upgrade
+docker run -it --rm dumbaspl/aero2solver
 echo hello > file.txt
 explorer.exe .
 find-module psreadline -allversions -allowprerelease
@@ -204,6 +215,9 @@ git tag -a v1.1 -m "my version 1.1" 50db987
 git tag -n
 git tag v1.0 5e7a828
 git tag v1.0
+irm christitus.com/win | iex
+irm cristitus.com/win | iex
+ls
 npm --loglevel=error
 npm --version
 npm audit fix
@@ -238,6 +252,7 @@ npm i -g typescript
 npm i -g typescript-language-server
 npm i -g vercel
 npm i -g vscode-langservers-extracted
+npm i @fontsource/inter
 npm i pnpm
 npm init
 npm init -y
@@ -247,6 +262,7 @@ npm init vite new-app
 npm init vite tail-app
 npm install --save @fortawesome/fontawesome-free
 npm install -g firebase-tools
+npm install @prisma/client@5.6.0
 npm install @types/node --save-dev
 npm install purgecss --save-dev
 npm list
@@ -267,6 +283,7 @@ nvim
 ocat
 oh-my-posh
 oh-my-posh config
+openssl rand -base64 32
 pgrep edge
 ping etf.bg.ac.rs
 ping facebook.com
@@ -275,12 +292,15 @@ ping http://registry.npmjs.org/
 ping reddit.com
 ping registry.npmjs.org
 pip
+pip3 install 2captcha-python
 pip --version
 pip -v
 pip freeze | %{$_.split('==')[0]} | %{pip install --upgrade $_}
 pip install "gdtoolkit==4.*"
 pip install "python-lsp-server[all]"
+pip install "tensorflow<2.11"
 pip install --upgrade pip
+pip install --upgrade selenium
 pip install -U TTS
 pip install black
 pip install django
@@ -291,11 +311,15 @@ pip install matplotlib pandas pipenv jupyter numpy django black autopep8 jedi py
 pip install openpyxl
 pip install pandas
 pip install pipenv
+pip install pipreqs
 pip install pipwin
 pip install pynvim
 pip install python-lsp-server
+pip install requests
 pip install scikit-learn
 pip install seaborn
+pip install selenium
+pip install undetected_chromedriver
 pip list
 pip list --outdated
 pip update
@@ -316,6 +340,7 @@ pn add -D vitest
 pn add -g pn
 pn add @trpc/client @trpc/server @trpc/react-query @tanstack/react-query
 pn add @trpc/server zod
+pn add openai
 pn build
 pn create --help
 pn create @eslint/config
@@ -327,11 +352,13 @@ pn create svelte@latest .
 pn create svelte@latest admin
 pn create svelte@latest Auth
 pn create svelte@latest auth-protected-routes
+pn create svelte@latest fade-in
 pn create svelte@latest my-app
 pn create svelte@latest my-svelte-app
 pn create svelte@latest pico
 pn create svelte@latest side-bar
 pn create svelte@latest svelte_admin_app
+pn create svelte@latest test
 pn create svelte@latest thretle
 pn create svelte@latest Thretle-App
 pn create t3-app@latest
@@ -349,6 +376,7 @@ pn create vite@latest ./
 pn create vite@latest ./ --template react-ts
 pn create vite@latest ./ --template svelte
 pn create vite@latest admin-test
+pn create vite@latest fade-in
 pn create vite@latest my-app
 pn create vite@latest my-app --template react
 pn create vite@latest my-app --template react-ts
@@ -384,6 +412,7 @@ pn i -d @types/cors
 pn i -D @types/express
 pn i -D @types/morgan
 pn i -D @types/node
+pn i -D daisyui@latest
 pn i -D eslint
 pn i -D nodemon
 pn i -D postcss
@@ -392,7 +421,9 @@ pn i -D postcss-uncss uncss
 pn i -D purgecss
 pn i -D rimraf
 pn i -D swc-node
+pn i -D tailwind-animated
 pn i -D tailwindcss postcss autoprefixer
+pn i -D tailwindcss-animated
 pn i -D typescript
 pn i -D typescript @types/node nodemon esbuild esbuild-node-tsc
 pn i -D vite vitest
@@ -402,6 +433,7 @@ pn i -g firebase-tools
 pn i -g nodemon
 pn i @babylonjs/core
 pn i @eslint/config
+pn i @fontsource/inter
 pn i @heroicons/react
 pn i @heroicons/react@v1
 pn i @react-three/drei
@@ -420,6 +452,7 @@ pn i morgan
 pn i nextjs
 pn i node-sass
 pn i nodemon
+pn i puppeteer-core
 pn i react-hot-toast
 pn i react-icons
 pn i react-loader-spinner
@@ -446,7 +479,14 @@ pn nodemon index.js
 pn outdated
 pn outdated -g
 pn preview
+pn prisma generate
+pn prisma migrate dev
+pn prisma studio
+pn qwik add auth
+pn qwik add prisma
+pn qwik add tailwind
 pn run build
+pn run build.preview
 pn run check
 pn run deploy
 pn run dev
@@ -457,6 +497,7 @@ pn run dve
 pn run open
 pn run pn run build
 pn run preview
+pn run qwik add vercel-edge
 pn run start
 pn run tauri
 pn run tauri dev
@@ -480,16 +521,26 @@ pn up --latest
 pn update
 pn vitest
 pnpm -v
+pnpm add next-auth
+pnpm add ts-node -D
+pnpm create qwik@latest
+pnpm create qwik@latest qwik-voting
 pnpm create skeleton-app@latest admin
 pnpm create skeleton-app@latest my-skeleton-app
 pnpm create skeleton-app@latest sk-hostel
 pnpm i -D vite-plugin-tailwind-purgecss
+pnpm i @fontsource/inter
 pnpm install @picocss/pico@next
+pnpm install @prisma/client@5.6.0
 pnpm install lucide-svelte
+pnpm prisma migrate reset
+pnpx add ts-node -D
+pnpx create-next-app
 pnpx create-next-app@latest
 pnpx degit solidjs/templates/ts solid-app
 pnpx shadcn-svelte@latest init
 pnpx svelte-add@latest tailwindcss
+pnpx tailwindcss init -p
 powercfg.exe /hibernate off
 py --version
 py -m pip install --upgrade pip
@@ -500,6 +551,7 @@ python3
 python --verstion
 python -m http.server 8000
 python -m http.server 8000 --reload
+python -m pip install "tensorflow<2.11"
 python -v
 python .\\Test.py
 python.exe -m pip install --upgrade pip
@@ -524,6 +576,8 @@ scoop cache
 scoop cache rm *
 scoop cleanup
 scoop cleanup *
+scoop install main/openssl
+scoop install versions/openssl-light
 scoop list
 scoop ls
 scoop status
@@ -534,6 +588,8 @@ starship completions
 starship config
 start (Get-PSReadLineOption | select -ExpandProperty HistorySavePath)
 Stop-Process -Name "Neovide"
+winget update
+winget upgrade --all
 wsl
 wsl --help
 wsl --install
@@ -544,4 +600,4 @@ wsl --status
 wsl --unregister Ubuntu
 wsl --update
 wsl --version
-wsl --versionclear
+wsl --versioncleargit clone https://github.com/push-on/Dot-Filescode (Get-PSReadLineOption | select -ExpandProperty HistorySavePath)
