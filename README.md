@@ -24,11 +24,9 @@ pip install matplotlib pandas pipenv jupyter numpy django black autopep8 jedi py
 ## 📦 [scoop](https://scoop.sh/)
 
 ```bash
-irm get.scoop.sh | iex
 scoop bucket add extras
 scoop bucket add versions
-scoop bucket add java
-scoop install 7zip audacity blender bulk-rename-utility everything ffmpeg gimp go godot cmake starship obsidian obs-studio imageglass naps2 xnconvert twinkle-tray  
+scoop install 7zip audacity blender krita bulk-rename-utility everything ffmpeg godot starship obsidian obs-studio imageglass naps2 xnconvert twinkle-tray  
 ```
 
 ## Bashrc
