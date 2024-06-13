@@ -1,4 +1,7 @@
+adb
 adb devices
+adb reconnect
+adb reconnect device
 adb shell
 add .
 Add-AppxPackage -Path .\terminal.msixbundle
@@ -7,6 +10,39 @@ add_commit
 add_commit_push
 build.preview
 bun
+bun add --development slice-machine-ui@latest @slicemachine/adapter-sveltekit@latest
+bun add -D daisyui@latest
+bun add @fontsource-variable/dm-sans
+bun add svelte-add@latest tailwindcss
+bun create
+bun create qwik@latest
+bun create svelte@latest
+bun help
+bun i
+bun i -d prettier prettier-plugin-tailwindcss
+bun i -D svelte-intersection-observer
+bun i og-img
+bun i tailwindcss-animated
+bun install --save-dev svelte@next
+bun outdated
+bun remove motion
+bun run
+bun run dev
+bun run outdated
+bun run qwik add tailwind
+bun svelte-add@latest tailwindcss
+bun update
+bun update --latest
+bun upgrade
+bun x npm-check-updates -ui
+bunx @vendure/create my-shop
+bunx shadcn-svelte@latest add calendar
+bunx shadcn-svelte@latest add popover
+bunx shadcn-svelte@latest add select
+bunx shadcn-svelte@latest add sonner
+bunx shadcn-svelte@latest add table
+bunx shadcn-svelte@latest init
+bunx svelte-add@latest tailwindcss
 cargo
 cargo -v
 cargo add bevy
@@ -17,12 +53,14 @@ cargo install -f cargo-binutils
 cargo new my-bevy-app
 cargo new my-rust-app
 cargo run
+cargo run --example breakout
 cargo tauri build --target
 cargo update
 cd '.\# Experiments\'
 cd ..
 cd .\admin-test\
 cd .\Auth\
+cd .\bun-project\
 cd .\Code\
 cd .\CODE\admin-sveltekit-5
 cd .\Code\Hostel_Hive_Project_React_Firebase\
@@ -32,6 +70,7 @@ cd .\Godot_platformer_game_frogeye\
 cd .\my-app\
 cd .\my-bevy-app\
 cd .\my-rust-app\
+cd .\my-shop\
 cd .\my-skeleton-app\
 cd .\my-svelte-app\
 cd .\notes\
@@ -40,17 +79,23 @@ cd .\Python_BOT\
 cd .\qwik-app\
 cd .\qwik-todo\
 cd .\qwik-voting\
+cd .\repeat-ai\
 cd .\Rust\
 cd .\sb-admin-svelte\
 cd .\sk-hostel\
+cd .\startups-workstation\
+cd .\startups-workstation\startups-workstation
 cd .\svelte_admin_app\
 cd .\sveltekit-skeleton-supabase-admin\
 cd .\sveltekit-supabase-dashboard\
+cd .\sw-qwik\
+cd .\Test\
 cd .\test\
 cd .\TEST_SITE\my-app\
 cd admin
 cd admin-next-14
 cd auth-protected-routes
+cd bevy
 cd Downloads
 cd my-app
 cd my-svelte-app
@@ -58,12 +103,14 @@ cd sb-admin-svelte
 cd side-bar
 cd Space_invader_vanilla_ts_vite
 cd svelte_admin_app
+cd sw-qwik
 celar
 clear
 code
 code (Get-PSReadLineOption | select -ExpandProperty HistorySavePath)
 code .
 curl -fsSL https://bun.sh/install | bash
+curl -fsSL https://cdn.coollabs.io/coolify/install.sh | bash
 debian
 deno
 deno --help
@@ -73,6 +120,7 @@ deno upgrade
 docker run -it --rm dumbaspl/aero2solver
 echo hello > file.txt
 explorer.exe .
+ffmpeg
 find-module psreadline -allversions -allowprerelease
 firebase login
 fs
@@ -92,11 +140,14 @@ git branch
 git branch --delete minimal
 git branch -a
 git branch -m
+git checkout abfd677a905c0af0333a28a0f87babe25b02b953
 git checkout feature
+git checkout latest
 git checkout lession-9
 git checkout main
 git checkout master
 git checkout minimal
+git checkout Nav bar
 git checkout origin/03-basics
 git checkout origin/lesson-9
 git checkout origin/lesson-11
@@ -105,14 +156,18 @@ git cloen https://github.com/push-on/Portfolio.git
 git cloen https://gitlab.com/push-on/notes.git
 git clone git clone https://push-on@bitbucket.org/pushons/sveltekit-skeleton-supabase-admin.git
 git clone git@github.com:GeekyAnts/sb-admin-svelte.git
+git clone https://github.com/a-trost/repeat-ai.git
+git clone https://github.com/bevyengine/bevy
 git clone https://github.com/GeekyAnts/sb-admin-svelte.git
 git clone https://github.com/godotengine/godot-syntax-themes.git "%APPDATA%\Godot\text_editor_themes"
+git clone https://github.com/push-on/fitness_expert_landing_page_qwik.git
 git clone https://github.com/push-on/Godot_platformer_game_frogeye
 git clone https://github.com/push-on/Godot_platformer_game_frogeye.git
 git clone https://github.com/push-on/Hostel_Hive_Project_React_Firebase.git
 git clone https://github.com/push-on/notes.git
 git clone https://github.com/push-on/Portfolio.git
 git clone https://github.com/push-on/Space_invader_vanilla_ts_vite.git
+git clone https://github.com/push-on/startups-workstation.git
 git clone https://github.com/push-on/svelte-css-animations.git
 git clone https://github.com/xulioc/sveltekit-supabase-dashboard.git
 git clone https://gitlab.com/push-on/notes.git
@@ -166,12 +221,18 @@ git push origin --delete
 git push origin -–delete minimal
 git push origin -–delete minimal -f
 git push origin -–delete minimal command
+git push origin abfd677a905c0af0333a28a0f87babe25b02b953
 git push origin bugfix -d
+git push origin main --force
 git push origin minimal -d
 git push origin –delete minimal
 git push origin –delete minimal -f
 git remote add origin
 git remote set-url origin
+git reset --hard HEAD
+git reset --hard HEAD^
+git reset --hard HEAD~2
+git reset --hard main
 git restore --source=HEAD~1 fielx.txt
 git restore --source=HEAD~1 filex.txt
 git restore --staged file1.txt
@@ -215,9 +276,17 @@ git tag -a v1.1 -m "my version 1.1" 50db987
 git tag -n
 git tag v1.0 5e7a828
 git tag v1.0
+ipconfig
+ipconfig /all
+ipconfig all
+ipconfig-all
+ipconfig/all
 irm christitus.com/win | iex
 irm cristitus.com/win | iex
+lear
 ls
+mkdir bun-project
+mkdir startups-workstation
 npm --loglevel=error
 npm --version
 npm audit fix
@@ -232,12 +301,14 @@ npm fund
 npm i
 npm i -D @fullhuman/postcss-purgecss
 npm i -D @swc/cli @swc/core
+npm i -d prettier prettier-plugin-tailwindcss
 npm i -g bash-language-server
 npm i -g bun
 npm i -g eslint
 npm i -g firebase-tools
 npm i -g neovim
 npm i -g nodemon
+npm i -g npm@10.5.2
 npm i -g npm@latest
 npm i -g npm@latest pnpm nodemon ts-node typescript eslint @sanity/cli neovim prettier bash-language-server dockerfile-language-server-nodejs vscode-langservers-extracted typescript-language-server tree-sitter-cli svelte-language-server
 npm i -g pnpm
@@ -261,6 +332,7 @@ npm init vite .
 npm init vite new-app
 npm init vite tail-app
 npm install --save @fortawesome/fontawesome-free
+npm install --save-dev svelte@next
 npm install -g firebase-tools
 npm install @prisma/client@5.6.0
 npm install @types/node --save-dev
@@ -277,6 +349,8 @@ npm run build
 npm run dev
 npm run start
 npm search stylua
+npx @slicemachine/init@latest --repository startups-workstation --starter sveltekit-starter-prismic-minimal
+npx @vendure/create my-shop
 npx next telemetry disable
 npx svelte-add@latest tailwindcss
 nvim
@@ -308,6 +382,7 @@ pip install GDToolkit
 pip install jupyter
 pip install matplotlib
 pip install matplotlib pandas pipenv jupyter numpy django black autopep8 jedi pynvim python-lsp-server scikit-learn seaborn requests pillow
+pip install matplotlib pandas pipenv jupyter numpy django black autopep8 jedi pynvim python-lsp-server scikit-learn seaborn requests pillow gdtoolkit
 pip install openpyxl
 pip install pandas
 pip install pipenv
@@ -348,6 +423,7 @@ pn create create-tauri-app
 pn create next-app
 pn create next-app --typescript
 pn create next-app --typescript my-app
+pn create svelte@latest
 pn create svelte@latest .
 pn create svelte@latest admin
 pn create svelte@latest Auth
@@ -426,6 +502,7 @@ pn i -D tailwindcss postcss autoprefixer
 pn i -D tailwindcss-animated
 pn i -D typescript
 pn i -D typescript @types/node nodemon esbuild esbuild-node-tsc
+pn i -D unplugin-icons
 pn i -D vite vitest
 pn i -D vite vitest typescript
 pn i -d vitest
@@ -441,14 +518,19 @@ pn i @threlte/core@next
 pn i @trpc/server zod cors
 pn i @types/three
 pn i axios
+pn i clsx
 pn i cors
 pn i dotenv
 pn i eslint
 pn i express
 pn i express body-parser mysql
 pn i gitignore
+pn i gsap
+pn i gsap-scrolltrigger
+pn i lucide-svelte
 pn i mongoose
 pn i morgan
+pn i motion
 pn i nextjs
 pn i node-sass
 pn i nodemon
@@ -458,6 +540,7 @@ pn i react-icons
 pn i react-loader-spinner
 pn i react-router-dom@latest
 pn i sass
+pn i svelte-remixicon
 pn i three @react-three/fiber
 pn i tsc
 pn i typescript
@@ -469,6 +552,7 @@ pn init -y
 pn init @eslint/config
 pn install
 pn install --save @fortawesome/fontawesome-free
+pn install -D @tailwindcss/typography
 pn install tree-sitter-cli
 pn intall
 pn list --offline
@@ -485,6 +569,8 @@ pn prisma studio
 pn qwik add auth
 pn qwik add prisma
 pn qwik add tailwind
+pn remove gsap
+pn remove lucide-svelte
 pn run build
 pn run build.preview
 pn run check
@@ -494,6 +580,7 @@ pn run dev --port=3000
 pn run dev --port=4000
 pn run devpn run dev
 pn run dve
+pn run i
 pn run open
 pn run pn run build
 pn run preview
@@ -519,6 +606,7 @@ pn u
 pn up
 pn up --latest
 pn update
+pn update --latest
 pn vitest
 pnpm -v
 pnpm add next-auth
@@ -528,6 +616,7 @@ pnpm create qwik@latest qwik-voting
 pnpm create skeleton-app@latest admin
 pnpm create skeleton-app@latest my-skeleton-app
 pnpm create skeleton-app@latest sk-hostel
+pnpm i
 pnpm i -D vite-plugin-tailwind-purgecss
 pnpm i @fontsource/inter
 pnpm install @picocss/pico@next
@@ -542,6 +631,7 @@ pnpx shadcn-svelte@latest init
 pnpx svelte-add@latest tailwindcss
 pnpx tailwindcss init -p
 powercfg.exe /hibernate off
+prismic login
 py --version
 py -m pip install --upgrade pip
 py -m pip install pipenv
@@ -576,18 +666,39 @@ scoop cache
 scoop cache rm *
 scoop cleanup
 scoop cleanup *
+scoop install adb
+scoop install extras/bulk-crap-uninstaller
+scoop install extras/ferdium
+scoop install extras/kodi
+scoop install extras/natron
+scoop install extras/pureref
+scoop install ffmpeg
+scoop install helix
+scoop install inkscape
 scoop install main/openssl
+scoop install scrcpy
+scoop install versions/godot-beta
 scoop install versions/openssl-light
 scoop list
 scoop ls
 scoop status
+scoop uninstall extras/ferdium
+scoop uninstall godot
+scoop uninstall kodi
+scoop uninstall obsidian
+scoop uninstall pureref
 scoop update
 scoop update *
+scoop update pureref
+scrcpy --tcpip
 starship
 starship completions
 starship config
 start (Get-PSReadLineOption | select -ExpandProperty HistorySavePath)
 Stop-Process -Name "Neovide"
+sudo su
+update
+winget install Microsoft.PowerToys --source winget
 winget update
 winget upgrade --all
 wsl
@@ -600,4 +711,4 @@ wsl --status
 wsl --unregister Ubuntu
 wsl --update
 wsl --version
-wsl --versioncleargit clone https://github.com/push-on/Dot-Filescode (Get-PSReadLineOption | select -ExpandProperty HistorySavePath)
+wsl --versioncleargit clone https://github.com/push-on/Dot-Filescode (Get-PSReadLineOption | select -ExpandProperty HistorySavePath)clear
