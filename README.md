@@ -26,7 +26,7 @@ pip install matplotlib pandas pipenv jupyter numpy django black autopep8 jedi py
 ```bash
 scoop bucket add extras
 scoop bucket add versions
-scoop install 7zip audacity blender bulk-crap-uninstaller bulk-rename-utility bun everything ffmpeg godot imageglass innounp krita naps2 obs-studio pureref starship twinkle-tray xnconvert 
+scoop install 7zip audacity bulk-rename-utility bun everything ffmpeg naps2 obs-studio pureref starship xnconvert 
 ```
 
 ## Bashrc
