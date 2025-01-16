@@ -56,56 +56,7 @@ cargo run
 cargo run --example breakout
 cargo tauri build --target
 cargo update
-cd '.\# Experiments\'
-cd ..
-cd .\admin-test\
-cd .\Auth\
-cd .\bun-project\
-cd .\Code\
-cd .\CODE\admin-sveltekit-5
-cd .\Code\Hostel_Hive_Project_React_Firebase\
-cd .\Dot-Files\
-cd .\fade-in\
-cd .\Godot_platformer_game_frogeye\
-cd .\my-app\
-cd .\my-bevy-app\
-cd .\my-rust-app\
-cd .\my-shop\
-cd .\my-skeleton-app\
-cd .\my-svelte-app\
-cd .\notes\
-cd .\pico\
-cd .\Python_BOT\
-cd .\qwik-app\
-cd .\qwik-todo\
-cd .\qwik-voting\
-cd .\repeat-ai\
-cd .\Rust\
-cd .\sb-admin-svelte\
-cd .\sk-hostel\
-cd .\startups-workstation\
-cd .\startups-workstation\startups-workstation
-cd .\svelte_admin_app\
-cd .\sveltekit-skeleton-supabase-admin\
-cd .\sveltekit-supabase-dashboard\
-cd .\sw-qwik\
-cd .\Test\
-cd .\test\
-cd .\TEST_SITE\my-app\
-cd admin
-cd admin-next-14
-cd auth-protected-routes
-cd bevy
-cd Downloads
-cd my-app
-cd my-svelte-app
-cd sb-admin-svelte
-cd side-bar
-cd Space_invader_vanilla_ts_vite
-cd svelte_admin_app
-cd sw-qwik
-celar
-clear
+
 code
 code (Get-PSReadLineOption | select -ExpandProperty HistorySavePath)
 code .
@@ -140,38 +91,7 @@ git branch
 git branch --delete minimal
 git branch -a
 git branch -m
-git checkout abfd677a905c0af0333a28a0f87babe25b02b953
-git checkout feature
-git checkout latest
-git checkout lession-9
-git checkout main
-git checkout master
-git checkout minimal
-git checkout Nav bar
-git checkout origin/03-basics
-git checkout origin/lesson-9
-git checkout origin/lesson-11
-git checkout origin/trpc-node-react-setup
-git cloen https://github.com/push-on/Portfolio.git
-git cloen https://gitlab.com/push-on/notes.git
-git clone git clone https://push-on@bitbucket.org/pushons/sveltekit-skeleton-supabase-admin.git
-git clone git@github.com:GeekyAnts/sb-admin-svelte.git
-git clone https://github.com/a-trost/repeat-ai.git
-git clone https://github.com/bevyengine/bevy
-git clone https://github.com/GeekyAnts/sb-admin-svelte.git
-git clone https://github.com/godotengine/godot-syntax-themes.git "%APPDATA%\Godot\text_editor_themes"
-git clone https://github.com/push-on/fitness_expert_landing_page_qwik.git
-git clone https://github.com/push-on/Godot_platformer_game_frogeye
-git clone https://github.com/push-on/Godot_platformer_game_frogeye.git
-git clone https://github.com/push-on/Hostel_Hive_Project_React_Firebase.git
-git clone https://github.com/push-on/notes.git
-git clone https://github.com/push-on/Portfolio.git
-git clone https://github.com/push-on/Space_invader_vanilla_ts_vite.git
-git clone https://github.com/push-on/startups-workstation.git
-git clone https://github.com/push-on/svelte-css-animations.git
-git clone https://github.com/xulioc/sveltekit-supabase-dashboard.git
-git clone https://gitlab.com/push-on/notes.git
-git clone https://push-on@bitbucket.org/pushons/sveltekit-skeleton-supabase-admin.git
+git clone h
 git commit -m
 git commit -m "added routes and models"
 git commit -m "final commit"
@@ -183,12 +103,6 @@ git config --global -e
 git config -e
 git diff
 git diff --staged
-git diff --stagedGet-PoshThemes
-git diff HEAD~2 HEAD
-git diff master..bugfix-signup-form
-git difftool
-git difftool --staged
-git help config
 git init
 git int
 git log
@@ -711,4 +625,48 @@ wsl --status
 wsl --unregister Ubuntu
 wsl --update
 wsl --version
-wsl --versioncleargit clone https://github.com/push-on/Dot-Filescode (Get-PSReadLineOption | select -ExpandProperty HistorySavePath)clear
+clear
+cc
+code (Get-PSReadLineOption | select -ExpandProperty HistorySavePath)
+code $PROFILE
+cc
+clear
+ls
+code .
+clear
+bun test.js
+go
+clear
+scoop install zig
+clear
+scoop cleanup *
+clear
+scoop cache rm *
+clear
+cargo
+clear
+ls
+la
+clear
+lf
+code $PROFILE
+clear
+ls
+py .\test.py
+scoop install ungoogled chrome
+scoop install extras/ungoogled-chromium
+clear
+scoop uninstall extras/ungoogled-chromium
+scoop cache rm *
+scoop cleanup *
+scoop install extras/bforartists
+clear
+scoop install blender
+scoop cleanup *
+scoop cache rm *
+clear
+scoop install extras/blender-launcher
+irm cristitus.com/win | iex
+irm cristitus.com/win | irx
+irm christitus.com/win | iex
+start (Get-PSReadLineOption | select -ExpandProperty HistorySavePath)
