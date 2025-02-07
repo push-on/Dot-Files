@@ -1,0 +1,83 @@
+{
+  "features": {
+    "inline_completions": false,
+    "copilot": false
+    // "inline_completion_provider": "supermaven"
+  },
+  "scrollbar": {
+    "axes": { "horizontal": false }
+  },
+  "project_panel": {
+    "button": true,
+    "git_status": false
+  },
+
+  "autosave": {
+    "after_delay": {
+      "milliseconds": 3000
+    }
+  },
+  "icon_theme": "Material Icon Theme",
+  "telemetry": {
+    "metrics": false,
+    "diagnostics": false
+  },
+  "ui_font_size": 16,
+  "buffer_font_size": 21.0,
+  "theme": {
+    "mode": "system",
+    "light": "One Light",
+    "dark": "Tokyo Night"
+  },
+  "assistant": {
+    "button": false,
+    "enabled": false,
+    "version": "1"
+  },
+  "outline_panel": { "button": false },
+  "chat_panel": {
+    "button": "never"
+  },
+  "collaboration_panel": {
+    "button": false
+  },
+  "tabs": {
+    "file_icons": true,
+    "git_status": false
+  },
+  "toolbar": {
+    "breadcrumbs": false,
+    "quick_actions": false
+  },
+  "tab_bar": {
+    "show_nav_history_buttons": false,
+    "show_tab_bar_buttons": false
+  },
+  "terminal": {
+    "toolbar": {
+      "breadcrumbs": false
+    },
+    "blinking": "on",
+    "font_family": "CaskaydiaCove Nerd Font Mono",
+
+    "shell": {
+      "with_arguments": {
+        "program": "powershell",
+        "args": ["-nologo"]
+      }
+    }
+  },
+  "git": {
+    "git_gutter": "hide",
+    "inline_blame": {
+      "enabled": false
+    }
+  },
+  "indent_guides": {
+    "enabled": true,
+    "line_width": 2,
+    "active_line_width": 2,
+    "coloring": "indent_aware",
+    "background_coloring": "disabled"
+  }
+}
