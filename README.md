@@ -28,7 +28,7 @@ scoop bucket add extras
 scoop bucket add versions
 scoop install 7zip audacity nomacs bulk-rename-utility everything ffmpeg naps2 obs-studio pureref starship xnconvert extras/okular 
 scoop install bun nodejs-lts go php composer mysql python
-scoop install extras/blender-launcher krita godot
+scoop install extras/blender-launcher krita godot anytype
 ```
 
 ## Bashrc
