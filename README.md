@@ -11,7 +11,9 @@ Install-Module -Name CompletionPredictor
 powercfg.exe /hibernate off
 ```
 
-
+```ps1
+code (Get-PSReadLineOption | select -ExpandProperty HistorySavePath)
+```
 ## 📦 [scoop](https://scoop.sh/)
 
 ```bash
