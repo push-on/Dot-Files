@@ -14,6 +14,8 @@ powercfg.exe /hibernate off
 ```ps1
 code (Get-PSReadLineOption | select -ExpandProperty HistorySavePath)
 ```
+
+
 ## 📦 [scoop](https://scoop.sh/)
 
 ```bash
@@ -22,4 +24,9 @@ scoop bucket add versions
 scoop install 7zip audacity nomacs bulk-rename-utility everything ffmpeg naps2 obs-studio pureref starship xnconvert extras/okular 
 scoop install bun nodejs-lts
 scoop install extras/blender-launcher krita godot
+```
+
+### 🗑️ Uninstall
+```ps1
+code (Get-PSReadLineOption | select -ExpandProperty HistorySavePath)
 ```
