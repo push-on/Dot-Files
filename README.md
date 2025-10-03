@@ -26,7 +26,7 @@ scoop install bun nodejs-lts
 scoop install extras/blender-launcher krita godot
 ```
 
-### 🗑️ Uninstall
+### ⌛ History
 ```ps1
 code (Get-PSReadLineOption | select -ExpandProperty HistorySavePath)
 ```
