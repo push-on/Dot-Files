@@ -1,14 +1,14 @@
-```md
+
 ## Disable Smart App Control (SAC) via Registry
 
 Smart App Control (SAC) can be disabled by modifying a specific registry value. This is an **advanced method** and may not work in all cases due to system protections.
 
----
+
 
 ### 🔧 Registry Method (Advanced)
 
 **Registry Path**
-```
+
 
 HKEY_LOCAL_MACHINE
 └─ SYSTEM
@@ -17,7 +17,7 @@ HKEY_LOCAL_MACHINE
 └─ CI
 └─ Policy
 
-```
+
 
 **Steps**
 
@@ -40,7 +40,6 @@ HKEY_LOCAL_MACHINE
 4. **Restart**  
    Reboot your computer for the change to take effect.
 
----
 
 ### ⚠️ Important Considerations
 
