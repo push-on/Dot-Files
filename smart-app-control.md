@@ -53,7 +53,4 @@ HKEY_LOCAL_MACHINE > SYSTEM > CurrentControlSet > Control > CI > Policy
   Always attempt the standard method before registry edits:  
   **Settings → Privacy & security → Windows Security → App & browser control → Smart App Control**
 
----
-
 > ⚡ Tip: Registry edits can affect system stability. Proceed only if you’re comfortable with advanced Windows configuration.
-```
