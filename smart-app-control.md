@@ -10,12 +10,9 @@ Smart App Control (SAC) can be disabled by modifying a specific registry value. 
 **Registry Path**
 
 
-HKEY_LOCAL_MACHINE
-└─ SYSTEM
-└─ CurrentControlSet
-└─ Control
-└─ CI
-└─ Policy
+```
+HKEY_LOCAL_MACHINE > SYSTEM > CurrentControlSet > Control > CI > Policy
+```
 
 
 
