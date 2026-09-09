@@ -63,28 +63,13 @@
   "[javascriptreact]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
   },
-  "errorLens.fontStyleItalic": true,
   "editor.foldingMaximumRegions": 50000,
-  "javascript.format.semicolons": "remove",
   "terminal.integrated.altClickMovesCursor": false,
-  "typescript.format.semicolons": "remove",
   "window.customMenuBarAltFocus": false,
   "window.enableMenuBarMnemonics": false,
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "tailwindCSS.emmetCompletions": true,
-  "tailwindCSS.includeLanguages": {
-    "html": "html",
-    "javascript": "javascript",
-    "css": "css"
-  },
-  "terminal.integrated.enableMultiLinePasteWarning": false,
   "git.postCommitCommand": "push",
-  "audioCues.lineHasInlineSuggestion": "off",
   "terminal.integrated.confirmOnKill": "never",
   "terminal.integrated.copyOnSelection": true,
-  "javascript.updateImportsOnFileMove.enabled": "always",
   "editor.guides.bracketPairs": true,
   "git.allowForcePush": true,
   "search.defaultViewMode": "tree",
@@ -124,65 +109,21 @@
   "errorLens.gutterIconsEnabled": true,
   "errorLens.enabled": true,
   "editor.renderLineHighlight": "all",
-  "workbench.colorCustomizations": {
-    "statusBarItem.remoteBackground": "#181818",
-    "statusBarItem.remoteForeground": "#ccc",
-    "statusBar.focusBorder": "#000000",
-    "statusBar.noFolderBackground": "#4c4c4c",
-    "statusBar.debuggingBackground": "#1e1e1e",
-    "editor.inlineValuesBackground": "#6b995534",
-    "editor.inlineValuesForeground": "#6a9955",
-    "editor.stackFrameHighlightBackground": "#22690149",
-    "editorBracketHighlight.unexpectedBracket.foreground": "#ff5555",
-    "terminal.foreground": "#FFFFFF",
-    "terminal.ansiBlack": "#282C34",
-    "terminal.ansiBrightBlack": "#5A6374",
-    "terminal.ansiBrightBlue": "#61AFEF",
-    "terminal.ansiBrightCyan": "#56B6C2",
-    "terminal.ansiBrightGreen": "#98C379",
-    "terminal.ansiBrightMagenta": "#C678DD",
-    "terminal.ansiBrightRed": "#E06C75",
-    "terminal.ansiBrightWhite": "#DCDFE4",
-    "terminal.ansiBrightYellow": "#E5C07B",
-    "terminal.ansiBlue": "#61AFEF",
-    "terminal.ansiCyan": "#56B6C2",
-    "terminal.ansiGreen": "#98C379",
-    "terminal.ansiMagenta": "#C678DD",
-    "terminal.ansiRed": "#E06C75",
-    "terminal.ansiWhite": "#DCDFE4",
-    "terminal.ansiYellow": "#E5C07B"
-  },
   "editor.mouseWheelZoom": true,
   "html.format.wrapLineLength": 0,
   "html.format.wrapAttributes": "preserve",
   "html.format.templating": true,
-  "svelte.plugin.svelte.format.config.singleQuote": true,
-  "svelte.plugin.svelte.format.config.svelteBracketNewLine": false,
-  "svelte.enable-ts-plugin": true,
-  "typescript.updateImportsOnFileMove.enabled": "always",
   "markdown.preview.breaks": true,
   "markdown.validate.enabled": true,
   "[html]": {
     "editor.defaultFormatter": "vscode.html-language-features"
   },
   "json.trace.server": "messages",
-  "javascript.inlayHints.enumMemberValues.enabled": true,
-  "javascript.inlayHints.functionLikeReturnTypes.enabled": true,
-  "typescript.inlayHints.enumMemberValues.enabled": true,
-  "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
-  "typescript.inlayHints.parameterTypes.enabled": true,
-  "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
-  "typescript.inlayHints.variableTypes.enabled": true,
-  "javascript.inlayHints.variableTypes.enabled": true,
-  "javascript.inlayHints.propertyDeclarationTypes.enabled": true,
-  "javascript.inlayHints.parameterTypes.enabled": true,
   "editor.inlayHints.padding": true,
   "debug.console.acceptSuggestionOnEnter": "on",
   "debug.showInStatusBar": "never",
   "debug.showSubSessionsInToolBar": true,
   "terminal.external.windowsExec": "wt",
-  "path-intellisense.autoSlashAfterDirectory": true,
-  "path-intellisense.autoTriggerNextSuggestion": true,
   "editor.tokenColorCustomizations": {
     "textMateRules": [
       {
@@ -201,18 +142,15 @@
     "default": "right",
     "jupyter-notebook": "right"
   },
-  "material-icon-theme.hidesExplorerArrows": true,
   "merge-conflict.autoNavigateNextConflict.enabled": true,
   "npm.packageManager": "pnpm",
-  "path-intellisense.showHiddenFiles": true,
-  "javascript.suggest.completeFunctionCalls": true,
   "git.ignoreRebaseWarning": true,
   "editor.accessibilitySupport": "off",
   "editor.codeActionWidget.showHeaders": false,
   "editor.snippets.codeActions.enabled": false,
   "editor.codeActionsOnSave": {
-    "source.fixAll": false,
-    "source.organizeImports": false
+    "source.fixAll": "never",
+    "source.organizeImports": "never"
   },
   "css.lint.unknownAtRules": "ignore",
   "[css]": {
@@ -223,7 +161,6 @@
   "markdown.validate.fragmentLinks.enabled": "ignore",
   "markdown.validate.referenceLinks.enabled": "ignore",
   "[markdown]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.quickSuggestions": {
       "other": "on",
       "comments": "on",
@@ -266,99 +203,11 @@
   "terminal.integrated.defaultLocation": "editor",
   "terminal.integrated.shellIntegration.decorationsEnabled": "never",
   "terminal.integrated.smoothScrolling": true,
-  "terminal.integrated.shellIntegration.suggestEnabled": true,
-  "debug.enableStatusBarColor": false,
-  "eslint.probe": [
-    "javascript",
-    "javascriptreact",
-    "typescript",
-    "typescriptreact",
-    "html",
-    "vue",
-    "markdown",
-    "svelte"
-  ],
-  "eslint.options": {
-    "overrideConfig": {
-      "env": {
-        "commonjs": true,
-        "browser": true,
-        "node": true,
-        "es2021": true,
-        "worker": true
-      },
-      "parserOptions": {
-        "ecmaVersion": "latest",
-        "sourceType": "module",
-        "impliedStrict": true,
-        "ecmaFeatures": {
-          "jsx": true
-        }
-      },
-      "rules": {
-        "no-debugger": "off",
-        "no-extra-semi": "warn",
-        "no-const-assign": "warn",
-        "no-compare-neg-zero": "warn",
-        "no-constant-condition": "warn",
-        "no-duplicate-case": "warn",
-        "no-duplicate-imports": "warn",
-        "no-ex-assign": "warn",
-        "no-fallthrough": "warn",
-        "no-func-assign": "warn",
-        "no-import-assign": "warn",
-        "no-inner-declarations": "warn",
-        "no-loss-of-precision": "warn",
-        "no-self-assign": "warn",
-        "no-self-compare": "warn",
-        "no-setter-return": "warn",
-        "no-sparse-arrays": "warn",
-        "no-unexpected-multiline": "warn",
-        "no-unmodified-loop-condition": "warn",
-        "no-unreachable": "warn",
-        "no-unsafe-optional-chaining": "warn",
-        "no-unsafe-negation": "warn",
-        "no-use-before-define": "warn",
-        "use-isnan": "warn",
-        "valid-typeof": "warn",
-        "accessor-pairs": "warn",
-        "class-methods-use-this": "warn",
-        "block-scoped-var": "warn",
-        "eqeqeq": "warn",
-        "func-names": "warn",
-        "no-floating-decimal": "warn",
-        "no-global-assign": "warn",
-        "no-label-var": "warn",
-        "no-lonely-if": "warn",
-        "no-loop-func": "warn",
-        "no-mixed-operators": "warn",
-        "no-param-reassign": "warn",
-        "no-redeclare": "warn",
-        "no-return-assign": "warn",
-        "no-return-await": "warn",
-        "no-shadow": "warn",
-        "no-undef-init": "warn",
-        "no-unused-labels": "warn",
-        "no-unneeded-ternary": "warn",
-        "no-useless-call": "warn",
-        "no-useless-catch": "warn",
-        "prefer-const": "warn",
-        "no-useless-return": "warn",
-        "prefer-spread": "warn",
-        "vars-on-top": "warn",
-        "yoda": "warn",
-        "strict": "warn"
-      }
-    }
-  },
   "terminal.integrated.env.windows": {},
-  "errorLens.statusBarColorsEnabled": true,
   "errorLens.editorHoverPartsEnabled": {
     "buttonsEnabled": false
   },
   "editor.inlayHints.enabled": "offUnlessPressed",
-  "typescript.enablePromptUseWorkspaceTsdk": false,
-  "typescript.suggest.completeFunctionCalls": true,
   "editor.parameterHints.enabled": false,
   "editor.inlineSuggest.suppressSuggestions": false,
   "breadcrumbs.enabled": false,
@@ -367,8 +216,6 @@
   "workbench.editor.sharedViewState": true,
   "terminal.integrated.cursorStyle": "line",
   "terminal.integrated.cursorWidth": 3,
-  "terminal.integrated.enableBell": true,
-  "dotenv.enableAutocloaking": false,
   "extensions.closeExtensionDetailsOnViewChange": true,
   "editor.suggest.showInlineDetails": false,
   "editor.suggest.showWords": false,
@@ -378,43 +225,27 @@
   "workbench.list.smoothScrolling": true,
   "editor.smoothScrolling": true,
   "window.menuBarVisibility": "toggle",
-  "[svelte]": {
-    "editor.defaultFormatter": "svelte.svelte-vscode"
-  },
   "files.associations": {
     ".env*": "dotenv",
     "*.postcss": "tailwindcss"
   },
-  "codeium.enableConfig": {
-    "*": true,
-    "markdown": true,
-    "ignore": true,
-    "xml": true,
-    "dotenv": true,
-    "prisma": true,
-    "plaintext": true,
-    "godot-asset": true
-  },
-  "typescript.inlayHints.parameterNames.enabled": "all",
-  "javascript.inlayHints.parameterNames.enabled": "all",
-  "editor.lightbulb.enabled": false,
+  "editor.lightbulb.enabled": "off",
   "security.allowedUNCHosts": [
     "wsl.localhost"
   ],
   "window.zoomLevel": 2,
-  "livePreview.openPreviewTarget": "External Browser",
-  "livePreview.notifyOnOpenLooseFile": false,
-  "workbench.editorAssociations": {
-    "*.db": "sqlite-viewer.option"
-  },
-  "reporting.enabled": false,
-  "cSpell.userWords": [
-    "firestore",
-    "signup",
-    "webp"
-  ],
-  "prettier.bracketSameLine": true,
-  "prettier.semi": false,
   "window.density.editorTabHeight": "compact",
   "explorer.compactFolders": false,
+  "accessibility.signals.lineHasInlineSuggestion": {
+    "sound": "off"
+  },
+  "accessibility.signals.terminalBell": {
+    "sound": "on"
+  },
+  "terminal.integrated.enableVisualBell": true,
+  "workbench.preferredDarkColorTheme": "Dark Modern",
+  "workbench.editor.useModal": "off",
+  "accessibility.verbosity.chatPetAchievements": false,
+  "editor.wordWrap": "on",
+  "editor.allowVariableFontsInAccessibilityMode": true,
 }
